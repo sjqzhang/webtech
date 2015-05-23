@@ -1,0 +1,4 @@
+resource file_open(string filename,string mode)
+string file_read(resource handle,int len)
+bool file_write(resource handle,string content)
+bool file_close(resource handle)

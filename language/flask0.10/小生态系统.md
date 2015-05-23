@@ -1,0 +1,146 @@
+
+<span id="python-3" ></span>
+Python 3 支持[¶](#python-3)
+
+Flask 与其所有依赖包都支持 Python 3，所以理论上你已经可以在 Python 3 中
+工作了。尽管如此，在你开始为新项目采用 Python 3 之前，仍有一些事情应该
+了解。
+
+
+<span id="id1" ></span>
+需求[¶](#id1)
+
+如果你想要在 Python 3 中使用 Flask，你需要安装 Python 3.3 或更高的版本。
+不支持 3.2 及更古老版本。
+
+
+此外你需要使用最新且最大版本的 itsdangerous 、 Jinja2 和
+Werkzeug 。
+
+
+
+
+
+<span id="api" ></span>
+API 稳定性[¶](#api)
+
+Python 3 中做出的一些关于 Unicode 和 byte 的修改使得编写底层
+代码变得困难。这主要影响 WSGI 中间件和与 WSGI 所提供信息的交互。Werkzeug
+把所有 WSGI 信息封转成高层的辅助函数，但其中的一些是特地为 Python 3 支持而
+新添加的。
+
+
+很多关于 WSGI 使用的文档是在 WSGI 升级至 Python 3 编写的，未顾及这些细节。
+虽然 Werkzeug 和 Flask 在 Python 2.x 中的 API 不会做出大改动，但我们不能保
+证 Python 3 中不会发生。
+
+
+
+
+
+<span id="id2" ></span>
+少数派[¶](#id2)
+
+根据 PyPI 下载统计，Python 3 用户只有不足 Python 2 用户的 1%。因此，你遭遇的
+Python 3 特定的问题将很难在网上搜索到。
+
+
+
+
+
+<span id="id3" ></span>
+小生态系统[¶](#id3)
+
+大多数的 Flask 扩展、所有的文档和绝大多数 PyPI 提供的库尚未支持 Python 3。
+即使你在已知所有所需要的都支持 Python 3 的情况下开始项目，你也不知道接下来
+的 6 个月发生什么。如果你富有冒险精神，你可以开始自行移植那些库，但意志薄弱者
+则无计可施。
+
+
+
+
+
+<span id="id4" ></span>
+建议[¶](#id4)
+
+除非你已经熟悉各个版本的差异，否则，我们推荐在生态系统完善前，固守当前版
+本的 Python。
+
+
+大多数升级的痛苦在于诸如 Flask 和 Werkzeug 这样的底层库，而非实际的高层应用代码中。
+例如 Flask 代码库中所有的 Flask 实例无需修改一行代码就可以在 2.x 和 3.x 中良好运行。
+
+
+
+
+
+
+
+
+<span id="id1" ></span>
+需求[¶](#id1)
+
+如果你想要在 Python 3 中使用 Flask，你需要安装 Python 3.3 或更高的版本。
+不支持 3.2 及更古老版本。
+
+
+此外你需要使用最新且最大版本的 itsdangerous 、 Jinja2 和
+Werkzeug 。
+
+
+
+
+
+<span id="api" ></span>
+API 稳定性[¶](#api)
+
+Python 3 中做出的一些关于 Unicode 和 byte 的修改使得编写底层
+代码变得困难。这主要影响 WSGI 中间件和与 WSGI 所提供信息的交互。Werkzeug
+把所有 WSGI 信息封转成高层的辅助函数，但其中的一些是特地为 Python 3 支持而
+新添加的。
+
+
+很多关于 WSGI 使用的文档是在 WSGI 升级至 Python 3 编写的，未顾及这些细节。
+虽然 Werkzeug 和 Flask 在 Python 2.x 中的 API 不会做出大改动，但我们不能保
+证 Python 3 中不会发生。
+
+
+
+
+
+<span id="id2" ></span>
+少数派[¶](#id2)
+
+根据 PyPI 下载统计，Python 3 用户只有不足 Python 2 用户的 1%。因此，你遭遇的
+Python 3 特定的问题将很难在网上搜索到。
+
+
+
+
+
+<span id="id3" ></span>
+小生态系统[¶](#id3)
+
+大多数的 Flask 扩展、所有的文档和绝大多数 PyPI 提供的库尚未支持 Python 3。
+即使你在已知所有所需要的都支持 Python 3 的情况下开始项目，你也不知道接下来
+的 6 个月发生什么。如果你富有冒险精神，你可以开始自行移植那些库，但意志薄弱者
+则无计可施。
+
+
+
+
+
+<span id="id4" ></span>
+建议[¶](#id4)
+
+除非你已经熟悉各个版本的差异，否则，我们推荐在生态系统完善前，固守当前版
+本的 Python。
+
+
+大多数升级的痛苦在于诸如 Flask 和 Werkzeug 这样的底层库，而非实际的高层应用代码中。
+例如 Flask 代码库中所有的 Flask 实例无需修改一行代码就可以在 2.x 和 3.x 中良好运行。
+
+
+
+
+

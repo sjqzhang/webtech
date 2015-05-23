@@ -1,0 +1,5371 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>CodeGen_PECL - the PHP extension generator</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"></HEAD
+><BODY
+CLASS="book"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="BOOK"
+><A
+NAME="AEN1"
+></A
+><DIV
+CLASS="TITLEPAGE"
+><H1
+CLASS="title"
+><A
+NAME="AEN1"
+><TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> - the PHP extension generator</A
+></H1
+><HR></DIV
+><DIV
+CLASS="TOC"
+><DL
+><DT
+><B
+>Table of Contents</B
+></DT
+><DT
+>1. <A
+HREF="#AEN4"
+>Introduction</A
+></DT
+><DD
+><DL
+><DT
+>1.1. <A
+HREF="#AEN6"
+>What is it?</A
+></DT
+><DT
+>1.2. <A
+HREF="#AEN22"
+>Features</A
+></DT
+><DT
+>1.3. <A
+HREF="#AEN48"
+>Installation</A
+></DT
+><DD
+><DL
+><DT
+>1.3.1. <A
+HREF="#AEN53"
+>Online installation</A
+></DT
+><DT
+>1.3.2. <A
+HREF="#AEN59"
+>Installing from package files</A
+></DT
+><DT
+>1.3.3. <A
+HREF="#AEN69"
+>Installing from PEAR CVS</A
+></DT
+></DL
+></DD
+><DT
+>1.4. <A
+HREF="#AEN74"
+>How to use it</A
+></DT
+></DL
+></DD
+><DT
+>2. <A
+HREF="#AEN87"
+>The XML description</A
+></DT
+><DD
+><DL
+><DT
+>2.1. <A
+HREF="#AEN89"
+>Basics</A
+></DT
+><DT
+>2.2. <A
+HREF="#AEN107"
+>Grouping</A
+></DT
+><DT
+>2.3. <A
+HREF="#AEN112"
+>Release information</A
+></DT
+><DT
+>2.4. <A
+HREF="#AEN152"
+>Dependencies</A
+></DT
+><DD
+><DL
+><DT
+>2.4.1. <A
+HREF="#AEN177"
+><TT
+CLASS="literal"
+>--with...</TT
+></A
+></DT
+><DT
+>2.4.2. <A
+HREF="#AEN200"
+>Header files</A
+></DT
+><DT
+>2.4.3. <A
+HREF="#AEN215"
+>Libraries</A
+></DT
+><DT
+>2.4.4. <A
+HREF="#AEN229"
+>Dependencies to other extensions</A
+></DT
+><DT
+>2.4.5. <A
+HREF="#AEN267"
+>External programs</A
+></DT
+><DT
+>2.4.6. <A
+HREF="#AEN270"
+>Other files</A
+></DT
+></DL
+></DD
+><DT
+>2.5. <A
+HREF="#AEN273"
+>Custom code</A
+></DT
+><DT
+>2.6. <A
+HREF="#AEN284"
+>Conditional compilation</A
+></DT
+><DT
+>2.7. <A
+HREF="#AEN297"
+>PHP functions</A
+></DT
+><DD
+><DL
+><DT
+>2.7.1. <A
+HREF="#AEN348"
+>Function prototypes</A
+></DT
+><DT
+>2.7.2. <A
+HREF="#AEN370"
+>Parameter types</A
+></DT
+><DT
+>2.7.3. <A
+HREF="#AEN465"
+>Optional parameters</A
+></DT
+><DT
+>2.7.4. <A
+HREF="#AEN478"
+>Varargs</A
+></DT
+><DT
+>2.7.5. <A
+HREF="#AEN502"
+>Pass by reference</A
+></DT
+><DT
+>2.7.6. <A
+HREF="#AEN505"
+>Return Values</A
+></DT
+></DL
+></DD
+><DT
+>2.8. <A
+HREF="#AEN573"
+>Internal functions</A
+></DT
+><DT
+>2.9. <A
+HREF="#AEN635"
+>Constants</A
+></DT
+><DT
+>2.10. <A
+HREF="#AEN660"
+><TT
+CLASS="literal"
+>php.ini</TT
+> parameters and internal variables</A
+></DT
+><DT
+>2.11. <A
+HREF="#AEN732"
+>Resources</A
+></DT
+><DD
+><DL
+><DT
+>2.11.1. <A
+HREF="#AEN754"
+>Resource creation and destruction</A
+></DT
+></DL
+></DD
+><DT
+>2.12. <A
+HREF="#AEN766"
+>OO features</A
+></DT
+><DD
+><DL
+><DT
+>2.12.1. <A
+HREF="#AEN770"
+>Classes</A
+></DT
+><DT
+>2.12.2. <A
+HREF="#AEN788"
+>Methods</A
+></DT
+><DT
+>2.12.3. <A
+HREF="#AEN812"
+>Properties</A
+></DT
+><DT
+>2.12.4. <A
+HREF="#AEN832"
+>Constants</A
+></DT
+><DT
+>2.12.5. <A
+HREF="#AEN836"
+>Interfaces</A
+></DT
+></DL
+></DD
+><DT
+>2.13. <A
+HREF="#AEN852"
+>Streams</A
+></DT
+><DT
+>2.14. <A
+HREF="#AEN855"
+>config.m4 fragments</A
+></DT
+><DT
+>2.15. <A
+HREF="#AEN862"
+>Makefile fragments</A
+></DT
+><DT
+>2.16. <A
+HREF="#AEN869"
+>Tests</A
+></DT
+><DD
+><DL
+><DT
+>2.16.1. <A
+HREF="#AEN877"
+>Global test cases</A
+></DT
+><DT
+>2.16.2. <A
+HREF="#AEN912"
+>Embedded function test cases</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>3. <A
+HREF="#AEN932"
+>XML input parsing</A
+></DT
+><DD
+><DL
+><DT
+>3.1. <A
+HREF="#AEN934"
+>Includes</A
+></DT
+><DD
+><DL
+><DT
+>3.1.1. <A
+HREF="#AEN947"
+>External entities</A
+></DT
+><DT
+>3.1.2. <A
+HREF="#AEN953"
+>XInclude</A
+></DT
+><DT
+>3.1.3. <A
+HREF="#AEN971"
+><TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> tags</A
+></DT
+></DL
+></DD
+><DT
+>3.2. <A
+HREF="#AEN981"
+>Verbatim text data</A
+></DT
+></DL
+></DD
+><DT
+>4. <A
+HREF="#AEN998"
+>Usage</A
+></DT
+><DD
+><DL
+><DT
+>4.1. <A
+HREF="#AEN1000"
+>Invocation</A
+></DT
+><DT
+>4.2. <A
+HREF="#AEN1010"
+>Configuration</A
+></DT
+><DT
+>4.3. <A
+HREF="#AEN1023"
+>Compilation</A
+></DT
+><DT
+>4.4. <A
+HREF="#AEN1028"
+>Testing</A
+></DT
+><DT
+>4.5. <A
+HREF="#AEN1046"
+>Installation</A
+></DT
+><DT
+>4.6. <A
+HREF="#AEN1056"
+>PEAR/PECL integration</A
+></DT
+></DL
+></DD
+></DL
+></DIV
+><DIV
+CLASS="LOT"
+><DL
+CLASS="LOT"
+><DT
+><B
+>List of Examples</B
+></DT
+><DT
+>2-1. <A
+HREF="#AEN104"
+>Extension basics</A
+></DT
+><DT
+>2-2. <A
+HREF="#AEN123"
+>Release information</A
+></DT
+><DT
+>2-3. <A
+HREF="#AEN137"
+>License</A
+></DT
+><DT
+>2-4. <A
+HREF="#AEN146"
+>Loading a logo image from a file</A
+></DT
+><DT
+>2-5. <A
+HREF="#AEN149"
+>An inline logo image</A
+></DT
+><DT
+>2-6. <A
+HREF="#AEN174"
+>Dependencies</A
+></DT
+><DT
+>2-7. <A
+HREF="#AEN196"
+><TT
+CLASS="literal"
+>--with...</TT
+></A
+></DT
+><DT
+>2-8. <A
+HREF="#AEN212"
+>Header file dependencies</A
+></DT
+><DT
+>2-9. <A
+HREF="#AEN226"
+>Library dependencies</A
+></DT
+><DT
+>2-10. <A
+HREF="#AEN264"
+>Extension dependencies</A
+></DT
+><DT
+>2-11. <A
+HREF="#AEN290"
+>Conditional compilation</A
+></DT
+><DT
+>2-12. <A
+HREF="#AEN367"
+>Function prototype examples</A
+></DT
+><DT
+>2-13. <A
+HREF="#AEN379"
+><SPAN
+CLASS="type"
+>bool</SPAN
+> parameter</A
+></DT
+><DT
+>2-14. <A
+HREF="#AEN406"
+><SPAN
+CLASS="type"
+>bool</SPAN
+> parameter</A
+></DT
+><DT
+>2-15. <A
+HREF="#AEN472"
+>Optional parameters</A
+></DT
+><DT
+>2-16. <A
+HREF="#AEN496"
+>Varargs</A
+></DT
+><DT
+>2-17. <A
+HREF="#AEN586"
+><TT
+CLASS="literal"
+>MINIT()</TT
+></A
+></DT
+><DT
+>2-18. <A
+HREF="#AEN595"
+><TT
+CLASS="literal"
+>MINIT()</TT
+></A
+></DT
+><DT
+>2-19. <A
+HREF="#AEN605"
+><TT
+CLASS="literal"
+>MINIT()</TT
+></A
+></DT
+><DT
+>2-20. <A
+HREF="#AEN614"
+><TT
+CLASS="literal"
+>MINIT()</TT
+></A
+></DT
+><DT
+>2-21. <A
+HREF="#AEN629"
+><TT
+CLASS="literal"
+>MINFO()</TT
+></A
+></DT
+><DT
+>2-22. <A
+HREF="#AEN657"
+>PHP Constants</A
+></DT
+><DT
+>2-23. <A
+HREF="#AEN725"
+>Defining globals and ini entries</A
+></DT
+><DT
+>2-24. <A
+HREF="#AEN729"
+>Using globals</A
+></DT
+><DT
+>2-25. <A
+HREF="#AEN751"
+>Resources</A
+></DT
+><DT
+>2-26. <A
+HREF="#AEN758"
+>Resource creation</A
+></DT
+><DT
+>2-27. <A
+HREF="#AEN763"
+>Resource destruction</A
+></DT
+><DT
+>2-28. <A
+HREF="#AEN775"
+>A minimal class</A
+></DT
+><DT
+>2-29. <A
+HREF="#AEN782"
+>Simple inheritence</A
+></DT
+><DT
+>2-30. <A
+HREF="#AEN859"
+>config.m4 additions</A
+></DT
+><DT
+>2-31. <A
+HREF="#AEN866"
+>Makefile fragments</A
+></DT
+><DT
+>2-32. <A
+HREF="#AEN906"
+>Minimal test case</A
+></DT
+><DT
+>2-33. <A
+HREF="#AEN909"
+>Full test case</A
+></DT
+><DT
+>2-34. <A
+HREF="#AEN926"
+>Minimal function test case</A
+></DT
+><DT
+>2-35. <A
+HREF="#AEN929"
+>Full function test case</A
+></DT
+><DT
+>3-1. <A
+HREF="#AEN950"
+>System Entities</A
+></DT
+><DT
+>3-2. <A
+HREF="#AEN959"
+>XInclude</A
+></DT
+><DT
+>3-3. <A
+HREF="#AEN965"
+>Verbatim XInclude</A
+></DT
+><DT
+>3-4. <A
+HREF="#AEN977"
+>Using <TT
+CLASS="literal"
+>&#60;code src="..."&#62;</TT
+></A
+></DT
+><DT
+>3-5. <A
+HREF="#AEN987"
+>CDATA sections</A
+></DT
+><DT
+>3-6. <A
+HREF="#AEN994"
+><TT
+CLASS="literal"
+>&#60;?data</TT
+> processing instruction</A
+></DT
+><DT
+>4-1. <A
+HREF="#AEN1063"
+>Installation using <TT
+CLASS="literal"
+>pear</TT
+></A
+></DT
+><DT
+>4-2. <A
+HREF="#AEN1068"
+>PEAR/PECL packaging</A
+></DT
+></DL
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN4"
+></A
+>Chapter 1. Introduction</H1
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN6"
+>1.1. What is it?</A
+></H2
+><P
+>&#13;    <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> (formerly known as <TT
+CLASS="literal"
+>PECL_Gen</TT
+>)
+    is a tool that can automatically create the basic framework for a PHP extension 
+    from a rather simple XML specification file. The actual functionality is provided
+    by the script <TT
+CLASS="filename"
+>pecl-gen</TT
+> that is installed by the 
+    <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> package.
+   </P
+><P
+>&#13;    It also supports the simpler (but less powerful) prototype file
+    format as used by the shell script <TT
+CLASS="literal"
+>ext_skel</TT
+> that
+    is distributed togehter with the PHP source code. 
+   </P
+><P
+>&#13;    <TT
+CLASS="literal"
+>pecl-gen</TT
+>, unlike the older
+    <TT
+CLASS="literal"
+>ext_skel</TT
+> solution, is a 100% PHP 5 based
+    solution and does not require any external tools like
+    <TT
+CLASS="literal"
+>awk</TT
+> or <TT
+CLASS="literal"
+>sed</TT
+>. It only uses PHP
+    functions and PEAR modules that are always enabled in a default 
+    build and so it should be usable on any platform that PHP itself runs on.
+   </P
+><P
+>&#13;    PHP 5 is only required for the conversion of the XML spec file to C/C++ code. 
+    The code generated by <TT
+CLASS="literal"
+>CodeGen_Pecl</TT
+> is designed to work 
+    with both the extension APIs of PHP 5 and PHP 4 as long as only procdural
+    features are used. Object oriented features are only supported for PHP 5
+    as the OO-specific API changed too much between PHP 4 and 5 to generate
+    code for both.
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN22"
+>1.2. Features</A
+></H2
+><P
+>&#13;    <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> tries to support as many extension
+    writing aspects as possible. This currently includes code and documentation
+    generation for:
+    <P
+></P
+><UL
+><LI
+><P
+>functions</P
+></LI
+><LI
+><P
+>constants</P
+></LI
+><LI
+><P
+><TT
+CLASS="literal"
+>php.ini</TT
+> configuration directives</P
+></LI
+><LI
+><P
+>resource types</P
+></LI
+><LI
+><P
+>per-thread global variables</P
+></LI
+><LI
+><P
+>test cases</P
+></LI
+></UL
+>
+   </P
+><P
+>&#13;    <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> also generates
+    <TT
+CLASS="filename"
+>config.m4</TT
+> 
+    configuration files for Unix-like build environments,
+    VisualStudio <TT
+CLASS="filename"
+>*.dsp</TT
+> project files for Windows
+    and the <TT
+CLASS="filename"
+>package.xml</TT
+> files needed for
+    PEAR/PECL packaging. Support for the new Windows Scripting Host
+    based build system is currently being worked on, <TT
+CLASS="filename"
+>config.w32</TT
+>
+    files are already generated but may only work for simple configuration
+    setups for now.
+   </P
+><P
+>&#13;    DocBook XML documentation templates are created that can either 
+    be used to generate stadalone documentation or that can be integrated
+    into the PHP manual by simply copying over the generated documentation
+    directory.
+   </P
+><P
+>&#13;    Test cases are created for each generated function, additional test cases
+    may also be specified.
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN48"
+>1.3. Installation</A
+></H2
+><P
+>&#13;    <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> is available in PEAR, the
+    PHP Extension and Application Repository: 
+    <TT
+CLASS="literal"
+>http://pear.php.net/CodeGen_PECL</TT
+>
+   </P
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN53"
+>1.3.1. Online installation</A
+></H3
+><P
+>&#13;     Online installation using the PEAR installer is the easiest way 
+     to install <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+>, just issue the following
+     command:
+    </P
+><PRE
+CLASS="programlisting"
+>&#13;pear install --alldeps CodeGen_PECL
+    </PRE
+><P
+>&#13;     The PEAR installer will download and install the package itself
+     and all packages that it depends on.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN59"
+>1.3.2. Installing from package files</A
+></H3
+><P
+>&#13;     When installing from package files downloaded from <TT
+CLASS="literal"
+>pear.php.net</TT
+>
+     you have to resolve dependencies yourself. Currently <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+>
+     depends on two other PEAR packages: <TT
+CLASS="literal"
+>Console_Getopt</TT
+>, which is part
+     of the PEAR base installation, and <TT
+CLASS="literal"
+>CodeGen</TT
+>, the code generator
+     base package. You need to download both <TT
+CLASS="literal"
+>CodeGen</TT
+> and 
+     <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> packages for installation. The actual installation
+     is once again performed by the PEAR installer:
+    </P
+><PRE
+CLASS="programlisting"
+>&#13;pear install CogeGen-1.0.1.tgz
+pear install CogeGen_PECL-1.0.3.tgz
+    </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN69"
+>1.3.3. Installing from PEAR CVS</A
+></H3
+><P
+>&#13;     You can also install CodeGen_PECL snapshots from PEAR CVS. CVS snapshots may
+     include features not yet available in any release package, but the code in
+     CVS may not be as well tested as the release packages (or even broken at 
+     times). Be warned, your milage may vary. Use the following sequence of 
+     commands in your PEAR CVS checkout to install the latest
+     <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> snapshot:
+    </P
+><PRE
+CLASS="programlisting"
+>&#13;cd pear
+cd CodeGen
+cvs update
+pear install --force package.xml
+cd ..
+cd CodeGen_PECL
+cvs update
+pear install --force package.xml
+cd ..
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN74"
+>1.4. How to use it</A
+></H2
+><P
+>&#13;    There are three different modes of operation for
+    <TT
+CLASS="literal"
+>pecl-gen</TT
+>. In its default mode it can create a complete
+    ready-to-compile extension from an XML description (documented in
+    the next chapter). In <TT
+CLASS="literal"
+>ext_skel</TT
+> compatibility
+    mode it generates the extension from some command line parameters
+    and an optional function prototype file and in immediate mode it
+    just takes a function prototype from command line and writes a
+    C code skeleton for just that function to standard output.
+   </P
+><P
+>&#13;    <TT
+CLASS="literal"
+>ext_skel</TT
+> compatibility and immediate mode are 
+    not documented here, please refer to the original 
+    <TT
+CLASS="literal"
+>ext_skel</TT
+> documentation instead.
+   </P
+><P
+>&#13;    A more detailed step by step guide on how to invocate <TT
+CLASS="literal"
+>pecl-gen</TT
+>
+    and how to procede to configure, compile, test and install an extension 
+    is given in the "Usage" chapter later in this document.
+   </P
+><P
+>&#13;    Below you find a hardcopy of the <TT
+CLASS="literal"
+>pecl-gen
+     --help</TT
+> output:
+   </P
+><PRE
+CLASS="screen"
+>&#13;
+
+pecl-gen 1.0.3, Copyright (c) 2003-2005 Hartmut Holzgraefe
+
+Usage:
+
+pecl-gen [-h] [--force] [--experimental] [--version]
+  [--extname=name] [--proto=file] [--skel=dir] [--stubs=file] 
+  [--no-help] [--xml[=file]] [--full-xml] [--function=proto] [specfile.xml]
+
+  -h|--help          this message
+  -f|--force         overwrite existing directories
+  -d|--dir           output directory (defaults to extension name)
+  -l|--lint          check syntax only, don't create output
+  --linespecs        generate #line specs
+  -x|--experimental  deprecated
+  --function         create a function skeleton from a proto right away
+  --version          show version info
+
+  the following options are inherited from ext_skel:
+  --extname=module   module is the name of your extension 
+  --proto=file       file contains prototypes of functions to create
+  --xml              generate xml documentation to be added to phpdoc-cvs
+
+  these wait for functionality to be implemented and are ignored for now ...
+  --stubs=file       generate only function stubs in file
+  --no-help          don't try to be nice and create comments in the code
+                     and helper functions to test if the module compiled
+
+  these are accepted for backwards compatibility reasons but not used ...
+  --full-xml         generate xml documentation for a self-contained extension
+                     (this was also a no-op in ext_skel) 
+  --skel=dir         path to the skeleton directory
+                     (skeleton stuff is now self-contained)
+
+
+   </PRE
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN87"
+></A
+>Chapter 2. The XML description</H1
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN89"
+>2.1. Basics</A
+></H2
+><P
+>&#13;    The top level container tag describing an extension is the
+    <TT
+CLASS="literal"
+>&#60;extension&#62;</TT
+> tag. The name of the extension
+    is given in the <TT
+CLASS="literal"
+>name=...</TT
+> attribute. The extension
+    name has to be a valid C name as it is used as both the extensions
+    directory name and the base name for several C symbols within the
+    generated C code.
+   </P
+><P
+>&#13;	You can specify which CodeGen_PECL version your specification file
+    was written against using the <TT
+CLASS="literal"
+>version=...</TT
+> attribute.
+    The <TT
+CLASS="filename"
+>pecl-gen</TT
+> command will not accept specifications
+    written for a newer version of CodeGen_PECL than the one installed.
+    If the requested version is older then the current one then CodeGen_PECL
+    will try to fall back to the older versions behavior for features
+    that have changed in incompatible ways.
+   </P
+><DIV
+CLASS="note"
+><P
+></P
+><TABLE
+CLASS="note"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/note.gif"
+HSPACE="5"
+ALT="Note"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;     So far two such changes have happened: in version 0.9.0 a new
+     prototype parser was introduced that might not be 100% backwards
+     compatible with the older one and with 1.0.0 the names of some
+     of the variables in the generated code changed.
+    </P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;    The tags <TT
+CLASS="literal"
+>&#60;summary&#62;</TT
+> and
+    <TT
+CLASS="literal"
+>&#60;description&#62;</TT
+> should be added at the very top of
+    your extensions. The summary should be a short one-line
+    description of the extension while the actually description can be
+    as detailed as you like. Both are later used to generate the
+    <TT
+CLASS="literal"
+>package.xml</TT
+> file and the documentation for your
+    extension. The summary line is also put into the
+    <TT
+CLASS="literal"
+>phpinfo()</TT
+> output of your extension.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN104"
+></A
+><P
+><B
+>Example 2-1. Extension basics</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+&#60;?xml version="1.0" ?&#62;
+&#60;!DOCTYPE extension SYSTEM "../extension.dtd"&#62; 
+&#60;extension name="sample" version="0.9.0"&#62;
+ &#60;summary&#62;A sample PHP extension&#60;/summary&#62;
+ &#60;description&#62;
+  This is a sample extension specification
+  showing how to use CodeGen_PECL for
+  extension generation.
+ &#60;/description&#62;
+ ...
+
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN107"
+>2.2. Grouping</A
+></H2
+><P
+>&#13;    The &#60;group&#62; tag can be used to group tag elements that can
+    appear under the top level &#60;extension&#62; tag. &#60;group&#62;
+    tags may be nested and can take arbitrary attributes. 
+   </P
+><P
+>&#13;    The elements within a group may query the group stack for 
+    default values for an attribute supported by the tag but
+    not given for the tag itself or to add accumulated values
+    from all nested groups surrounding the tag itself.
+   </P
+><P
+>&#13;    Currently the only attribute that takes group values in account
+    is the 'if' attribute on the following element tags:
+    &#60;class&#62;, &#60;constant&#62;, &#60;function&#62;,&#60;global&#62;, 
+    &#60;interface&#62;, &#60;phpini&#62;, and &#60;resource&#62;.
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN112"
+>2.3. Release information</A
+></H2
+><P
+>&#13;    The release information for your extension should include the
+    extension authors and maintainers, the version number, state and
+    release date, the chosen license and maybe a change log describing
+    previous releases. It is also possible to specify an image file
+    to be used as a product logo with the <TT
+CLASS="literal"
+>phpinfo()</TT
+>
+    output block for the extension.
+   </P
+><P
+>&#13;    The <TT
+CLASS="literal"
+>&#60;maintainers&#62;</TT
+>, <TT
+CLASS="literal"
+>&#60;release&#62;</TT
+> and
+    <TT
+CLASS="literal"
+>&#60;changelog&#62;</TT
+> tags specifications are identical to  
+    those in  the PEAR <TT
+CLASS="literal"
+>package.xml</TT
+> specification so 
+    please refer to the 
+    <A
+HREF="http://pear.php.net/manual/en/developers.packagedef.php"
+TARGET="_top"
+>PEAR documentation</A
+> 
+    here.
+   </P
+><P
+>&#13;    If you are going to release the extension using your own channel server instead of pear.php.net
+    you have to add a &#60;channel&#62; tag that specifies the channel host you are releasing on, too.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN123"
+></A
+><P
+><B
+>Example 2-2. Release information</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+  &#60;maintainers&#62;
+    &#60;maintainer&#62;
+      &#60;user&#62;hholzgra&#60;/user&#62;
+      &#60;name&#62;Hartmut Holzgraefe&#60;/name&#62;
+      &#60;email&#62;hartmut@php.net&#60;/email&#62;
+      &#60;role&#62;lead&#60;/role&#62;
+    &#60;/maintainer&#62;
+  &#60;/maintainers&#62;
+
+  &#60;license&#62;PHP&#60;/license&#62;
+
+  &#60;channel&#62;pear.php-baustelle.de&#60;/channel&#62;
+
+  &#60;release&#62;
+    &#60;version&#62;1.0&#60;/version&#62;
+    &#60;date&#62;2002-07-09&#60;/date&#62;
+    &#60;state&#62;stable&#60;/state&#62;
+    &#60;notes&#62;
+     The sample extension is now stable
+    &#60;/notes&#62;
+  &#60;/release&#62;
+
+  &#60;changelog&#62;
+    &#60;release&#62;
+      &#60;version&#62;0.5&#60;/version&#62;
+      &#60;date&#62;2002-07-05&#60;/date&#62;
+      &#60;state&#62;beta&#60;/state&#62;
+      &#60;notes&#62;First beta version&#60;/notes&#62;
+    &#60;release&#62;
+    &#60;release&#62;
+      &#60;version&#62;0.1&#60;/version&#62;
+      &#60;date&#62;2002-07-01&#60;/date&#62;
+      &#60;state&#62;alpha&#60;/state&#62;
+      &#60;notes&#62;First alpha version&#60;/notes&#62;
+    &#60;release&#62;
+  &#60;/changelog&#62;
+...
+
+    </PRE
+></DIV
+><P
+>&#13;    The <TT
+CLASS="literal"
+>&#60;license&#62;</TT
+> tag is a little more restrictive as
+    its <TT
+CLASS="literal"
+>package.xml</TT
+> counterpart as it is used to
+    decide which license text should actually be written to the
+    <TT
+CLASS="literal"
+>LICENSE</TT
+>. For now you have to specify either
+    <TT
+CLASS="literal"
+>PHP</TT
+>, <TT
+CLASS="literal"
+>BSD</TT
+> or
+    <TT
+CLASS="literal"
+>LGPL</TT
+>, any other value is taken as
+    '<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>unknown</I
+></SPAN
+>'.
+   </P
+><DIV
+CLASS="warning"
+><P
+></P
+><TABLE
+CLASS="warning"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/warning.gif"
+HSPACE="5"
+ALT="Warning"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;     The GPL is not available as a valid license here due to incompatibilities
+     between the GPL and the PHP licese. Please refer to the 
+     <A
+HREF="http://www.fsf.org/licensing/licenses/index_html"
+TARGET="_top"
+>FSF license comparison page</A
+>
+     for further information on this issue.
+    </P
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="example"
+><A
+NAME="AEN137"
+></A
+><P
+><B
+>Example 2-3. License</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+  &#60;license&#62;PHP&#60;/license&#62;
+...
+
+    </PRE
+></DIV
+><P
+>&#13;    A logo to be used within the extensions
+    <TT
+CLASS="literal"
+>phpinfo()</TT
+> block can be specified using the
+    <TT
+CLASS="literal"
+>&#60;logo&#62;</TT
+> tag. The actual logo image data
+    may be read from a file specified by the <TT
+CLASS="literal"
+>scr=...</TT
+> 
+    attribute, or it may be included inline in base64 encoded form
+    within the <TT
+CLASS="literal"
+>&#60;logo&#62;</TT
+> tag.
+    Its MIME type may be specified using the
+    <TT
+CLASS="literal"
+>mimetype=...</TT
+> attribute. Automatic MIME type
+    detection exists for GIF, PNG and JPEG images.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN146"
+></A
+><P
+><B
+>Example 2-4. Loading a logo image from a file</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+  &#60;logo src="sample_logo.gif" mimetype="image/gif" /&#62;
+...
+
+    </PRE
+></DIV
+><DIV
+CLASS="example"
+><A
+NAME="AEN149"
+></A
+><P
+><B
+>Example 2-5. An inline logo image</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;...
+  &#60;logo&#62;
+&#60;![CDATA[
+R0lGODdhFQASAOMAAMDEwJCQkLCwsGhoaFhcWLjAuDA0MPj8+FBUUPj4+AAA
+AAAAAAAAAAAAAAAAAAAAACwAAAAAFQASAAAEehDISWsNQIhBuv+DphWhABhH
+qq5GpgHluc5HK24vmiKGwfeIgdAU0wkSyCQSkAhgQhgdQUlNCAKkq0BaVWqh
+29S0i8QRtFyyNXQOhA9jshktVq8F7Xe8O3en5WxXTgEcdn2DAwF2hHiCGoQc
+HASSQgRukwiZmpucmwYRADs=
+]]&#62;
+  &#60;/logo&#62;
+...
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN152"
+>2.4. Dependencies</A
+></H2
+><P
+>&#13;    Dependencies are specified within the <TT
+CLASS="literal"
+>&#60;deps&#62;</TT
+>
+    environment. Within the <TT
+CLASS="literal"
+>&#60;deps&#62;</TT
+> section itself it is
+    possible to set the programming language and target platforms using
+    the <TT
+CLASS="literal"
+>language=...</TT
+> and
+    <TT
+CLASS="literal"
+>platform=...</TT
+> attributes.
+   </P
+><P
+>&#13;    Supported languages are C (<TT
+CLASS="literal"
+>lang="c"</TT
+>) and C++
+    (<TT
+CLASS="literal"
+>lang="cpp"</TT
+>). The language selection 
+    does not influence code generation itself
+    (<TT
+CLASS="literal"
+>pecl-gen</TT
+> always generates C code as the PHP extension
+    API is a pure C API) but the way
+    extensions are compiled and linked. C++ should only be selected to
+    interface to external C++ libraries.
+   </P
+><DIV
+CLASS="note"
+><P
+></P
+><TABLE
+CLASS="note"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/note.gif"
+HSPACE="5"
+ALT="Note"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;     I've been thinking about a Delphi backend, too. But as this would require
+     a substantial ammount of work (the complete code generation would have
+     to become template based) i'm not going to start this unless there's 
+     massive interest in something like this or unless someone is willing to
+     financially sponsor this kind of work.
+    </P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;    Supported platforms are currently Unix-like systems
+    (<TT
+CLASS="literal"
+>platform="unix"</TT
+>), Microsoft Windows
+    (<TT
+CLASS="literal"
+>platform="win32"</TT
+>) or both (<TT
+CLASS="literal"
+>platform="all"</TT
+>).
+   </P
+><P
+> 
+    <TT
+CLASS="literal"
+>&#60;with&#62;</TT
+>, <TT
+CLASS="literal"
+>&#60;lib&#62;</TT
+> and 
+    <TT
+CLASS="literal"
+>&#60;header&#62;</TT
+> tags may be used within the 
+    <TT
+CLASS="literal"
+>&#60;deps&#62;</TT
+> section to add configure switches 
+    and library and header file dependencies.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN174"
+></A
+><P
+><B
+>Example 2-6. Dependencies</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+  &#60;deps language="cpp" platform="win32"&#62;
+  ...
+  &#60;/deps&#62;
+...
+
+    </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN177"
+>2.4.1. <TT
+CLASS="literal"
+>--with...</TT
+></A
+></H3
+><P
+>&#13;     When building an extension on Unix-like systems or within the
+     Cygwin environment under Windows the <TT
+CLASS="literal"
+>configure</TT
+>
+     script will try to figure out where external libraries and header
+     files needed by an extension are installed on the build system.
+     Using a <TT
+CLASS="literal"
+>--with-...</TT
+> option it is possible to specify where to actually
+     look for libraries and headers. This way it is possible to
+     override search paths if things are not installed in the default
+     system paths or to specify the exact version of a package to be
+     used if multiple versions are installed on the target system.
+    </P
+><P
+>&#13;     The <TT
+CLASS="literal"
+>&#60;with&#62;</TT
+> tag takes three attributes:
+     <TT
+CLASS="literal"
+>name=...</TT
+> for the actual name of the <TT
+CLASS="literal"
+>--with-...</TT
+>
+     option, <TT
+CLASS="literal"
+>testfile</TT
+> for the relative path of a
+     file to check for while running the <TT
+CLASS="literal"
+>configure</TT
+>
+     script and a list of default paths to check if no path is given
+     as an argument to the <TT
+CLASS="literal"
+>--with-...</TT
+> option in
+     <TT
+CLASS="literal"
+>defaults</TT
+>. 
+    </P
+><P
+>&#13;     Name and defaults are set to the extension base name and
+     <TT
+CLASS="filename"
+>/usr:/usr/local</TT
+> if no values are given. 
+     The testfile attribute is mandatory.
+    </P
+><P
+>&#13;     Textual data enclosed by the <TT
+CLASS="literal"
+>&#60;with&#62;</TT
+> is used to
+     describe the "with" option in the output of <TT
+CLASS="literal"
+>configure
+      --help</TT
+> calls.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN196"
+></A
+><P
+><B
+>Example 2-7. <TT
+CLASS="literal"
+>--with...</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+> 
+ 
+... 
+  &#60;with name="libz" defaults='/usr:/usr/local:/usr/local/zlib' testfile='include/zlib.h'&#62;
+... 
+
+      </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN200"
+>2.4.2. Header files</A
+></H3
+><P
+>&#13;     It is possible to specify header files needed by the extension
+     using the <TT
+CLASS="literal"
+>&#60;header&#62;</TT
+>. Any headers specified have
+     to exist in the include path set for compiling (see also the
+     section on <TT
+CLASS="literal"
+>--with</TT
+>
+     above). <TT
+CLASS="literal"
+>#include</TT
+> statements for the specified
+     headers are the last ones to be put into the generated code
+     unless you set the <TT
+CLASS="literal"
+>prepend="yes"</TT
+> attribute to
+     have it put in front of the other <TT
+CLASS="literal"
+>#include</TT
+>s.
+    </P
+><P
+>&#13;     By default header files are searched for in the <TT
+CLASS="literal"
+>include</TT
+>
+     subdirectory of the path given in <TT
+CLASS="literal"
+>&#60;with&#62;</TT
+>. If a
+     different relative path needs to be used it can be defined using
+     the <TT
+CLASS="literal"
+>path</TT
+> attribute.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN212"
+></A
+><P
+><B
+>Example 2-8. Header file dependencies</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+    &#60;header name="include_me_first.h" prepend="yes" /&#62;
+    &#60;header name="sample.h" /&#62;
+    &#60;header name="foobar.h" path="include/foo/bar" /&#62;    
+...
+
+     </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN215"
+>2.4.3. Libraries</A
+></H3
+><P
+>&#13;     Needed external libraries are specified using the
+     <TT
+CLASS="literal"
+>&#60;lib&#62;</TT
+> tag. The <TT
+CLASS="literal"
+>name=...</TT
+>
+     attribute is mandatory and takes the library base name. A library
+     dependency by the name "sample" is actually referring to a library
+     file named <TT
+CLASS="filename"
+>libsample.a</TT
+> for a static or  
+     <TT
+CLASS="filename"
+>libsample.so</TT
+> for a dynamic library on
+     Unix-like systems or to <TT
+CLASS="filename"
+>sample.DLL</TT
+> on
+     Windows.
+    </P
+><P
+>&#13;     It is possible to specify the name of a function symbol expected
+     to be provided by the library using the
+     <TT
+CLASS="literal"
+>function=...</TT
+> attribute. This function symbol
+     is being looked for when <TT
+CLASS="literal"
+>configure</TT
+> is run for
+     the extension. This way it is possible to verify that the right
+     version of a library was found. With VisualStudio on windows it
+     is not possible to perform this check, in this case the library
+     is just added to the project file.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN226"
+></A
+><P
+><B
+>Example 2-9. Library dependencies</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+    &#60;lib name="sample_u" platform="unix"  function="sample_v2" /&#62;
+    &#60;lib name="sample_w" platform="win32" /&#62;
+    &#60;lib name="sample"   platform="all" /&#62;
+...
+
+     </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN229"
+>2.4.4. Dependencies to other extensions</A
+></H3
+><P
+>&#13;     Starting with PHP 5.1 it is possible to define dependendies 
+     between extensions. Dependencies determine the order in which
+     extensions are initialized and shut down. They also make sure
+     that extensions like <TT
+CLASS="literal"
+>pdo_mysql</TT
+> that require a
+     base extension like <TT
+CLASS="literal"
+>pdo</TT
+> are only loaded if 
+     that extension is present and that two extensions that would
+     conflict whith each other are not loaded at the same time.
+    </P
+><P
+>&#13;     A dependency is defined using an <TT
+CLASS="literal"
+>&#60;extension&#62;</TT
+> 
+     tag within <TT
+CLASS="literal"
+>&#60;deps&#62;</TT
+>.
+     Here the <TT
+CLASS="literal"
+>&#60;extension&#62;</TT
+> takes at least
+     a <TT
+CLASS="literal"
+>name=...</TT
+>. 
+    </P
+><P
+>&#13;     By default this means that the 
+     extension by that name is required by your extension and has
+     to be initialized first. This behavior can also explicitly
+     be requested by setting the <TT
+CLASS="literal"
+>type=...</TT
+> attribute 
+     to <TT
+CLASS="literal"
+>REQUIRED</TT
+>. Other possible values are 
+     <TT
+CLASS="literal"
+>OPTIONAL</TT
+> if the other extension should 
+     be initialized first if present but is not required by your
+     extension and <TT
+CLASS="literal"
+>CONFLICTS</TT
+> if your extension
+     and the other one conflict in some way and should not be
+     loaded at the same time.
+    </P
+><P
+>&#13;     The extension API and CodeGen_PECL also allow to specify
+     version checks on dependencies, the actual checks are
+     not yet implemented as of PHP 5.1 though. CodeGen_PECL
+     allready supports these anyhow, and as soon as the functionality
+     is implemented within PHP the generated extensions will
+     make use of it.
+    </P
+><P
+>&#13;     Version dependencies are defined using 
+     the <TT
+CLASS="literal"
+>version=...</TT
+> attribute and the
+     optional <TT
+CLASS="literal"
+>rel=...</TT
+> attribute. 
+     <TT
+CLASS="literal"
+>version</TT
+> takes a 'PHP-standardized'
+     version number string (see http://php.net/version_compare)
+     and <TT
+CLASS="literal"
+>rel</TT
+> defines the operator to be
+     used to compare the actual extension version with the
+     one in <TT
+CLASS="literal"
+>version</TT
+>. The default value
+     for <TT
+CLASS="literal"
+>rel</TT
+> is <TT
+CLASS="literal"
+>&#62;=</TT
+>,
+     so the extensions version number has to be at least as
+     high as specified. Possible <TT
+CLASS="literal"
+>&#62;=</TT
+>
+     values are <TT
+CLASS="literal"
+>&#62;=</TT
+>, <TT
+CLASS="literal"
+>&#62;</TT
+>, 
+     <TT
+CLASS="literal"
+>=</TT
+>, <TT
+CLASS="literal"
+>&#60;</TT
+> and 
+     <TT
+CLASS="literal"
+>&#60;=</TT
+> or their text alternatives 
+     <TT
+CLASS="literal"
+>ge</TT
+>, <TT
+CLASS="literal"
+>gt</TT
+>, 
+     <TT
+CLASS="literal"
+>eq</TT
+>, <TT
+CLASS="literal"
+>lt</TT
+> and 
+     <TT
+CLASS="literal"
+>le</TT
+>.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN264"
+></A
+><P
+><B
+>Example 2-10. Extension dependencies</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+       &#60;deps&#62;
+        &#60;extension name="standard"/&#62;
+        &#60;extension name="foobar"      type="OPTIONAL"/&#62;
+        &#60;extension name="alternative" type="CONFLICTS"/&#62;
+        &#60;extension name="xxx" version="3.2.1" rel="ge"/&#62;
+       &#60;/deps&#62;
+
+     </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN267"
+>2.4.5. External programs</A
+></H3
+><P
+>&#13;     Not supported yet.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN270"
+>2.4.6. Other files</A
+></H3
+><P
+>&#13;     Not supported yet.
+    </P
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN273"
+>2.5. Custom code</A
+></H2
+><P
+>&#13;    Custom code may be added to your extension source files using the
+    <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> tags. The <TT
+CLASS="literal"
+>role=...</TT
+>
+    and <TT
+CLASS="literal"
+>position=...</TT
+> tags specify the actual place
+    in there generated source files where your code should be
+    inserted.
+   </P
+><P
+>&#13;    Possible roles are '<TT
+CLASS="literal"
+>code</TT
+>' (default) for the generated C
+    or C++ code file and '<TT
+CLASS="literal"
+>header</TT
+>' header file.
+    Possible positions are '<TT
+CLASS="literal"
+>top</TT
+>' and '<TT
+CLASS="literal"
+>bottom</TT
+>'
+    (default) for insertion near the beginning or end of the generated file.
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN284"
+>2.6. Conditional compilation</A
+></H2
+><P
+>&#13;    For some code elements it is possible to define conditional compilation
+    by using the <TT
+CLASS="literal"
+>if=...</TT
+> attribute. The argument to this
+    attribute is ment to be a valid C preprocessor expression which can be
+    used in an "#if" directive.
+   </P
+><P
+>&#13;    To compile in and register a function only if a certain library feature
+    is available you may simply use the <TT
+CLASS="literal"
+>HAVE_...</TT
+> macros
+    that configure writes into config.h:
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN290"
+></A
+><P
+><B
+>Example 2-11. Conditional compilation</B
+></P
+><P
+>&#13;     For a function like this that should only be available if
+     configure has detected either the FOO or BAR feature:
+    </P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;function name="foobar" if="HAVE_FOO || HAVE_BAR"&#62;
+    ...
+  &#60;/function&#62;
+
+    </PRE
+><P
+>&#13;     so all code generated for this function will put into conditional 
+     code blocks like this:
+    </P
+><PRE
+CLASS="programlisting"
+>&#13;#if HAVE_FOO || HAVE_BAR
+  ...
+#endif
+    </PRE
+></DIV
+><P
+>&#13;    So far conditional compilation is only available for procedural
+    functions but it will be added for other code elements, too, in
+    the near future.
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN297"
+>2.7. PHP functions</A
+></H2
+><P
+>&#13;     The definition of a PHP function requires 
+     <TT
+CLASS="literal"
+>name=...</TT
+> attribute and at least the
+     <TT
+CLASS="literal"
+>&#60;proto&#62;</TT
+> tag to be set.
+    </P
+><P
+>&#13;     The function name may be any valid C name. To comply to PHP
+     coding conventions a public function provided by an extension
+     should always be prefixed by the extension name though.
+    </P
+><P
+>&#13;     The function prototype specified using the
+     <TT
+CLASS="literal"
+>&#60;proto&#62;</TT
+> tag is parsed to extract the return
+     type, the function name and the argument list. The function name
+     in the prototype has to match the name attribute given in the
+     <TT
+CLASS="literal"
+>&#60;function&#62;</TT
+>.
+    </P
+><P
+>&#13;     Valid types to be used for arguments and the return type are:
+     <P
+></P
+><UL
+><LI
+><P
+><SPAN
+CLASS="type"
+>bool</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>int</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>float</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>string</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>array</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>object</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>mixed</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>callback</SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>resource</SPAN
+> <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>[typename]</I
+></SPAN
+></P
+></LI
+><LI
+><P
+><SPAN
+CLASS="type"
+>stream</SPAN
+></P
+></LI
+></UL
+>
+     Argument names in prototypes are not prepended by a <TT
+CLASS="literal"
+>$</TT
+> 
+     sign by convention.
+    </P
+><P
+>&#13;     Function documentation should be given using the
+     <TT
+CLASS="literal"
+>&#60;summary&#62;</TT
+> tag for a one line description and the
+     <TT
+CLASS="literal"
+>&#60;description&#62;</TT
+> tag for a more detailed
+     description.
+     Both are copied to the generated DocBook XML
+     documentation for that function. Within <TT
+CLASS="literal"
+>&#60;description&#62;</TT
+>
+     DocBook tags may be used. Be aware though that while <B
+CLASS="command"
+>pecl-gen</B
+>
+     accepts this validating XML parsers may complain when reading/validating
+     an extension specification file.
+    </P
+><P
+>&#13;     Skeleton code for parameter parsing and result passing is
+     generated if  no <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> fragment is specified
+     for a function. A <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> section is inserted
+     right after the generated parameter parsing code. Setting a
+     return value is up to the code fragment if any is given, adding a
+     template doesn't make sense in this case.
+    </P
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN348"
+>2.7.1. Function prototypes</A
+></H3
+><P
+>&#13;      A functions parameters and return type are specified by the contents
+      of a functions <TT
+CLASS="literal"
+>&#60;proto&#62;</TT
+> tag. 
+      The <TT
+CLASS="literal"
+>&#60;proto&#62;</TT
+> tag uses the same format as the
+      <TT
+CLASS="literal"
+>proto</TT
+> lines within the PHP source code:
+      <P
+></P
+><UL
+><LI
+><P
+>&#13;        there is no <TT
+CLASS="literal"
+>$</TT
+> prefix for parameter names
+       </P
+></LI
+><LI
+><P
+>&#13;        types are specified for function parameters and a functions return type
+       </P
+></LI
+><LI
+><P
+>&#13;        optional parameters are enclosed by square brackets
+       </P
+></LI
+><LI
+><P
+>&#13;        optional parameters may be given a default value
+       </P
+></LI
+><LI
+><P
+>&#13;        functions with a variable number of arguments may be defined by
+        ading <TT
+CLASS="literal"
+>...</TT
+> as last entry in the parameter list
+       </P
+></LI
+></UL
+>
+     </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN367"
+></A
+><P
+><B
+>Example 2-12. Function prototype examples</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+        // no parameter, no return value
+        void   funcname(void);
+
+        // one int parameter, returning int
+        int    funcname(int param);
+
+        // returning string, taking one mandatory and two
+        // optional parameter
+        string funcname(string param1 [[, string param2], string param3]);
+
+        // optional parameter with default value
+        int funcname([int param = 42]);
+
+        // variable argument list
+        int funcname(string param1, ...);
+
+        // working with objects and resources
+        object foo funcname(resource bar param1);
+
+      </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN370"
+>2.7.2. Parameter types</A
+></H3
+><P
+>&#13;       
+      </P
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN373"
+>2.7.2.1. <SPAN
+CLASS="type"
+>bool</SPAN
+></A
+></H4
+><P
+>&#13;        <SPAN
+CLASS="type"
+>bool</SPAN
+> parameters are internally mapped to local 
+        <SPAN
+CLASS="type"
+>zend_bool</SPAN
+> variables.
+       </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN379"
+></A
+><P
+><B
+>Example 2-13. <SPAN
+CLASS="type"
+>bool</SPAN
+> parameter</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+&#60;function name="f_bool"&#62;
+ &#60;proto&#62;void f_bool(bool param)&#60;/void&#62;
+ &#60;code&#62;
+  if (param) {
+    ...
+  } else {
+    ...
+  }
+ &#60;/code&#62;
+&#60;/function&#62;
+
+        </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN383"
+>2.7.2.2. <SPAN
+CLASS="type"
+>int</SPAN
+></A
+></H4
+><P
+>&#13;        <SPAN
+CLASS="type"
+>int</SPAN
+> parameters are internally mapped to local
+        <SPAN
+CLASS="type"
+>long</SPAN
+> variables.
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN389"
+>2.7.2.3. <SPAN
+CLASS="type"
+>float</SPAN
+></A
+></H4
+><P
+>&#13;        <SPAN
+CLASS="type"
+>float</SPAN
+> parameters are internally mapped to local
+        <SPAN
+CLASS="type"
+>double</SPAN
+> variables.
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN395"
+>2.7.2.4. <SPAN
+CLASS="type"
+>string</SPAN
+></A
+></H4
+><P
+>&#13;        For a <SPAN
+CLASS="type"
+>string</SPAN
+> parameter two local variables are
+        created: a <SPAN
+CLASS="type"
+>char*</SPAN
+> pointing to the actual string
+        data and an <SPAN
+CLASS="type"
+>int</SPAN
+> containing the string length.
+       </P
+><P
+>&#13;        The <SPAN
+CLASS="type"
+>char *</SPAN
+> goes by the name of the parameter,
+        the <SPAN
+CLASS="type"
+>int</SPAN
+> gets an extra <TT
+CLASS="literal"
+>_len</TT
+>
+        postfix appended to the parameter name.
+       </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN406"
+></A
+><P
+><B
+>Example 2-14. <SPAN
+CLASS="type"
+>bool</SPAN
+> parameter</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+&#60;function name="f_string"&#62;
+ &#60;proto&#62;void f_string(string param)&#60;/void&#62;
+ &#60;code&#62;
+  int i;
+
+  for (i = 0; i &#60; param_len; i++) {
+    param[i] = toupper(param[i]);
+  }
+ &#60;/code&#62;
+&#60;/function&#62;
+
+        </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN410"
+>2.7.2.5. <SPAN
+CLASS="type"
+>array</SPAN
+></A
+></H4
+><P
+>&#13;        For an <SPAN
+CLASS="type"
+>array</SPAN
+> parameter two local variables are
+        created: a <SPAN
+CLASS="type"
+>zval *</SPAN
+> by the name of the parameter
+        and a <SPAN
+CLASS="type"
+>HashTable *</SPAN
+> with the postfix 
+        <TT
+CLASS="literal"
+>_hash</TT
+> added to the parameter name.
+       </P
+><P
+>&#13;        To work with array parameters you have to use Zend API 
+        functions like <CODE
+CLASS="function"
+>zend_hash_num_elements</CODE
+>,
+        <CODE
+CLASS="function"
+>zend_hash_internal_pointer_reset</CODE
+> and
+        <CODE
+CLASS="function"
+>zend_hash_get_current_data_ex</CODE
+>.
+       </P
+><P
+> 
+        How to work with Zend <SPAN
+CLASS="type"
+>HashTable</SPAN
+> and the 
+        <CODE
+CLASS="function"
+>zend_hash_...</CODE
+> functions is beyond
+        the scope of this documentation though.
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN425"
+>2.7.2.6. <SPAN
+CLASS="type"
+>object</SPAN
+></A
+></H4
+><P
+>&#13;        For PHP objects local <SPAN
+CLASS="type"
+>zval *</SPAN
+> variables
+        pointing to the actual object instances are created.
+        How to operate on these is beyond the scope of this
+        document.
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN430"
+>2.7.2.7. <SPAN
+CLASS="type"
+>resource</SPAN
+></A
+></H4
+><P
+>&#13;        For <SPAN
+CLASS="type"
+>resource</SPAN
+> parameters three local variables
+        are created:
+        <P
+></P
+><UL
+><LI
+><P
+>&#13;           A pointer to the resource payload using the parameter name.
+          </P
+></LI
+><LI
+><P
+>&#13;           A <SPAN
+CLASS="type"
+>zval *</SPAN
+> pointer for the actual resource variable
+           unsing the parameter name plus a <TT
+CLASS="literal"
+>_res</TT
+> postfix.
+           This needs to be used to free a resource using the 
+           <CODE
+CLASS="function"
+>FREE_RESOURCE()</CODE
+> macro.
+          </P
+></LI
+><LI
+><P
+>&#13;           A <SPAN
+CLASS="type"
+>int</SPAN
+> storing the numeric resource id using the
+           parameter name plus a <TT
+CLASS="literal"
+>_resid</TT
+> postfix.
+          </P
+></LI
+></UL
+>
+        You'll usually only work on the actual payload data so you'll
+        need the <CODE
+CLASS="varname"
+>name_res</CODE
+> variable for calls to
+        <CODE
+CLASS="function"
+>FREE_RESOURCE</CODE
+> only and you'll usually 
+        never have to touch the <CODE
+CLASS="varname"
+>var_resid</CODE
+> variable
+        at all.
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN450"
+>2.7.2.8. <SPAN
+CLASS="type"
+>callback</SPAN
+></A
+></H4
+><P
+>&#13;        ... not fully implemented yet ...
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN454"
+>2.7.2.9. <SPAN
+CLASS="type"
+>stream</SPAN
+></A
+></H4
+><P
+>&#13;        ... not fully implemented yet ...
+       </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN458"
+>2.7.2.10. <SPAN
+CLASS="type"
+>mixed</SPAN
+></A
+></H4
+><P
+>&#13;        <SPAN
+CLASS="type"
+>mixed</SPAN
+> parameters may be of any type so they are
+        stored in generic <SPAN
+CLASS="type"
+>zval *</SPAN
+> local variables only.
+        How to operate on a <SPAN
+CLASS="type"
+>zval</SPAN
+> using the Zend API
+        is beyond the scope of this document.
+       </P
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN465"
+>2.7.3. Optional parameters</A
+></H3
+><P
+>&#13;      Parameters at the end of the prototypes parameter list may be
+      declared as optional. Each optional parameter needs to be put
+      into square brackets. The simple types <SPAN
+CLASS="type"
+>bool</SPAN
+>, 
+      <SPAN
+CLASS="type"
+>int</SPAN
+>, <SPAN
+CLASS="type"
+>float</SPAN
+> and <SPAN
+CLASS="type"
+>string</SPAN
+>
+      may also be given a default value:
+     </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN472"
+></A
+><P
+><B
+>Example 2-15. Optional parameters</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;        // simple optional parameter
+        int f1([int p1])
+
+        // optional parameter with default value 
+        int f2([int p1 = 23])
+
+        // mandatory and multiple optional parameters 
+        int f3(int p1 [, int p2 [, int p3]])
+      </PRE
+></DIV
+><P
+>&#13;      Future versions may also support dependant optional 
+      parameters like:
+      <DIV
+CLASS="informalexample"
+><P
+></P
+><A
+NAME="AEN476"
+></A
+><PRE
+CLASS="programlisting"
+>&#13;        int f4(int p1, [int p3, int p3 [,int p4]])
+       </PRE
+><P
+></P
+></DIV
+>
+      This function would exept either one, three or four
+      but not two parameters. For now this hasn't been 
+      implemented yet though.
+     </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN478"
+>2.7.4. Varargs</A
+></H3
+><P
+>&#13;      You may declare functions that accept a variable number of arguments
+      (like e.g. PHPs <CODE
+CLASS="function"
+>max()</CODE
+> or <CODE
+CLASS="function"
+>printf</CODE
+>)
+      by adding <TT
+CLASS="literal"
+>'...'</TT
+> to the end of your parameter list or as
+      the only parameter list entry by itself. You may also additionally prefix
+      the <TT
+CLASS="literal"
+>'...'</TT
+> by one of the types <SPAN
+CLASS="type"
+>bool</SPAN
+>, 
+      <SPAN
+CLASS="type"
+>int</SPAN
+>, <SPAN
+CLASS="type"
+>float</SPAN
+>, <SPAN
+CLASS="type"
+>string</SPAN
+> or <SPAN
+CLASS="type"
+>mixed</SPAN
+>.
+      If no type is given it defaults to <SPAN
+CLASS="type"
+>mixed</SPAN
+>.
+     </P
+><P
+> 
+      The number of varargs parameters is stored in the local variable
+      <CODE
+CLASS="varname"
+>varargc</CODE
+>. The actual values are stored in an
+      array named <CODE
+CLASS="varname"
+>varargv</CODE
+>. The parameter values are
+      stored using the associated C data type documented in the 
+      'Parameter types' section above. 
+      For the <SPAN
+CLASS="type"
+>string</SPAN
+> type an extra array 
+      <CODE
+CLASS="varname"
+>varargv_len</CODE
+> containing the string lengthes
+      is created.
+     </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN496"
+></A
+><P
+><B
+>Example 2-16. Varargs</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+       &#60;function name="f_vararg1"&#62;
+        &#60;proto&#62;void f_vararg1(...)&#60;/proto&#62;
+        &#60;code&#62;...&#60;/code&#62;
+       &#60;/function&#62;
+
+       &#60;function name="f_vararg2"&#62;
+        &#60;proto&#62;void f_vararg2(string format, ...)&#60;/proto&#62;
+        &#60;code&#62;...&#60;/code&#62;
+       &#60;/function&#62;
+
+       &#60;function name="f_vararg3"&#62;
+        &#60;proto&#62;int f_vararg3(int...)&#60;/proto&#62;
+        &#60;code&#62;
+          int i;
+          long sum = 0;
+
+          for (i = 0; i &#60; varargc; i++) {
+            sum += varargv[i];
+          } 
+
+          RETURN_LONG(sum);
+        &#60;/code&#62;
+       &#60;/function&#62;       
+
+      </PRE
+></DIV
+><P
+>&#13;      For more examples see <TT
+CLASS="filename"
+>varargs.xml</TT
+>
+      in the <TT
+CLASS="filename"
+>docs/examples</TT
+> directory.
+     </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN502"
+>2.7.5. Pass by reference</A
+></H3
+><P
+>&#13;     </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN505"
+>2.7.6. Return Values</A
+></H3
+><P
+>&#13;     </P
+><P
+></P
+><DIV
+CLASS="variablelist"
+><DL
+><DT
+><SPAN
+CLASS="type"
+>bool</SPAN
+></DT
+><DD
+><P
+>&#13;         Boolean values may be returned using the 
+         <CODE
+CLASS="function"
+>RETURN_BOOL(b)</CODE
+>,
+         <CODE
+CLASS="function"
+>RETURN_TRUE</CODE
+> and
+         <CODE
+CLASS="function"
+>RETURN_FALSE</CODE
+> macros.
+        </P
+></DD
+><DT
+><SPAN
+CLASS="type"
+>int</SPAN
+></DT
+><DD
+><P
+>&#13;         Integer values are returned using the
+         <CODE
+CLASS="function"
+>RETURN_LONG(l)</CODE
+> macro.
+        </P
+></DD
+><DT
+><SPAN
+CLASS="type"
+>float</SPAN
+></DT
+><DD
+><P
+>&#13;         Float values are returned using the
+         <CODE
+CLASS="function"
+>RETURN_DOUBLE(d)</CODE
+> macro.
+        </P
+></DD
+><DT
+><SPAN
+CLASS="type"
+>string</SPAN
+></DT
+><DD
+><P
+>&#13;         Strings may be returned using the
+         <CODE
+CLASS="function"
+>RETURN_STRING(str, duplicate)</CODE
+>,
+         <CODE
+CLASS="function"
+>RETURN_STRINGL(str, len, duplicate)</CODE
+>
+         or <CODE
+CLASS="function"
+>RETURN_EMPTY_STRING()</CODE
+> macros.
+        </P
+><P
+>&#13;         <CODE
+CLASS="function"
+>RETURN_STRING()</CODE
+> only works for zero
+         terminated strings, using <CODE
+CLASS="function"
+>RETURN_STRINGL</CODE
+>
+         it is also possible to return binary strings containing null
+         bytes. Both macros take a <CODE
+CLASS="parameter"
+>duplicate</CODE
+>
+         parameter which specifies whether the string data shall be
+         duplicated. You'll always set this parameter to 1 unless
+         you allocated the <CODE
+CLASS="parameter"
+>str</CODE
+> value using
+         e.g. <CODE
+CLASS="function"
+>emalloc()</CODE
+> or 
+         <CODE
+CLASS="function"
+>estrdup()</CODE
+> yourself.
+        </P
+></DD
+><DT
+><SPAN
+CLASS="type"
+>resource</SPAN
+></DT
+><DD
+><P
+>&#13;         For <SPAN
+CLASS="type"
+>resource</SPAN
+> values a special local variable
+         <CODE
+CLASS="varname"
+>return_res</CODE
+> is created which is a pointer
+         to the resources payload type. Whether you need to allocate
+         the payload data yourself or just need to store values in
+         preallocated data pointed to by <CODE
+CLASS="varname"
+>return_res</CODE
+>
+         depends on the resources <TT
+CLASS="literal"
+>alloc</TT
+> attribute.
+        </P
+><P
+>&#13;         If allocation or initialization of the return resource fails
+         you may simply <CODE
+CLASS="function"
+>RETURN_FALSE</CODE
+> or 
+         <CODE
+CLASS="function"
+>RETURN_NULL</CODE
+> to return an error condition.
+        </P
+></DD
+><DT
+><SPAN
+CLASS="type"
+>array</SPAN
+></DT
+><DD
+><P
+>&#13;         To return an <SPAN
+CLASS="type"
+>array</SPAN
+> you can add values to the
+         <CODE
+CLASS="varname"
+>return_value</CODE
+> variable which has already
+         been initialized as an empty array.
+        </P
+><P
+>&#13;         Values may be added to the <CODE
+CLASS="varname"
+>return_value</CODE
+>
+         result array using the various <CODE
+CLASS="function"
+>add_assoc_...()</CODE
+>,
+         <CODE
+CLASS="function"
+>add_index_...()</CODE
+> and 
+         <CODE
+CLASS="function"
+>add_index_next_...()</CODE
+> from the Zend API.
+        </P
+></DD
+><DT
+><SPAN
+CLASS="type"
+>object</SPAN
+></DT
+><DD
+><P
+>&#13;         ...
+        </P
+></DD
+></DL
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN573"
+>2.8. Internal functions</A
+></H2
+><P
+>&#13;     Internal functions are called by the PHP extension API to initialize
+     and shut down your extension and to retrieve status information for
+     <CODE
+CLASS="function"
+>phpinfo()</CODE
+> output.
+    </P
+><P
+>&#13;     The definition of an internal function requires the
+     <TT
+CLASS="literal"
+>role="internal"</TT
+> and <TT
+CLASS="literal"
+>name=...</TT
+>
+     attributes to be set. The name can only be one of the following:
+     <P
+></P
+><DIV
+CLASS="variablelist"
+><DL
+><DT
+><TT
+CLASS="literal"
+>MINIT</TT
+></DT
+><DD
+><P
+>&#13;         The module initialization function. This is called
+         once at startup of a PHP server module or standalone (CLI or
+         CGI) binary.
+        </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN586"
+></A
+><P
+><B
+>Example 2-17. <TT
+CLASS="literal"
+>MINIT()</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;...
+    &#60;function role="internal" name="MINIT"&#62;
+      &#60;code&#62;
+&#60;![CDATA[
+  library_init();
+]]&#62;
+      &#60;/code&#62;
+    &#60;/function&#62;
+...
+         </PRE
+></DIV
+></DD
+><DT
+><TT
+CLASS="literal"
+>MSHUTDOWN</TT
+></DT
+><DD
+><P
+>&#13;         The module shutdown function. This is called once when the
+         PHP server module or standalone binary is properly
+         terminated.
+         It may not be called on program crashes or other critical errors.
+        </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN595"
+></A
+><P
+><B
+>Example 2-18. <TT
+CLASS="literal"
+>MINIT()</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;...
+    &#60;function role="internal" name="MINIT"&#62;
+      &#60;code&#62;
+&#60;![CDATA[
+  library_deinit();
+]]&#62;
+      &#60;/code&#62;
+    &#60;/function&#62;
+...
+         </PRE
+></DIV
+></DD
+><DT
+><TT
+CLASS="literal"
+>RINIT</TT
+></DT
+><DD
+><P
+>&#13;         The request shutdown function. This is called by PHP server
+         modules before actually executing a PHP script request or once
+         right after <TT
+CLASS="literal"
+>MINIT()</TT
+> for standalone
+         binaries (CGI or CLI).
+        </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN605"
+></A
+><P
+><B
+>Example 2-19. <TT
+CLASS="literal"
+>MINIT()</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;...
+    &#60;function role="internal" name="MINIT"&#62;
+      &#60;code&#62;
+&#60;![CDATA[
+  global_buffer = malloc(global_buffer_size);
+]]&#62;
+      &#60;/code&#62;
+    &#60;/function&#62;
+...
+         </PRE
+></DIV
+></DD
+><DT
+><TT
+CLASS="literal"
+>RSHUTDOWN</TT
+></DT
+><DD
+><P
+>&#13;         The request shutdown function. This is called by PHP server
+         modules after execution of PHP code has been finished or
+         terminated.
+         Is called even if critical PHP errors occurred but you can not
+         rely on it being called on critical errors or crashes on the
+         C level.
+        </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN614"
+></A
+><P
+><B
+>Example 2-20. <TT
+CLASS="literal"
+>MINIT()</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;...
+    &#60;function role="internal" name="MINIT"&#62;
+      &#60;code&#62;
+&#60;![CDATA[
+  free(global_buffer);
+]]&#62;
+      &#60;/code&#62;
+    &#60;/function&#62;
+...
+         </PRE
+></DIV
+></DD
+><DT
+><TT
+CLASS="literal"
+>MINFO</TT
+></DT
+><DD
+><P
+>&#13;         The <TT
+CLASS="literal"
+>phpinfo()</TT
+> handler for this extension.
+         It will be called whenever <TT
+CLASS="literal"
+>phpinfo()</TT
+> is
+         invoked or when a standalone PHP binary is called with the
+         <TT
+CLASS="literal"
+>-i</TT
+> command line option.
+        </P
+><P
+>&#13;         The default code generated when no <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+>
+         section is given includes the extension name, summary line
+         and release version and date, the optional logo image if
+         specified, and the global and actual values of all
+         <TT
+CLASS="literal"
+>php.ini</TT
+> directives specified.
+        </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN629"
+></A
+><P
+><B
+>Example 2-21. <TT
+CLASS="literal"
+>MINFO()</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;...
+    &#60;function role='internal' name='MINFO'&#62;
+      &#60;code&#62;
+&#60;![CDATA[
+  php_info_print_table_start();
+  php_info_print_table_header(2, "test", "table");
+  php_info_print_table_end();
+]]&#62;
+      &#60;/code&#62;
+    &#60;/function&#62;
+...
+         </PRE
+></DIV
+></DD
+></DL
+></DIV
+>
+    </P
+><P
+>&#13;     <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> sections for the internal
+     functions may be written as if they were C function bodies,
+     including local variable definitions.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN635"
+>2.9. Constants</A
+></H2
+><P
+>&#13;    PHP constants are defined using <TT
+CLASS="literal"
+>&#60;constant&#62;</TT
+>
+    tags.
+   </P
+><P
+>&#13;    The actual constant name, type and value are specified using the
+    <TT
+CLASS="literal"
+>name=...</TT
+>, <TT
+CLASS="literal"
+>type=...</TT
+> and
+    <TT
+CLASS="literal"
+>value=...</TT
+> attributes. The constant name has to
+    be a valid C name. PHP constant names should use uppercase letters
+    only by convention. Possible types are <SPAN
+CLASS="type"
+>string</SPAN
+>, <SPAN
+CLASS="type"
+>int</SPAN
+> and
+    <SPAN
+CLASS="type"
+>float</SPAN
+>, the possible values depend on the type. For <SPAN
+CLASS="type"
+>int</SPAN
+> and
+    <SPAN
+CLASS="type"
+>float</SPAN
+> you may use either numeric strings or the names of C
+    constants (either true ANSI C/C++ constants or values
+    <TT
+CLASS="literal"
+>#define</TT
+>d using the C preprocessor. <SPAN
+CLASS="type"
+>string</SPAN
+>
+    values are always used "as is", no constants may be used here.
+   </P
+><P
+>&#13;    Setting the <TT
+CLASS="literal"
+>define=...</TT
+> attribute to 
+    <TT
+CLASS="literal"
+>yes</TT
+> defines not only a PHP constant but
+    also adds a C #define with the same name and value to the
+    generated header file so that the constant can be used 
+    under the same name in both PHP and C code.
+   </P
+><P
+>&#13;    It is sufficient on the other hand to specify a constant 
+    <TT
+CLASS="literal"
+>name</TT
+> only if a C integer constant should 
+    be available under the same name in PHP, too.
+   </P
+><P
+>&#13;    A descriptive text may be given as content of the
+    <TT
+CLASS="literal"
+>&#60;constant&#62;</TT
+> tag. This text will be used when
+    generation the DocBook XML documentation.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN657"
+></A
+><P
+><B
+>Example 2-22. PHP Constants</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+ &#60;constants&#62;
+  &#60;constant name="SAMPLE_INT"   type="int"    value="42"&#62;
+   A sample integer constant.
+  &#60;/constant&#62;
+  &#60;constant name="SAMPLE_FLOAT" type="float"  value="3.14"&#62;
+   A sample floating point constant.
+  &#60;/constant&#62;
+  &#60;constant name="SAMPLE_FLOAT" type="float"  value="M_PI"&#62;
+   A sample floating point constant using a #defined constant
+  &#60;/constant&#62;
+  &#60;constant name="SAMPLE_STRING" type="string" value="Hello World!"&#62;
+   A sample string constant.
+  &#60;/constant&#62;
+  &#60;constant name="SAMPLE_INT2" type="int" value="23&#62;
+   This also adds a &#60;literal&#62;#define SAMPLE_INT2 23&#60;/literal&#62;
+   definition to the generated header file.
+  &#60;/constant&#62;
+  &#60;constant name="MY_CONST"&#62;
+   A shortcat for already #defined integer constants
+  &#60;/constant&#62;
+ &#60;/constants&#62;
+...
+
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN660"
+>2.10. <TT
+CLASS="literal"
+>php.ini</TT
+> parameters and internal variables</A
+></H2
+><P
+>&#13;    An extension may define variables that are global to either the
+    complete extension or to a specific request. True globals that are
+    global to the complete extensions do not need any registration so
+    they can be defined using C code within the global <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> 
+    tag.
+   </P
+><P
+>&#13;    Module globals that are only global to a single request need to
+    be managed to ensure thread safety and initialization on request
+    initialization. <TT
+CLASS="literal"
+>php.ini</TT
+> directive values are
+    also stored as module globals but need some additional definitions.
+   </P
+><P
+>&#13;    All global definitions have to be put into a
+    <TT
+CLASS="literal"
+>&#60;globals&#62;</TT
+> environment. Simple module globals are
+    defined using the <TT
+CLASS="literal"
+>&#60;global&#62;</TT
+>
+    tag. <TT
+CLASS="literal"
+>php.ini</TT
+> directives are defined using the
+    <TT
+CLASS="literal"
+>&#60;phpini&#62;</TT
+> tag.
+   </P
+><P
+>&#13;    A <TT
+CLASS="literal"
+>&#60;global&#62;</TT
+> definition requires the
+    <TT
+CLASS="literal"
+>name=...</TT
+> and <TT
+CLASS="literal"
+>type=...</TT
+>
+    attributes to be set as valid C names and types. Which C types are
+    allowed depends on what type definitions have been included from
+    header files. The available types are not known when
+    <TT
+CLASS="literal"
+>pecl-gen</TT
+> parses the XML specification so that
+    types are only checked for valid name format here. Specifying a
+    type that is not a basic C type or defined in any included file
+    will lead to error messages when compiling the generated extension
+    code later.
+   </P
+><P
+>&#13;    Initial values may be specified using the
+    <TT
+CLASS="literal"
+>value=...</TT
+> attribute. This feature should only
+    be used for simple numeric values, anything more complex should
+    better be initialized within the extensions
+    <TT
+CLASS="literal"
+>RINIT()</TT
+> function. 
+   </P
+><P
+>&#13;    <TT
+CLASS="literal"
+>php.ini</TT
+> directives may be defined using the
+    <TT
+CLASS="literal"
+>&#60;phpini&#62;</TT
+> within a <TT
+CLASS="literal"
+>&#60;globals&#62;</TT
+>
+    environment. To define a <TT
+CLASS="literal"
+>php.ini</TT
+> directive you
+    have to specify its name, type and default value using the
+    <TT
+CLASS="literal"
+>name=...</TT
+>, <TT
+CLASS="literal"
+>type=...</TT
+> and
+    <TT
+CLASS="literal"
+>value=...</TT
+> attributes.
+   </P
+><P
+>&#13;    Valid directive names are C variable names. The actual directive
+    name is the extension name followed by a single dot
+    '<TT
+CLASS="literal"
+>.</TT
+>' and the specified name. Valid directive
+    types are <SPAN
+CLASS="type"
+>bool</SPAN
+>, <SPAN
+CLASS="type"
+>int</SPAN
+>, <SPAN
+CLASS="type"
+>float</SPAN
+>
+    and <SPAN
+CLASS="type"
+>string</SPAN
+>.
+   </P
+><P
+>&#13;    Directive default values are passed to the engine as strings, so
+    you may not use any C constants or preprocessor macros here. The
+    default value strings are parsed by the
+    <TT
+CLASS="literal"
+>OnUpdate</TT
+> handler registered for that
+    directive. No value checking takes place during extension code
+    generation or compilation, this is done by the registered
+    <TT
+CLASS="literal"
+>OnUpdate</TT
+> handler at runtime during request
+    initialization. The <TT
+CLASS="literal"
+>OnUpdate</TT
+> handler defaults
+    to the appropriate internal
+    <TT
+CLASS="literal"
+>OnUpdate</TT
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>type</I
+></SPAN
+> handler
+    unless you specify a different handler using the
+    <TT
+CLASS="literal"
+>onupdate=...</TT
+> attribute.
+   </P
+><P
+>&#13;    The directive value may be changed at any time unless you specify
+    an <TT
+CLASS="literal"
+>access=...</TT
+> attribute. Possible values are:
+    <P
+></P
+><DIV
+CLASS="variablelist"
+><DL
+><DT
+>system</DT
+><DD
+><P
+>&#13;        may only be set globally in <TT
+CLASS="literal"
+>php.ini</TT
+> or the
+        web server configuration
+       </P
+></DD
+><DT
+>perdir</DT
+><DD
+><P
+>&#13;        may be changed in local <TT
+CLASS="literal"
+>.htaccess</TT
+> files
+       </P
+></DD
+><DT
+>user</DT
+><DD
+><P
+>may be changed by PHP code</P
+></DD
+><DT
+>all</DT
+><DD
+><P
+>may be changed by anyone at any time</P
+></DD
+></DL
+></DIV
+>
+   </P
+><P
+>&#13;    The content data of <TT
+CLASS="literal"
+>&#60;phpini&#62;</TT
+> tags is used to
+    generate documentation for the defined
+    directive. <TT
+CLASS="literal"
+>&#60;global&#62;</TT
+> definitions may also include
+    content data but it is for internal documentation only, it is not
+    used in DocBook XML generation (yet).
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN725"
+></A
+><P
+><B
+>Example 2-23. Defining globals and ini entries</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+ &#60;globals&#62;
+  &#60;global name="sample_int"    type="int"    value="42" /&#62;
+  &#60;global name="sample_float"  type="float"  value="3.14" /&#62;
+  &#60;global name="SAMPLE_STRING" type="char *" /&#62;
+
+  &#60;phpini name="my_int" type="int" value="42" onupdate="OnUpdateLong" access="all"&#62;
+   Definition for directive "sample.my_int"
+  &#60;/phpini&#62;
+ &#60;/globals&#62;
+...
+
+    </PRE
+></DIV
+><P
+>&#13;    Access to the modul globals and ini parameters is provided in a thread safe 
+    manner through the EXTNAME_G() macro (replace EXTNAME with the upper cased
+    name of your extension).
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN729"
+></A
+><P
+><B
+>Example 2-24. Using globals</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+&#60;extension name="foobar"&#62;
+ ...
+ &#60;globals&#62;
+  &#60;global name="sample_int"    type="int"    value="42" /&#62;
+ &#60;/globals&#62;
+ ...
+ &#60;function ...&#62;
+  ...
+  &#60;code&#62;
+   ...
+   int foo = FOOBAR_G(sample_int); // get global value 
+   ...
+   FOOBAR_G(sample_init) = 42; // set global value
+   ...
+  &#60;/code&#62;
+ &#60;/function&#62;
+
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN732"
+>2.11. Resources</A
+></H2
+><P
+>&#13;    You may define PHP resource types within a
+    <TT
+CLASS="literal"
+>&#60;resources&#62;</TT
+> environment. For each
+    <TT
+CLASS="literal"
+>&#60;resource&#62;</TT
+> you have to specify the
+    <TT
+CLASS="literal"
+>name=...</TT
+> and <TT
+CLASS="literal"
+>payload=...</TT
+>
+    attributes. The <TT
+CLASS="literal"
+>name</TT
+> has to be a valid 
+    C name and the <TT
+CLASS="literal"
+>payload</TT
+> has to be a valid 
+    C type specifier. The payload type can only be checked for 
+    the correctness of its form as the actual type definitions 
+    from included header files are not known to the extension 
+    generator when it generates the extension code.
+   </P
+><P
+>&#13;    The actual resource data structure carries a pointer to the
+    payload type. You may specify that PHP shall allocate and free
+    the actual payload by setting the <TT
+CLASS="literal"
+>alloc=...</TT
+>
+    attribute to "<TT
+CLASS="literal"
+>yes</TT
+>". If the payload is allocated
+    by a library function or by yourself you should set 
+    <TT
+CLASS="literal"
+>alloc=...</TT
+> to "<TT
+CLASS="literal"
+>no</TT
+>" 
+    (the default value).
+   </P
+><P
+>&#13;    Resources are destructed when the last variable reference refering
+    to them is unset or at request shutdown. If your resource
+    payload needs to be cleaned up as well you have to add an
+    appropriate C code snippet that takes care of this using the
+    <TT
+CLASS="literal"
+>&#60;destruct&#62;</TT
+> tag. Within the destructor snippet you
+    may refer to the allocated payload using the
+    <TT
+CLASS="literal"
+>resource</TT
+> pointer variable.
+   </P
+><P
+>&#13;    You don't need to take care of destruction yourself if  your
+    resource payload is allocated by PHP (<TT
+CLASS="literal"
+>alloc="yes"</TT
+>) 
+    and needs no further cleanup work besides releasing the allocated memory.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN751"
+></A
+><P
+><B
+>Example 2-25. Resources</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+...
+  &#60;resources&#62;
+    &#60;resource name="sample_resource" payload="float" alloc="yes"&#62;
+      &#60;description&#62;
+        A simple floating point resource
+      &#60;/description&#62;
+      &#60;!-- no &#60;destruct&#62; needed due to the alloc attribute --&#62;
+    &#60;/resource&#62;
+
+    &#60;resource name="sample_struct" payload="struct foobar" alloc="no"&#62;
+      &#60;description&#62;
+        A foobar resource managed by an external foobar lib.
+      &#60;/description&#62;
+      &#60;destruct&#62;
+        foobar_release(resource);
+      &#60;/destruct&#62;
+    &#60;/resource&#62;
+  &#60;/resources&#62;
+...
+
+    </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN754"
+>2.11.1. Resource creation and destruction</A
+></H3
+><P
+>&#13;     The creation of resource instances is not defined within
+     <TT
+CLASS="literal"
+>&#60;resource&#62;</TT
+>. This is a task to be handled by
+     public PHP functions instead.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN758"
+></A
+><P
+><B
+>Example 2-26. Resource creation</B
+></P
+><PRE
+CLASS="screen"
+>&#13;
+  &#60;function name="foo_open"&#62;
+   &#60;proto&#62;resource foo foo_open(string path)&#60;/proto&#62;
+   &#60;code&#62;
+    return_res = foo_open(path);
+
+    if (!return_res) RETURN_FALSE;
+   &#60;/code&#62;
+  &#60;/function&#62;
+
+     </PRE
+></DIV
+><P
+>&#13;     Resources are freed using the <TT
+CLASS="literal"
+>FREE_RESOURCE()</TT
+>
+     macro. The resources destructor
+     function is automaticly called when freeing a resource.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN763"
+></A
+><P
+><B
+>Example 2-27. Resource destruction</B
+></P
+><PRE
+CLASS="screen"
+>&#13;
+  &#60;function name="foo_close"&#62;
+   &#60;proto&#62;void foo_close(resource foo foores)&#60;/proto&#62;
+   &#60;code&#62;
+     FREE_RESOURCE(foores);
+   &#60;/code&#62;
+  &#60;/function&#62;
+
+     </PRE
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN766"
+>2.12. OO features</A
+></H2
+><DIV
+CLASS="warning"
+><P
+></P
+><TABLE
+CLASS="warning"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/warning.gif"
+HSPACE="5"
+ALT="Warning"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;     The OO APIs differ between PHP 4 and 5,  
+     CodeGen_PECL only supports the newer PHP 5 API. 
+    </P
+></TD
+></TR
+></TABLE
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN770"
+>2.12.1. Classes</A
+></H3
+><P
+>&#13;     Classes are declared using the <CODE
+CLASS="sgmltag"
+>class</CODE
+> container.
+	 Each class needs to be given a unique class name using the 
+     <TT
+CLASS="literal"
+>name=...</TT
+> attribute.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN775"
+></A
+><P
+><B
+>Example 2-28. A minimal class</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;class name="minimal"/&#62;
+
+     </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H4
+CLASS="section"
+><A
+NAME="AEN778"
+>2.12.1.1. Inheritance</A
+></H4
+><P
+>&#13;      Using the <TT
+CLASS="literal"
+>extends=...</TT
+> attribut it is possible
+      to inherit from another internal class. The class inherited from
+      does not necessarily have to be defined in the same package so
+      the given name is not checked for existance. An attempt to extend
+      from a non-existing class will only be caught at PHP runtine.
+     </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN782"
+></A
+><P
+><B
+>Example 2-29. Simple inheritence</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;class name="parent"&#62;
+   &#60;function name="foo"&#62;
+    &#60;proto&#62;int foo()&#60;/proto&#62;
+    &#60;code&#62;RETURN_LONG(42);&#60;/code&#62;
+   &#60;/function&#62;
+
+   &#60;function name="bar"&#62;
+    &#60;proto&#62;float bar()&#60;/proto&#62;
+    &#60;code&#62;RETURN_DOUBLE(3.14);&#60;/code&#62;
+   &#60;/function&#62;
+  &#60;/class&#62;
+
+  &#60;!-- child overwrites foo() --&#62;
+  &#60;class name="child" extends="parent"&#62;
+   &#60;function name="foo"&#62;
+    &#60;proto&#62;int foo()&#60;/proto&#62;
+    &#60;code&#62;RETURN_LONG(23);&#60;/code&#62;
+   &#60;/function&#62;
+  &#60;/class&#62;
+
+     </PRE
+></DIV
+><P
+>&#13; 	  The optional <TT
+CLASS="literal"
+>abstract=...</TT
+> and 
+      <TT
+CLASS="literal"
+>final=...</TT
+> attributes can be used to declare
+      a class as abstract (can be inherited from but can't be instanciated)
+      or final (can't be inherited from anymore).
+     </P
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN788"
+>2.12.2. Methods</A
+></H3
+><P
+>&#13;     Class methods (or member functions) are defined similar to regular
+     functions using the <CODE
+CLASS="sgmltag"
+>function</CODE
+> tag. In addition 
+     to its global counterpart the <CODE
+CLASS="sgmltag"
+>function</CODE
+>.
+    </P
+><P
+>&#13;     The <TT
+CLASS="literal"
+>access=...</TT
+> attribute defines the methods
+     PPP access rights, possible values are <TT
+CLASS="literal"
+>public</TT
+>,
+     <TT
+CLASS="literal"
+>protected</TT
+> and <TT
+CLASS="literal"
+>private</TT
+> 
+     (although defining a <TT
+CLASS="literal"
+>private</TT
+> native method
+     doesn't really make sense).
+    </P
+><P
+>&#13;     The <TT
+CLASS="literal"
+>abstract</TT
+> and <TT
+CLASS="literal"
+>final</TT
+>
+     attributes declare a method as abstract or final and have the
+     same effect as the PHP keywords of the same name.
+    </P
+><P
+>&#13;     The <TT
+CLASS="literal"
+>procedural=...</TT
+> attribute requests the
+     registration of a procedural alternative for this method. 
+     This is a regular function that takes an instance of the class
+     as first argument and allows to call
+     <PRE
+CLASS="programlisting"
+>function($object, ...parameters...)</PRE
+>
+     instead of 
+     <PRE
+CLASS="programlisting"
+>$object-&#62;method(...parameters...)</PRE
+>.
+    </P
+><P
+>&#13;     This feature is usefull when creating an extension that implements
+     something as OO classes that used to be a resource type before,
+     see the way <TT
+CLASS="literal"
+>ext/mysqli</TT
+> reimplements the older
+     <TT
+CLASS="literal"
+>ext/mysql</TT
+> for example.
+    </P
+><P
+>&#13;     The procedural functions name is <TT
+CLASS="literal"
+>classname_methodname</TT
+>
+     if you just use  <TT
+CLASS="literal"
+>procedural='yes'</TT
+>, any other attribute
+     value will be used as the functions name.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN812"
+>2.12.3. Properties</A
+></H3
+><P
+>&#13;     Class properties are defined using the <CODE
+CLASS="sgmltag"
+>property</CODE
+> tag.
+     The property name is given using the <TT
+CLASS="literal"
+>name=...</TT
+> tag and
+     is mandatory.
+    </P
+><P
+>&#13;     Access to the property is public by default, it can be set to either
+     <TT
+CLASS="literal"
+>public</TT
+>, <TT
+CLASS="literal"
+>protected</TT
+> or 
+     <TT
+CLASS="literal"
+>private</TT
+> using the optional 
+     <TT
+CLASS="literal"
+>access=...</TT
+> attribute.
+    </P
+><P
+>&#13;     Property default type and value can be specified using the optional
+     <TT
+CLASS="literal"
+>type=...</TT
+> and <TT
+CLASS="literal"
+>value=...</TT
+> attributes.
+     Possible types are <TT
+CLASS="literal"
+>long</TT
+>, <TT
+CLASS="literal"
+>double</TT
+>,
+     <TT
+CLASS="literal"
+>string</TT
+> and <TT
+CLASS="literal"
+>NULL</TT
+>. The default
+     value and type of a property are <TT
+CLASS="literal"
+>NULL</TT
+> if not
+     specified using these attributes.
+    </P
+><P
+>&#13;     A property can be declared static using the <TT
+CLASS="literal"
+>static=...</TT
+>
+     attribute. A static attribute is shared by all instances of the class.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN832"
+>2.12.4. Constants</A
+></H3
+><P
+>&#13;     Class constants are defined like regular constants, just within a 
+     <CODE
+CLASS="sgmltag"
+>class</CODE
+> tag. Class constants are always public
+     so there is no need for extra attributes.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN836"
+>2.12.5. Interfaces</A
+></H3
+><P
+>&#13;     Interfaces are declared using the <CODE
+CLASS="sgmltag"
+>interface</CODE
+>
+     which has two attributes: the mandatory <TT
+CLASS="literal"
+>name=...</TT
+> 
+     attribute defines the name of the interface and the optional 
+     <TT
+CLASS="literal"
+>extends=...</TT
+> attribute can be used to specify
+     that this interface extends another already existing interface.
+     If the interface that is to be extended is defined in another
+     extension then an extension dependency should be declared, too.
+    </P
+><P
+>&#13;     Interface methods are declared using the <CODE
+CLASS="sgmltag"
+>function</CODE
+>
+     tag. In this context only the <TT
+CLASS="literal"
+>name=...</TT
+> attribute
+     is supported as interface methods are always public and abstract and
+     never final anyway. Within the <CODE
+CLASS="sgmltag"
+>function</CODE
+> a 
+     <CODE
+CLASS="sgmltag"
+>proto</CODE
+> needs to be defined but there is no support
+     for <CODE
+CLASS="sgmltag"
+>code</CODE
+> or <CODE
+CLASS="sgmltag"
+>test</CODE
+> tags within
+     interface method declarations.
+    </P
+><P
+>&#13;     A class can implement one or more interfaces, the interfaces 
+     implemented by a class are declared using the <CODE
+CLASS="sgmltag"
+>implements</CODE
+>
+     tag and its <TT
+CLASS="literal"
+>interface=...</TT
+> attribute. The interface
+     needs to be defined in the extension specification (see "Interfaces"
+     later in this section) or by one of the extensions specified in the
+     package dependencies.
+    </P
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN852"
+>2.13. Streams</A
+></H2
+><P
+>&#13;    Stream filter and wrapper support is experimental and not yet added
+    to the released code base.
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN855"
+>2.14. config.m4 fragments</A
+></H2
+><P
+>&#13;    Additional configure checks can be added to the generated config.m4
+    file used by Unix/Cygwin builds using the <TT
+CLASS="literal"
+>&#60;configm4&#62;</TT
+> 
+    tag. Using the 'position' attribute it is possible to specify whether
+    the additional code is to be added near the top or bottom of the 
+    config.m4 file.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN859"
+></A
+><P
+><B
+>Example 2-30. config.m4 additions</B
+></P
+><PRE
+CLASS="screen"
+>&#13;
+&#60;configm4&#62;
+  AC_CHECK_PROG(RE2C, re2c, re2c)
+  PHP_SUBST(RE2C)
+&#60;/configm4&#62;
+
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN862"
+>2.15. Makefile fragments</A
+></H2
+><P
+>&#13;    Makefile rules may be added using the
+    <TT
+CLASS="literal"
+>&#60;makefile&#62;</TT
+> for Unix/Cygwin builds.
+    Using this it is possible to add dependencies or build rules in
+    addition to the default and auto generated rules.
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN866"
+></A
+><P
+><B
+>Example 2-31. Makefile fragments</B
+></P
+><PRE
+CLASS="screen"
+>&#13;
+&#60;makefile&#62;
+$(builddir)/scanner.c: $(srcdir)/scanner.re
+  $(RE2C) $(srcdir)/scanner.re &#62; $@
+&#60;/makefile&#62;
+
+    </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN869"
+>2.16. Tests</A
+></H2
+><P
+>&#13;    Global test cases can be created using the <TT
+CLASS="literal"
+>&#60;test&#62;</TT
+> tag.
+    Test cases for functions are automaticly created. 
+   </P
+><P
+>&#13;    Currently you have to make sure your extension is loaded by php.ini
+    and have to perform the following steps to run the test suite
+    (changing pathes to point to the right files on your system):
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;
+  TEST_PHP_EXECUTABLE="/usr/local/bin/php"   php path/to/run-tests.php tests
+
+   </PRE
+><P
+>&#13;    Starting with PHP 5.1 it should be possible to test PECL extensions
+    by just typing <TT
+CLASS="literal"
+>make test</TT
+> in the extension source
+    dir, the changes needed for this are being reviewed right now and
+    should hopefully be ready in time to be included in the PHP 5.1.0
+    release.
+   </P
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN877"
+>2.16.1. Global test cases</A
+></H3
+><P
+>&#13;     Global test case scripts can be created using the <TT
+CLASS="literal"
+>&#60;test&#62;</TT
+> tag.
+     The <TT
+CLASS="literal"
+>&#60;test&#62;</TT
+> has a single attribute <TT
+CLASS="literal"
+>name</TT
+>. 
+     As the test name is used as the test file basename <TT
+CLASS="literal"
+>name</TT
+>
+     has to be unique and only characters, digits and <TT
+CLASS="literal"
+>'-'</TT
+> and
+     <TT
+CLASS="literal"
+>'_'</TT
+> are allowed in test names. A more readable test
+     title may be set using the <TT
+CLASS="literal"
+>&#60;title&#62;</TT
+> tag within 
+     <TT
+CLASS="literal"
+>&#60;test&#62;</TT
+>.
+    </P
+><P
+>&#13;     The actual PHP code to run is specified using a <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+>
+     section. The expected output is specified using a <TT
+CLASS="literal"
+>&#60;result&#62;</TT
+>
+     tag, it defaults to <TT
+CLASS="literal"
+>OK</TT
+>. The PHP test suite supports three
+     different ways to compare test output with the expected result: plain string
+     comparison, comparison using printf style placeholders like %d for numbers
+     and regular expresions (for details see the <TT
+CLASS="filename"
+>README.TESTING*</TT
+>
+     files in the PHP source). By default the <TT
+CLASS="literal"
+>plain</TT
+> mode is used,
+     the other two modes can be selected by setting the <TT
+CLASS="literal"
+>mode</TT
+>
+     attribute of <TT
+CLASS="literal"
+>&#60;result&#62;</TT
+> to <TT
+CLASS="literal"
+>format</TT
+> or
+     <TT
+CLASS="literal"
+>regex</TT
+>.
+    </P
+><P
+>&#13;     The <TT
+CLASS="literal"
+>--SKIPIF--</TT
+> section of the generated tests checks
+     for the generated extension being loaded, the tests will automaticly be
+     skiped if it is not available. Additional skip conditions can be added
+     using the <TT
+CLASS="literal"
+>&#60;skipif&#62;</TT
+> tag. The content of the tag may either
+     be a PHP expression that evaluates to <TT
+CLASS="literal"
+>true</TT
+> if the test
+     should be skipped or a complete code snippet that prints <TT
+CLASS="literal"
+>skip</TT
+>
+     if the test is supposed to be skipped. A string describing the reason for
+     the test being skipped may be added after the <TT
+CLASS="literal"
+>skip</TT
+> in 
+     this case.
+    </P
+><P
+>&#13;     Additional php.ini settings to be used for testing may be specified in
+     a <TT
+CLASS="literal"
+>&#60;ini&#62;</TT
+> section.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN906"
+></A
+><P
+><B
+>Example 2-32. Minimal test case</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;test name="echo"&#62;
+   &#60;code&#62;echo "OK";&#60;/code&#62;
+  &#60;/test&#62;
+
+     </PRE
+></DIV
+><DIV
+CLASS="example"
+><A
+NAME="AEN909"
+></A
+><P
+><B
+>Example 2-33. Full test case</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;test name="full"&#62;
+   &#60;title&#62;A full test case using all tags&#60;/title&#62;
+   &#60;skipif&#62;1==0&#60;/skipif&#62;
+   &#60;ini&#62;max_execution_time=0&#60;/ini&#62;
+   &#60;code&#62;echo "Random number: ".rand(1,10);&#60;/code&#62;
+   &#60;result mode='format'&#62;Random number: %d&#60;/result&#62;
+  &#60;/test&#62;
+
+     </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN912"
+>2.16.2. Embedded function test cases</A
+></H3
+><P
+>&#13;     For each function a default test case is created,
+     the name and title for this test are automaticly set
+     to the function name. 
+    </P
+><P
+>	
+     Test code and the expected result
+     can be set using a <TT
+CLASS="literal"
+>&#60;test&#62;</TT
+>
+     section within <TT
+CLASS="literal"
+>&#60;function&#62;</TT
+>.
+     <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+>,
+     <TT
+CLASS="literal"
+>&#60;result&#62;</TT
+>,
+     <TT
+CLASS="literal"
+>&#60;skipif&#62;</TT
+> and
+     <TT
+CLASS="literal"
+>&#60;ini&#62;</TT
+>
+     may be used in there in the same way as in a global
+     <TT
+CLASS="literal"
+>&#60;&#62;</TT
+> section. Use of the 
+     <TT
+CLASS="literal"
+>name</TT
+> attribute to 
+     <TT
+CLASS="literal"
+>&#60;test&#62;</TT
+> or the 
+     <TT
+CLASS="literal"
+>&#60;title&#62;</TT
+> tag are not 
+     supported within a function test.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN926"
+></A
+><P
+><B
+>Example 2-34. Minimal function test case</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;function name="foobar"&#62;
+   ...
+   &#60;test&#62;&#60;code&#62;echo "OK";&#60;/code&#62;&#60;/test&#62;
+  &#60;/test&#62;
+
+     </PRE
+></DIV
+><DIV
+CLASS="example"
+><A
+NAME="AEN929"
+></A
+><P
+><B
+>Example 2-35. Full function test case</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;function name="foobar"&#62;
+   ...
+   &#60;test&#62;
+    &#60;skipif&#62;1==0&#60;/skipif&#62;
+    &#60;ini&#62;max_execution_time=0&#60;/ini&#62;
+    &#60;code&#62;echo "Random number: ".rand(1,10);&#60;/code&#62;
+    &#60;result mode='format'&#62;Random number: %d&#60;/result&#62;
+   &#60;test&#62;
+  &#60;/function&#62;
+
+     </PRE
+></DIV
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN932"
+></A
+>Chapter 3. XML input parsing</H1
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN934"
+>3.1. Includes</A
+></H2
+><P
+>&#13;	The XML parser used by <TT
+CLASS="literal"
+>CodeGen_PECL</TT
+> supports inclusion
+    of additional source files using three different ways:
+    <P
+></P
+><UL
+><LI
+><P
+>external entities</P
+></LI
+><LI
+><P
+>a subset of XInclude</P
+></LI
+><LI
+><P
+>the <TT
+CLASS="literal"
+>source</TT
+> attribute of <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> tags</P
+></LI
+></UL
+>
+   </P
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN947"
+>3.1.1. External entities</A
+></H3
+><P
+>&#13;     In SGML and early XML system entites were the only 
+     include mechanism availabe. System entities have to
+     be defined in the documents DOCTYPE header, later on
+     in the document the entity can be used to include 
+     the specified file:
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN950"
+></A
+><P
+><B
+>Example 3-1. System Entities</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+&#60;?xml version="1.0" ?&#62;
+&#60;!DOCTYPE extension SYSTEM "../extension.dtd" [
+&#60;!ENTITY systemEntity SYSTEM "parsing_1.xml"&#62;
+]&#62;
+&#60;extension name="foobar"&#62;
+...
+&#38;systemEntity;
+..
+&#60;/extension&#62;
+
+     </PRE
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN953"
+>3.1.2. XInclude</A
+></H3
+><P
+>&#13;     The <TT
+CLASS="literal"
+>CodeGen</TT
+> XML parser supports a simple 
+     subset of XInclude, it is possible to include additional
+     specification files using the <TT
+CLASS="literal"
+>href=...</TT
+>
+     attribute of the <TT
+CLASS="literal"
+>&#60;include&#62;</TT
+> tag:
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN959"
+></A
+><P
+><B
+>Example 3-2. XInclude</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;extension name="foobar" xmlns:xi="http://www.w3.org/2001/XInclude"&#62;
+   ...
+   &#60;xi:include href="foobar_2.xml"/&#62;
+   ...
+  &#60;/extension&#62;
+
+     </PRE
+></DIV
+><P
+>&#13;     The <TT
+CLASS="literal"
+>parse=...</TT
+> attirbute is also supported, 
+     using <TT
+CLASS="literal"
+>&#60;include parse='text' href='...'/&#62;</TT
+> it is possible to
+     include arbitrary data without parsing it as XML.
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN965"
+></A
+><P
+><B
+>Example 3-3. Verbatim XInclude</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;extension name="foobar" xmlns:xi="http://www.w3.org/2001/XInclude"&#62;
+   ...
+   &#60;description&#62;&#60;xi:include href="README" parse="text"/&#62;&#60;/description&#62;
+   ...
+  &#60;/extension&#62;
+
+     </PRE
+></DIV
+><P
+>&#13;     Other <TT
+CLASS="literal"
+>&#60;include&#62;</TT
+> features and the <TT
+CLASS="literal"
+>&#60;fallback&#62;</TT
+>
+     tag are not supported yet, and most of them won't make sense in this context anyway.
+    </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H3
+CLASS="section"
+><A
+NAME="AEN971"
+>3.1.3. <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> tags</A
+></H3
+><P
+>&#13;     In most places the <TT
+CLASS="literal"
+>&#60;code&#62;</TT
+> tag supports loading of 
+     its content using its <TT
+CLASS="literal"
+>src=...</TT
+> attribute:
+    </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN977"
+></A
+><P
+><B
+>Example 3-4. Using <TT
+CLASS="literal"
+>&#60;code src="..."&#62;</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+  &#60;function name="foobar"&#62;
+   ...
+   &#60;code src="func_foobar.c"/&#62;
+  &#60;/function&#62;
+
+     </PRE
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN981"
+>3.2. Verbatim text data</A
+></H2
+><P
+>&#13;    C code usually contains quite a few <TT
+CLASS="literal"
+>&#62;</TT
+>, 
+    <TT
+CLASS="literal"
+>&#60;</TT
+> and <TT
+CLASS="literal"
+>&#38;</TT
+> characters
+    all of which need to be escaped in XML. This can be done by either
+    converting them into entities all over the place or by embedding
+    the code into CDATA sections:
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN987"
+></A
+><P
+><B
+>Example 3-5. CDATA sections</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;&#60;code&#62;
+&#60;![CDATA[
+  foo-&#62;bar = 42;
+]]&#62;
+&#60;/code&#62;
+    </PRE
+></DIV
+><P
+>&#13;    Typing <TT
+CLASS="literal"
+>&#60;![CDATA[</TT
+> can become rather annoying
+    over time (esp. on a german keyboard), so i introduced the 
+    <TT
+CLASS="literal"
+>&#60;?data</TT
+> processing instruction into the
+    <TT
+CLASS="literal"
+>CodeGen</TT
+> XML parser as an alternative to CDATA:
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN994"
+></A
+><P
+><B
+>Example 3-6. <TT
+CLASS="literal"
+>&#60;?data</TT
+> processing instruction</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;
+&#60;?data
+  foo-&#62;bar = 42;
+?&#62;
+
+    </PRE
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN998"
+></A
+>Chapter 4. Usage</H1
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN1000"
+>4.1. Invocation</A
+></H2
+><P
+>&#13;    The transformation of a XMP specification file into 
+    an extension directory is done by simply calling the
+    <TT
+CLASS="filename"
+>pecl-gen</TT
+> command with the XML
+    filename as argument:
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;pecl-gen my_extension.xml
+   </PRE
+><P
+>&#13;    <TT
+CLASS="filename"
+>pecl-gen</TT
+> will refuse to overwrite
+    an existing extension directory (as changes made in there
+    may be lost) unless you call it with the <TT
+CLASS="literal"
+>-f</TT
+>
+    or <TT
+CLASS="literal"
+>--force</TT
+> option:
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;pecl-gen -f my_extension.xml
+   </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN1010"
+>4.2. Configuration</A
+></H2
+><P
+>&#13;    You need to configure an extension for your actual build
+    system before compiling it. Configuring a PECL extension
+    consists of two steps:
+   </P
+><P
+>&#13;    First you need to copy some files from your PHP installation
+    into the extension directory and run the autotools to create
+    a <TT
+CLASS="filename"
+>configure</TT
+>. All this is taken care of by the
+    <TT
+CLASS="filename"
+>phpize</TT
+> command that is part of your PHP
+    installation:
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;cd my_extension
+phpize
+   </PRE
+><P
+>&#13;    Next you need to run <TT
+CLASS="filename"
+>configure</TT
+> to configure
+    your extension for your system installation. Most of the time just
+    running <TT
+CLASS="filename"
+>configure</TT
+> will be sufficient as 
+    appropriate defaults should be picked by the script. If your 
+    extension relies on external libraries installed in non-standard
+    places you may want to run <TT
+CLASS="filename"
+>configure</TT
+> with
+    the appropriate <TT
+CLASS="literal"
+>--with-...</TT
+> options.
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;configure
+   </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN1023"
+>4.3. Compilation</A
+></H2
+><P
+>&#13;    After configuring your extension the actual compilation is
+    done by the <TT
+CLASS="filename"
+>make</TT
+> command. No further
+    parameters are needed at this point:
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;make
+   </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN1028"
+>4.4. Testing</A
+></H2
+><P
+>&#13;    Starting with PHP 5.1 it should be possible to run the generated 
+    test cases by simply typing <TT
+CLASS="literal"
+>make test</TT
+>. For older
+    PHP versions a few more steps are needed:
+    <P
+></P
+><UL
+><LI
+><P
+>you have to specify the PHP binary to be used for testing</P
+></LI
+><LI
+><P
+>you have to set up a <TT
+CLASS="filename"
+>php.ini</TT
+> that loags the extension for testing</P
+></LI
+><LI
+><P
+>you have to manually run the <TT
+CLASS="filename"
+>run-tests.php</TT
+> that comes with the PHP source</P
+></LI
+></UL
+>
+    After adding the extension to your <TT
+CLASS="filename"
+>php.ini</TT
+> a typical 
+    test invocation may look like this:
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;
+  TEST_PHP_EXECUTABLE="/usr/local/bin/php"   php ../php-src/run-tests.php tests
+
+   </PRE
+><P
+>&#13;    (your <TT
+CLASS="filename"
+>php</TT
+> binary and <TT
+CLASS="filename"
+>run-tests.php</TT
+>
+    script may obviously be in different locations)
+   </P
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN1046"
+>4.5. Installation</A
+></H2
+><P
+>&#13;    You can copy your newly created extension to your installations 
+    default extension directory by simply running <TT
+CLASS="literal"
+>make install</TT
+>.
+    If you've set a different <TT
+CLASS="literal"
+>extension_dir</TT
+> in your
+    <TT
+CLASS="filename"
+>php.ini</TT
+> you have to manually copy the extensions 
+    <TT
+CLASS="literal"
+>.so</TT
+> file to this directory.
+   </P
+><P
+>&#13;    Please note that in both cases your regular user permissions may
+    not be sufficient to install the extension file, you may need to
+    run the commands as a different user, e.g. by using the <TT
+CLASS="literal"
+>sudo</TT
+>
+    command.
+   </P
+><PRE
+CLASS="programlisting"
+>&#13;sudo make install
+   </PRE
+></DIV
+><DIV
+CLASS="section"
+><HR><H2
+CLASS="section"
+><A
+NAME="AEN1056"
+>4.6. PEAR/PECL integration</A
+></H2
+><P
+>&#13;    <TT
+CLASS="literal"
+>pecl-gen</TT
+> generates PEAR package description files a
+    along with the other output files. Both the old <TT
+CLASS="filename"
+>package.xml</TT
+>
+    and the new <TT
+CLASS="filename"
+>package2.xml</TT
+> package formats are supported.
+   </P
+><P
+>&#13;    An extension may be configured,
+    compiled and installed in a single operation using the PEAR installer:
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN1063"
+></A
+><P
+><B
+>Example 4-1. Installation using <TT
+CLASS="literal"
+>pear</TT
+></B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;cd my_extension
+pear install package2.xml
+    </PRE
+></DIV
+><P
+>&#13;    The above will perform all necessary configuration, compilation and 
+    installation steps for you. You can also create packages ready
+    to be submitted to the PECL repository or any other compatible 
+    distribution channel using:
+   </P
+><DIV
+CLASS="example"
+><A
+NAME="AEN1068"
+></A
+><P
+><B
+>Example 4-2. PEAR/PECL packaging</B
+></P
+><PRE
+CLASS="programlisting"
+>&#13;cd my_extension
+pear package package2.xml
+    </PRE
+></DIV
+><P
+>&#13;    If you want to release your package on a different channel then
+    <TT
+CLASS="literal"
+>pecl.php.net</TT
+> you need to add a 
+    <TT
+CLASS="literal"
+>&#60;channel&#62;</TT
+> tag containing the channel
+    name to your description file.
+   </P
+></DIV
+></DIV
+></DIV
+></BODY
+></HTML
+>

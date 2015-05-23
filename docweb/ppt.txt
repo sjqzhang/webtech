@@ -1,0 +1,1653 @@
+```
+01_WhirlwindTour.ppt
+01-基于OpenStack建设公有云平台的开发实践.pptx
+01-如何成为真正的PPT高手(2009版上）.ppt
+01-如何成为真正的PPT高手(2009版下）1.ppt
+01-如何成为真正的PPT高手(2009版下）.ppt
+01-如何成为真正的PPT高手(2009版中）.ppt
+01孟曦东—博睿宏远—数据是实现运维自动化最直接有效的工具.ppt
+01-说服力，工作型PPT该这样做（理念篇）-2011版.pptx
+02_Fault_Tolerance.ppt
+02PPTV—魏云.pdf
+02伏烨—小米运维系统发展之路 - 20141008.ppt
+02-说服力，工作型PPT该这样做（文字篇）-2011版.pptx
+03-Cinder Intro@OpenStack-China-Tour-Shenzhen.ppt
+03_Fault_Model.ppt
+03刘秋岐—宝宝树—大中型网站的数据库架构设计和优化之道.ppt
+03-说服力，工作型PPT该这样做（表格篇）-2011版.pptx
+04_TransactionModels.ppt
+04-说服力，工作型PPT该这样做（图片篇）-2011版.pptx
+04陶永辉—联想—联想构建云时代的数据中心基础设施监控运维服务新体系.pptx
+05_TPMonORBs.ppt
+05刘宇—西山居—Puppet给运维带来的变革.ppt
+05-说服力，工作型PPT该这样做（图表篇）-2011版.pptx
+06_07_lock.ppt
+06冯泽荣—腾讯—监控的进化.pptx
+06-说服力，工作型PPT该这样做（逻辑篇）-2011版.pptx
+07吴启超—玩蟹—站在云上看运维.ppt
+07-说服力，工作型PPT该这样做（技巧篇）-2011版.pptx
+08_Message_and_Queues_Dieter_Gawlick.ppt
+09_Workflow.ppt
+0ad19de142b90ced43eb48c41cb2380d.pptx
+0be7bb1a6007e93b7203953d73656097.ppt
+0 to 60 in 3_1.ppt
+10a_log.ppt
+10b_RM.ppt
+10 years of cacti.pptx
+10.刘家骅《浅谈随机化在信息学竞赛中的应用》.ppt
+10年淘宝类目成交数据分析.ppt
+10.陈启峰《Size Balanced Tree》.ppt
+13_TM_Adv.ppt
+1439ff1ad0b4200172669fe6b1bb261a.ppt
+14584ae237fcd3c221a5b589c8c1c801.pptx
+14_Scaleabilty_WICS.ppt
+14_Turing_WICS.ppt
+1.4亿在线背后的故事.ppt
+15_BufferandRecords.ppt
+165d785892c50c9375825bf08fa97d81.ppt
+16th_android插件化及动态部署.pptx
+16th_如何利用SEDA提高系统的性能和稳定性.pptx
+16th_如何利用应用自己的数据来保证系统的稳定.pptx
+16th_移动数据中心.pptx
+16th_移动浏览器发展趋势与WebApp开发.ppt
+17th_The Application Sandbox in Android（阿里）.pptx
+17th_无线大数据.pptx
+17th_阿里HBase业务设计实践.pptx
+17th_阿里自研数据库-OceanBase实践.pptx
+18_Philbe Replication Stanford99.ppt
+18th_《去哪儿酒店实时搜索技术分享》.ppt
+18th_天猫大促性能测试实践-耿电.pptx
+18th_无线App的性能分析和监控实践-rickyqiu.pptx
+18th_淘宝网一站式搜索应用平台-终搜.pptx
+18th_《百度网页搜索机器学习排序简介》.pptx
+18th_网易移动自动化测试实践(孔庆云).ppt
+19_StructuredFiles.ppt
+19楼前端架构浅析.pptx
+19楼现有前段架构.pptx
+1b14385e199d86e3dad1d8b9e778b507.ppt
+[1] PSD2CMS - 由设计稿自动发布页面的系统.pptx
+[1] Webtop - HTML5 App开发引擎.ppt
+1. 任春德 - 基于Hadoop生态技术构建阿里搜索离线系统.pptx
+1号店反欺诈体系-可发布 - 1号店凌云.ppt
+[1] 大数据时代的月光宝盒.pptx
+1 如何有效控制Andoid应用的耗电量.pptx
+[1] 实时计算平台及相关业务实践.pptx
+[1] 寻找UItest - 适合前端的测试工具.pptx
+1.岑文初 - 开放式移动端平台设计分享.pptx
+[1] 构建一个跨机房的Hadoop集群.pptx
+[1] 腾讯广点通的数据挖掘.pptx
+[1] 阿里巴巴离线大数据处理平台概述.pptx
+[1] 页面价值分析.pptx
+2008_Memory Management_1.ppt
+2008_Memory Management_2.ppt
+2009_04_06_Kernel Module.ppt
+2009_04_13_Kernel Synchronization.ppt
+2009_04_13_Process_9662579.ppt
+2009_04_13_Process_9762572.pptx
+2009_04_24_System Call.ppt
+2009_04_27_Signal.pptx
+2009_05_01_Memory Addressing.pptx
+2009_05_04_Scheduling.pptx
+2009_05_18_The Ext2 and Ext3 Filesystems (final).ppt
+2009_05_22_IO_v1.ppt
+2009_05_22_IO_v2.ppt
+2009_05_22_IO_v3.ppt
+2009_05_22_IPC.ppt
+2009.08.02.GCO.Leipzig.EyjoG_EVE经济体系设计原则.ppt
+2011php-php在百度的应用.ppt
+20121217 关键词下钻新功能使用说明.pptx
+2012-dtcc-itpub-管理mysql.pptx
+2012系统架构师大会-Linux平台软件管理系统设计与规划.pptx
+20130123 付费流量使用说明.pptx
+20130228 百度统计监控商桥沟通数据.pptx
+201305-owasp-高级可持续攻击（APT）攻防分析.ppt
+2013.05.Scala_In_19Lou.ppt
+2013junevelocityapidesignaccelerateddevelopment-130618104248-phpapp02.pptx
+2014-12-19_周鑫_数据安全_v1.0.pptx
+2014保险行业策略.ppt
+20_AccessPaths.ppt
+20d4b027eefe542c493e23f196f041f1.pptx
+22_Levine.ppt
+25405921ed578cc37bec1e7219ba5961.ppt
+[2] CAP 理论与实践.pptx
+2 Lua wax在ios上的应用.pptx
+[2] OceanBase 04 从API到SQL.pptx
+2-virtualization technology overview.ppt
+[2] 从前端到终端 - 跨越平台的前端技术.pptx
+[2] 优众网移动web app开发实践.pptx
+[2] 小公司的服务管理和监控成长之路.pptx
+2.王晓珂《解析一类组合游戏》.ppt
+2.肖康 - storm.pptx
+2.阿里云-RDS数据通道的挑战和实践(OSCHINA)-储霸.pptx.pptx
+[2]阿里去IOE实践.pptx
+2.马超 - 旅游行业垂直搜索的架构.pptx
+2. 高春辉 - 走在技术和产品的十字路口.ppt
+34a0325905ee2e162238cc142c17b7c8.pptx
+3-Mike-2014-12-archsummit.pptx
+3 vmarket.ppt
+3.仇荣琦《欧拉回路性质与应用探究》.ppt
+3. 听云 - 移动应用性能揭秘.ppt
+3. 周彦伟 - 基于PXC的MySQL高可用架构探索.pptx
+3. 潘晓良 - 从小而美到中而美ppt.pptx
+3.郭华阳《RMQ与LCA问题》.ppt
+4399_caoz_前端优化.pptx
+4399网页游戏研究及商业模式浅析.pptx
+44823add739ae648402a318bb56602ac.ppt
+4779acbff26aeef85d0a1ec94ab609e1.pptx
+4f3222d2c14765f13198f268df6e37aa.ppt
+4 Hybrid组建实践-WindVane项目简述.pptx
+4-Wugansha-2014-12-19 ArchSummit.pptx
+4.余江伟《如何解决好动态统计问题》.ppt
+4.刘雨辰《对拟阵的初步研究》.ppt
+4.谭俊青 - 途牛多数据中心分布式数据库同步.pptx
+[4] 阿里数据同步前世今生.pptx
+50_Tips_Boost_MySQL.ppt
+50页PPT揭秘腾讯大数据平台与推荐应用架构.pdf
+5-chef-openstack.ppt
+5dc7bb8c62f9a280609287c954cc718d.ppt
+5fb0eba713de8f35a08b481531ef6e7e.ppt
+[5]分布式数据分析算法.pptx
+5. 吴斌伟 - 构建高可用可伸缩KV系统.ppt
+【5月5日讲座】系统平衡.pptx
+5.杨沐《浅析信息学中的“分”与“合”》.ppt
+5 跨平台体验融合.ppt
+5.陈雪《问题中的变与不变》.ppt
+62Liveperson-Openstack-Case-Study.pptx
+6af4e055ed0d5a1eabb33386e914494d.ppt
+6eae0b24aadec125e9a6a5bb5b439c45.ppt
+6-work with keystone.ppt
+6.何森《浅谈数据的合理组织》.ppt
+6.李宇骞《浅谈信息学竞赛中的线性规划——简洁高效的单纯形法实现与应用》.ppt
+7_Leif_Content_Delivery-in_a_DevOps_World.pptx
+7-云计算思考.pptx
+7. 欧阳康 - 快的打车Qcon分享 新.pptx
+7.胡伯涛《最小割模型在信息学竞赛中的应用》.ppt
+7.袁昕颢《动态树问题及其应用》.ppt
+8ecf33b8613916303ec551c667200485.ppt
+8.杨哲《凸完全单调性的一个加强与应用》.ppt
+8.陈瑜希《多角度思考 创造性思维》.ppt
+8. 黄光明 - 成功那个来源于创业初期的放弃和中后期的坚持.pptx
+92d1f53304489d5df8cb952b031af0e0.ppt
+9.周冬《生成树的计数及其应用》.ppt
+9.王欣上《浅谈基于分层思想的网络流算法》.ppt
+A 5 Minute Checklist for Application Monitoring.ppt
+a828e1feb65adf39b21e352ec0d97113.ppt
+About MySQL sync_binlog.pptx
+aboutssd.pptx
+Accelerate Your User Experience with Client-side JavaScript.ppt
+Accelerating Science with OpenStack.pptx
+Achieving Hybrid Cloud Mobility with OpenStack and XCP Presentation 1.ppt
+Actor_Akka.pptx
+ADC DBFree-阿里数据库自动化运维平台.pptx
+Add Reporting and Analytics to MySQL in 10 minutes.ppt
+AdMaster海量数据分析架构.pptx
+Advanced_SQL_Injection.ppt
+airbnb_Building LinkedIn's Real-time Data Pipeline.pptx
+Alibaba Service Framework Practice.pptx
+ali-tomcat.pptx
+AmrElssamadisy_Personal Agility - Invisible Impediments.pptx
+ANALYZING CLOUD NETWORK ARCHITECTURES.pptx
+An Analysis ofFacebook PhotoCaching.pptx
+Android动态部署与插件化.pptx
+Android安全那点儿事.pptx
+Android性能优化工程实践.pptx
+Android教程01-平台概述.ppt
+Android教程02-开发环境.ppt
+Android教程03-应用编程.ppt
+Android教程04-用户界面.ppt
+Android教程05-数据存取.ppt
+Android教程06-网络连接.ppt
+Android教程07-硬件访问.ppt
+Android设备体验优化.pptx
+AngularJS - HTML enhanced for Web-apps Presentation.pptx
+AngularJS 进阶实践.pptx
+Anti-fragility, Microservices & DevOps- A Study.pptx
+AOS.ppt
+ApacheconUS2007_ganglia_monitoring.ppt
+Apache Traffic Server - HTTP Proxy Server on the Edge Presentation 1.ppt
+API Design Principles for Accelerated Development.pptx
+Apollo Strong consistency at scale.pptx
+Application_Security_Logging.ppt
+APT 高级漏洞利用技术.pptx
+ArchSummit-201407 王海亚-天猫交易平台.pptx
+ASBJ2014-何崚-天猫五化战略下的电商架构（放出稿）.pptx
+ASBJ2014_刘彦伟_实时数据平台技术实践（v4）.pptx
+ASBJ2014-叶谦-移动大数据平台的一些实践经验.pptx
+ASBJ2014-周海鹏-TalkingData-大数据统计分析平台架构故事---TalkingData数据库架构变迁-终稿.pptx
+ASBJ2014-师文汇-OceanBase-支付宝交易O2O最佳实践.pptx
+ASBJ2014-张晋铭-微信红包技术分享（初稿）.pptx
+ASBJ2014_张献涛_虚拟化自研之路.pptx
+ASBJ2014-张珺-电商网站的多IDC部署下的缓存管理 v4.pptx
+ASBJ2014-朱凌-雅虎的移动云 终稿.pptx
+ASBJ2014_李锐_hbase上搭建广告实时数据处理平台.pptx
+ASBJ2014-李鹏涛-千万级电商物流系统是怎么练成的-终稿.pptx
+ASBJ2014_杨冀龙_从漏洞修复看各国网络战防御能力.ppt
+ASBJ2014-梁德伟-唯品会物流信息部技术部应用架构实践总结v1.2.pptx
+ASBJ2014-毕先春-互联网企业做智能硬件的那些坑（终稿）.pptx
+ASBJ2014-王晓钟-架构大流量稳定交易系统 终稿.pptx
+ASBJ2014_莫德友_去哪儿酒店交易系统架构实践.pptx
+ASBJ2014-郭彦儒-提升移动音乐服务的竞争力.pptx
+ASBJ2014-陆怡-互联网金融系统中的资金正确性保障-终稿.pptx
+ASBJ2014_陈晨-证券交易系统架构设计_挑战与实施经验分享 终稿.pptx
+ASBJ2014-韩拓-七牛产品演进之路.pptx
+ASshenzhen2014-章文嵩.pptx
+ASshenzhen2014-许立强-贴吧架构变迁史.pptx
+ASshenzhen2014-赵原-微信ANDROID客户端架构演进及其对开发流程的影响.pptx
+ASshenzhen2014－鲍大伦－唯品会技术架构面临的挑战和应对策略.v2.pptx
+Astronomy, Petabytes, and MySQL.ppt
+Async Javascript at Netflix.pptx
+Async Javascript at Netflix-reloaded.pptx
+Attacking Java Web.pptx
+Avatar-2011-技术嘉年华.pptx
+ava内存管理 Java Memory Management.ppt
+B2C电子商务EDM营销,赢在细节.ppt
+Backing Up Distributed MySQL Applications - Taking a Snapshot of a Thousand Dancing Dolphins.ppt
+BASH as a Modern Programming Language Presentation 1.ppt
+Being Elastic Evolving Programming for the Cloud.pptx
+bencane-usingsaltstackinhighavailabilityenvirontments-saltconf-140408165339-phpapp02.ppt
+bencane-usingsaltstackinhighavailabilityenvirontments-saltconf.ppt
+best-practices-for-integrating-a-third-party-portal-with-openstack.pptx
+Best Practices for Scaling Websites Lessons from eBay.ppt
+BigPipe_Backend.ppt
+bita应用.ppt
+BlockStorageNimble.pptx
+Blue host using openstack in a traditional hosting environment.pptx
+Bug Free的PHP开发实践——高春辉 .ppt
+Building a High-Volume Reporting System on Amazon AWS with MySQL, Tungsten, and Vertica.pptx
+Building a Modern Website for Scale.pptx
+Building and Improving Products with Hadoop.pptx
+Building-an-OpenStack-Community-in-your-Neighborhood.pptx
+Building a Real-Time Data Pipeline Apache Kafka at Linkedin.pptx
+Building a Webapp Step-by-Step   Presentation 1.pptx
+Building a Webapp Step-by-Step   Presentation 2.ppt
+Building a Website To Scale 200 Million page views per day and beyond!.pptx
+Building fast, scalable game server in node.pptx
+buildinglargescalecloudwithopenstackcascading.pptx
+Building_Recommandation_Platform.pptx
+Building Scalable Big Data Infrastructure Using Open Source Software.ppt
+Building Scalable Big Data Infrastructure Using Open Source Software Presentation 1.ppt
+Building Self-Adaptive Autonomous Infrastructure with an Advanced Monitoring Architecture.pptx
+Building Web Applications with MongoDB Presentation.ppt
+buildout-薛斌雷.ppt
+Burton-OpenStack-at-NSA_v2.pptx - markups.pdf
+c270f7acfc30666f2bb1ccc5a56765a6.ppt
+Cache(268 Pages).pptx
+Caffeine+Nicotine.pptx
+canal产品介绍.ppt
+canonical-keynote-openstack-in-production.pptx
+CAP 理论与实践.pptx
+CarlsonOpenstackSummitHK2013ESXv2.pptx
+Cascadb、TokuDB性能与适用场景分享.pptx
+case-study-comcast.pptx
+Case Study_ How Shifting to a DevOps Culture Enabled Performance and Capacity Improvements.pptx
+Cassandra实时统计分享.pptx
+Cassandra架构与应用.pptx
+cassandra运维之道.ppt
+cclvPresentation.ppt
+CDN与Web网站性能优化应用实践.ppt
+CDN工作原理.ppt
+Ceph Fundamentals.pptx
+CGDC_竞技游戏的平衡基础以及技巧.ppt
+Cgroup lxc在17173 iaas应用池中应用.pptx
+cgroup与单机资源管理.pptx
+Chef on MongoDB and Pyramid.pptx
+Cherian_Networking_in_the_Cloud_041613.pptx - markups.pdf
+christokutrovsky-oracle-memory-linux.pptx
+chrome多窗口核心技术探秘.ppt
+Chubby&Zookeeper原理及在分布式环境中的应用.pptx
+CI-with-Openstack-Summit-ATL-2014.pptx
+clojure.pptx
+CloudFoundry Introduction 2014-05-17.pptx
+cloudfoundryopenstackv21-140514102831-phpapp02.pptx
+Cloud Native NetflixOSS Services on Docker.pptx
+cloudportabilitywithmulti-cloudtoolkits.pptx
+CM--集群管理与负载均衡系统.pptx
+cntv互动--初步运维架构v2.pptx
+Cobar_data_migration.2011.03.ppt
+cobarSolution.ppt
+Cobbler+RDO.pptx
+Committing to Recommendation Algorithms.ppt
+CON2222_Prasad-CON2222.MySQL Performance Schema-Whats new in 5.7.pptx
+CON2314_Frank-OOW14_MySQL Central_WhatsNewin57V409292014Final.pptx
+CON2830_Lu-OptimizerOverviewOOW2014.pptx
+CON4337_Yang-InnoDB_rtree.ppt
+CON4478_Nozdrin-New Data Dictionary An Internal Server API That Matters.pptx
+Concurrency in Java Java_concurrent.pptx
+Configuring-a-BSN-PV-Neutron-Network-5-9-14.pptx
+CPU Cache and Memory Ordering.pptx
+CPU Cache and Memory Ordering(修改版).pptx
+CPU Cache Coherence & Memory Consistency.pptx
+CPU QoS介绍.pptx
+CPU高效编程技术.pptx
+CROSS-SITE-ATTACK.pptx
+CSRF 攻击-苏醒的巨人.pptx
+CSRF-苏醒的巨人.pptx
+c语言程序设计.pptx
+d34569ef31882b35ab0a4d5fefb1e00d.ppt
+d4rkwind：互联网公司通用XSS解决方案探讨.pptx
+d60df928dbb2c07eabf7f743d5ea7f7e.ppt
+David Dreman公司的逆向投资哲学与方法PPT.pdf
+day1_01_超大规模用户数据挖掘和推荐算法最新进展_孙国政.ppt
+day1_03_中国电信助力创新梦想_肖金学.pptx
+day1_04_人人写应用的系统平台—Web应用平台解析_潘爱民.pptx
+day1_06_简约之美_傅盛.pptx
+day1_07_腾讯开放平台的架构设计_陈磊.pptx
+day1_10_Netflix云端架构_王晓中.ppt
+day1_11_支付宝三年光棍节高可用系统架构的演变_胡喜.pptx
+day2_track1_01_天翼开放平台服务及架构解析_孙燚.pptx
+day2_track1_02_Cloud Foundry开放云平台_张轩宁.pptx
+day2_track2_03_移动云时代的输入法_秦添.pptx
+day2_track3_03_关注HTML5安全_蒋宇捷.pptx
+day2_track4_01_高性能系统实践_陈皓.pptx
+day2_track4_03_构建大型软件企业的自动化部署_任发科.pptx
+day2_track4_04_盘古的设计和应用实践_朱家稷.ppt
+day2_track4_05_ZooKeeper在携程的使用及前景_李欣.ppt
+day2_track4_06_公共云计算平台性能测试工具与方法_蒋清野.pptx
+day2_track5_01_认识Google Dart语言_蔡学镛.pptx
+day2_track5_04_JVM——多语言的平台_莫枢.pptx
+day2_track6_02_淘宝定向广告算法简介_王勇睿.pptx
+day2_track6_03_智能推荐系统的开发与应用_陈运文.pptx
+day2_track7_04_浏览器的多进程架构与渲染优化_王志刚.ppt
+DBFree-阿里数据库自动化运维平台.pptx
+dd9fa80ea0ca2338aed8eaa852f5cbed.ppt
+DDOS攻防体系建设v0.2(淘宝-林晓曦).pptx
+Deploying Apache Traffic Server Presentation 1.pptx
+Deploying from OpenStack Trunk into a Production Environment.pptx
+deploying-openstack-trunk-into-a-production-environment.pptx
+Deploying OpenStack using Crowbar.pptx
+Designing_Applications_Configuring_for_Best_Performance.ppt
+Designing Data Pipelines Using Hadoop.pptx
+Design_Patterns_for_Large_Scale_Data_Movement.pptx
+Developing and Deploying Hadoop Security Presentation.pptx
+DevOps介绍 .pptx
+Discuz!X模版开发.ppt
+dive-into-golang.ppt
+Divide _ Conquer _ Efficient Java for multi-core world.pptx
+DMP关键技术分享.pptx
+DNS攻击与防御.pptx
+Docker And DevOps.pptx
+Docker at DevTable.pptx
+dockercon-john-engates-rackspace.pptx
+dockerconkeynotejerrycuomo2-140610171801-phpapp01.ppt
+Docker-OpenStack.pptx
+docker_Write Once and REALLY Run Anywhere.pptx
+Docker 培训.ppt
+Driving Apache Traffic Server Presentation.ppt
+Druid数据库连接池介绍.pptx
+Dubbo开源.pptx
+e4d92fe875c9913894c63116603d2754.pptx
+eb528b81faa5f1aa3626e4b2eb2022a0.pptx
+Effective Code Review Presentation.ppt
+Effective linux.1.(commandline).ppt
+Effective linux.3.(diagnosis).ppt
+elasticsearch_sort.pptx
+elasticsearch分享.pptx
+emulator_implementation.ppt
+Enterprise-Grade-Scheduling-for-Openstack-Summit-ATL-May-2014.pptx
+Eric Brewer Dockercon 14 Keynote.pptx
+Erlang低成本云计算.ppt
+Erlang全接触.ppt
+erlang_分布式实战.ppt
+Erlang分布式系统的的领域语言.pptx
+Erlang及其应用.ppt
+Erlang应用优化指南.ppt
+Erlang开发实践.pptx
+Erlang游戏开发.ppt
+Erlang的高级特性和应用.ppt
+Everything I Learned About Scaling Online Games I Learned at Google and eBay 2.pptx
+Everything I Learned About Scaling Online Games I Learned at Google and eBay.pptx
+Exchange2010实战系列之服务器部署.pptx
+Exchange2010规划设计-岳雷.pptx
+Exchange2010高可用部署及配置-杜飞.pptx
+explain-format-json.pptx
+f75ef2cc86a3106ac2a4f5ce3ec330dc.ppt
+fabric Control your linux nodes with python.ppt
+Facebook and Open Source.ppt
+Facebook_Apollo Strong consistency at scale.pptx
+Falcon-Web服务器文件监控平台介绍.ppt
+FastDFS V3合并存储特性介绍.pptx
+FastDFS介绍.ppt
+FastDFS配置优化.pptx
+FastDHT.ppt
+Faster Than Alter - Less Downtime.ppt
+Fastjson介绍.pptx
+Fault injection实现原理与应用.pptx
+fed758287aea3e7ef2f04e38d0aae4b0.pptx
+ffacf41120f8f1eb99ccc2c4f9289a0b.ppt
+filesort与using where.pptx
+Filesystem as a service in OpenStack.pptx
+Final QCon 2014 Managing Services in a Lean Startup - Shobana Radhakrishnan.pptx
+Flash存储设备在淘宝的应用实践.pptx
+Flash独立游戏.ppt
+flex开发实践经验谈.ppt
+Flight Recorder.pptx
+From_awk_to_pig----LAMP人.pptx
+From SOA to MSA–Creating Adaptive and Innovation Supportive Architecture and Organization.pptx
+From the Monolith to Micro-Services.pptx
+galera replication for mysql.ppt
+Game server development in node hujs.pptx
+ganglia-monitoring-tool.ppt
+ganglia监控技术.ppt
+Gary--SPII.ppt
+GavinYang MADlib_PGCon_China.pptx
+Getting Started With OpenStack (Havana).ppt
+Get Your Replication On_ Advanced Techniques, Tips and Tricks.ppt
+Gloria Lau.ppt
+golang在京东的应用.pptx
+go-next-c.pptx
+Google_Analytics.pptx
+GoogleAnalytics培训交流PPT.ppt
+Google_Chubby 论文学习分享.ppt
+google-cluster-innards.ppt
+Google_Dremel.ppt
+Google_Managing Unix servers the slack way.ppt
+google_spanner_f1_胡炜.pptx
+Google Spanner_osdi12_spanner_slides.pptx
+Go Web基础-课堂讲义.pptx
+Go, 基于连接与组合的语言.pptx
+Go编程基础-课堂讲义.pptx
+Go语言.ppt
+Go语言高并发实战：构建千万级在线的实时消息推送服务.ppt
+Greenplum_DB_Architecture_Overview.ppt
+GreenplumHD-Isilon-Hadoop-Solution-tech.pptx
+Greenplum_Intro_Michael_客户演示中文版.ppt
+Greenplum_Intro.ppt
+Greenplum中SQL特征.ppt
+GreenPlum数据库培训资料.ppt
+Greenplum管理实践.ppt
+Growing the Site Reliability Team at LinkedIn_ Hiring is Hard.pptx
+H5页面滚动加速探索-发布.pptx
+Hadoop and HBase @eBay.pptx
+hadoopsummit2012_klout.pptx
+Hadoop与数据分析@taobao.ppt
+hadoop_介绍.pptx
+Hadoop介绍 基础篇.ppt
+hadoop实战培训1.ppt
+Hadoop综述.ppt
+hadoop讲解.ppt
+Hadoop运维杂记.pptx
+hadoop运维经验分享.pptx
+Hands On Mahout - Mammoth Scale Machine Learning Presentation.ppt
+HAProxy，负载均衡开源解决方案.ppt
+Harmonizing Multi-tenant HBase Clusters for Managing Workload Diversity.pptx
+Hash函数的设计优化.ppt
+HBase and Hive at StumbleUpon Presentation.ppt
+HBase and Pig_ The Hadoop ecosystem at Twitter.ppt
+HBase at Bloomberg.pptx
+HBase at Xiaomi.ppt
+HBase Design Patterns @ Y!.pptx
+hbase.pptx
+HBase@Taobao.pptx
+HBase, the Use Case in eBay Cassini.pptx
+hbase介绍-泽远.pptx
+Hbase源码初探.pptx
+HHVM.pptx
+Highly Available architectures with AWS.pptx
+High-Volume Data Collection and Real Time Analytics Using Redis.pptx
+Hive HBase Integration.ppt
+HopkinsPPTdeck.pptx
+HotSpot JVM Tuning.pptx
+hp-keynote-accelerating-cloud-innovation-with-openstack.pptx
+HTTP 2.0 - all the things.pptx
+HTTP2_FASTER_WEB_QCON_16_9.pptx
+iDB-阿里集团数据库服务平台(叶正盛-ADC).pptx
+IDC大会：新浪SAE架构与设计.ppt
+ID generation.pptx
+ifeve-ppt
+Immutable Infrastructure With Docker and EC2.pptx
+Increase the Flexibility of MySQL-based SOA Frameworks with a Data Access Layer.ppt
+Indexing_Best_Practices_56.pptx
+Innodb_memcached.pptx
+InnoDB Plugin_ Performance Features and Benchmarks.ppt
+InnoDB Transaction Lock and MVCC--7月6日.pptx
+InnoDB Transaction Lock and MVCC.pptx
+InnoDB压缩表优化.pptx
+inside browser 在浏览器的背后.pptx
+Inside-Erlang-VM.ppt
+IntelOpenStorageAtlantaSummitv8.pptx
+interactive-visual-orchestration-with-curvature-and-donabe.pptx
+Intra-cluster Replication for Apache Kafka.pptx
+Introduction to Apache Kafka.pptx
+Introduction to ExpressJS Presentation.pptx
+Introduction to OpenStack Architecture.pptx
+introduction to sharding.pptx
+introduction-to-taobao-cdn.pptx
+iOS Presentation R05.ppt
+iOS应用逆向工程.pptx
+Ipmi Server Management.ppt
+IP地址及子网划分.ppt
+IP子网划分.ppt
+ISC2014 中国互联网安全大会PPT
+Java7 fork join framework and closures.ppt
+Java Crash分析.pptx
+Java Memory Problem Cases Solution.pptx
+Java Performance Monitoring & Tuning.ppt
+JavaScript is Everywhere Presentation.pptx
+JavaScript 安全从浏览器到服务端.ppt
+JavaScript安全从浏览器到服务端.ppt
+JavaScript引擎之SpiderMonkey在移动开发中的应用.ppt
+JavaScript引擎实现.pptx
+java_servlets.ppt
+java-servlets.ppt
+java@taobao.ppt
+Java内存管理问题案例分享.pptx
+Java动态代理.ppt
+JAVA动态代理及在HSF中的应用.ppt
+Java垃圾收集原理.ppt
+Java常见问题排查.pptx
+Java并发编程培训.ppt
+Java并发编程的常见陷阱.pptx
+Java版存储与搜索技术沙龙.pptx
+Java编程杂项.pptx
+JBOSS连接池原理及优化.ppt
+JDBC优化的意外之旅---樊振华.pptx
+Jetty7核心架构PPT.pdf
+jianianhua-hadoop（周忱）.pptx
+JStorm-introduce.pptx
+jvm-taobao.pptx
+JVM内存管理和垃圾回收.ppt
+Jvm内存管理基础.ppt
+JVM内存问题最佳实践.ppt
+JVM参数调优及JAVA工具使用.pptx
+JVM状态监控与OOM案例分析.ppt
+JVM那些事.ppt
+Kafka A distributed publish-subscribe messaging system.pptx
+Kafka high-throughput, persistent, multi-reader streams.ppt
+keynote-openstack-at-the-national-security-agency-nsa.pptx
+KISSY 的昨天、今天与明天.pptx
+LAMP 之 linux.pptx
+Large scale near real-time log indexing with Flume and SolrCloud.pptx
+LDAP基础培训资料.ppt
+Learning HBase Internals - Lars Hofhansl, Salesforce.ppt
+Learning MySQL Step By Step.pptx
+LessonLearnedBuildingPaypalCloud-Final-Presentation.pptx
+Lessons Learned from Migrating 2+ Billion Documents at Craigslist.pptx
+Lessons Learned in Building a Highly Scalable MySQL Database.ppt
+Life on the Edge with ESI.ppt
+Lincoui ppt.pdf
+linkedin-safetywithpowertools-saltconf.pptx
+linux_network_stack_hack.ppt
+linuxswitch-hong-kong.pptx
+Linux下的MySQL调优.ppt
+linux-内存管理.pptx
+Linux内存管理.pptx
+Linux存储IO栈分析 .pptx
+lua_&_ngx_lua_的介绍与应用.pptx
+LXC(Linux Container).pptx
+LXC技术交流.ppt
+Making_Backup_Extreme.ppt
+mandev_ganglia_monitoring.ppt
+mapreduce.ppt
+Marketcetera_Automated Trading's Brave New World_ Speed Flexibility and Competitive Advantage Through Open Source.ppt
+MarkPollack_SpringOneChinaKeyNote-MLP-v4-no-extrabookpics-Chinese.ppt
+Mathematica教程.ppt
+maven培训.ppt
+MB-Openstack-Nov2013v7.pptx
+MEIZU_LVS_Cluster.pptx
+Memcached使用及原理.ppt
+MEM_Introduction.ppt
+mesos A Platform for Fine-Grained Resource Sharing in the Data Center.ppt
+metamorphosis_open.pptx
+ML2-Past-Present-and-Future.pptx
+MMO RPG development based on Pomelo.pptx
+Modern Garbage Collection in Theory and Practice (Sasha Goldshtein).pptx
+MogileFS.ppt
+mongoDB02.pptx
+mongoDB03.pptx
+mongoDB04.pptx
+mongoDB05.pptx
+mongoDB06.pptx
+mongoDB07.pptx
+mongoDB08.pptx
+mongodb at ebay.pptx
+mongodbbeijing-indexingandqueryoptimization1-130401140224-phpapp02.pptx
+mongodbbeijing-schemadesign-130401135145-phpapp02.pptx
+mongodb in action.pptx
+mongodb.ppt
+monitormysqlwithopentsdb-box.pptx
+Multicore Programming Course appendix_02.pptx
+Multicore Programming Course barriers-tut11.pptx
+Multicore Programming Course chapter_01.pptx
+Multicore Programming Course chapter_02.pptx
+Multicore Programming Course chapter_03.pptx
+Multicore Programming Course chapter_04.pptx
+Multicore Programming Course chapter_05.pptx
+Multicore Programming Course chapter_06.pptx
+Multicore Programming Course chapter_07.pptx
+Multicore Programming Course chapter_09.pptx
+Multicore Programming Course chapter_10_and_11.pptx
+Multicore Programming Course chapter_12.pptx
+Multicore Programming Course chapter_13.pptx
+Multicore Programming Course chapter_16.pptx
+Multicore Programming Course chapter_17.pptx
+Multicore Programming Course chapter_18.pptx
+Multicore Programming Course concurrent-tut4.pptx
+Multicore Programming Course consensus-tut6.pptx
+Multicore Programming Course counters-tut12.pptx
+Multicore Programming Course intro-tut1.pptx
+Multicore Programming Course intro-tut2.pptx
+Multicore Programming Course list-rwlock-tut9.pptx
+Multicore Programming Course mutex-tut3.pptx
+Multicore Programming Course questions-tut14.pptx
+Multicore Programming Course shared-sync-tut5.pptx
+Multicore Programming Course skip-list-tut10.pptx
+Multicore Programming Course spin-tut8.pptx
+Multicore Programming Course universal-tut7.pptx
+multi-hypervisoropenstackwithvsphere.ppt
+multitenant-storage.ppt
+Multi-terabyte MySQL Data Warehouses-Absolutely.ppt
+MVCC (Oracle, Innodb, Postgres).pptx
+MyFOX_扩容与数据迁移.pptx
+mysql 5.6 nutshell -- 性能优化.pptx
+MySQL 5.6新特性深入剖析——InnoDB引擎.pptx
+MySQL and Linux tuning - better together.ppt
+MySQL_Cluster_Overview.pptx
+MySQLConference2012HighAvailabilityDeepDive.pptx
+MySQL Database Replay---王斌.ppt
+mysql_divideandconquerinthecloud.pptx
+mysqlexplain-MySQL执行计划解读.ppt
+MySQL Fabric 白皮书& PPT
+MySQL_High_Availability_Architectures.ppt
+MySQL in eBay’s Personalization Platform.ppt
+MySQL in the Cloud - Endless Possibilities.pptx
+MySQL-Introduction-and-Performance-Optimization.ppt
+Mysql-mmm实现High Availability.ppt
+《mysql-mmm实现mysql-HA》《瞬间表锁---mmm-tools实快照速备份和还原》.ppt
+MySQL Relication技术深入.ppt
+mysqlsetupv5final-121001160758-phpapp02.pptx
+MySQL - Still the Best Choice for Mission-Critical Data.pptx
+MySQL_WorkBench.ppt
+MySQL与CPU.ppt
+MySQL与IO(上).ppt
+MySQL与锁.ppt
+MySQL与锁(上).ppt
+MySQL与锁(下).ppt
+MySQL主从同步 原理 问题 解决方案和应用.ppt
+MySQL云平台和Erlang实现.pptx
+MySQL优化之filesort.pptx
+MySQL入门及运维经验分享.pptx
+MySQL压力测试经验.pptx
+MySQL和IO(下).pptx
+MySQL在云端，阿里云对MySQL的源码改进（彭立勋）.pptx
+MySQL基础技能与原理――基本原理.ppt
+MySQL基础技能与原理――基础技能.ppt
+MySQL基础技能与原理――高级应用.ppt
+MySQL复制.pptx
+MySQL 并行复制.ppt
+mysql性能优化2.ppt
+MySQL性能优化.ppt
+MYSQL性能调优工具介绍.ppt
+MySQL数据库运维管理基础知识.ppt
+MySQL数据库运维管理基础知识.pptx
+MySQL源码分析——Handler API.ppt
+MySQL源码分析——InnoDB物理文件格式.ppt
+mysql 源码分析.ppt
+MySQL源码分析——代码结构与基本流程.ppt
+MySQL硬件加速及HA高可用.ppt
+MySQL管理基础.ppt
+MySQL线上SQL捕获及分析[20141117].ppt
+MySQL线程池实现.ppt
+MySQL迁移、拆分技巧.pptx
+mysql高可用性.ppt
+Networking in the cloud-An SDN primer.pptx
+Networking in the Cloud An SDN Primer.pptx
+NeutronScale-1.pptx
+Neutron-Scaling-Atlanta.pptx
+NewIT-And-OpenStack.pptx
+Nginx源码分析与导读.ppt
+NLP在豆瓣标签系统中的应用.pptx
+Node.js-based Distributed MySQL Proxy.ppt
+nodejs一小步前端开发一大步(d2).pptx
+nodejs在朋友网的实践-7.0.pptx
+nodejs异步_原理和缺陷.pptx
+Notes of JCIP.pptx
+Nova for Physicalization and Virtualization compute models.pptx
+OceanBase_2013技术嘉年华.pptx
+Ocean base --千亿级海量数据库-2011数据库大会.pptx
+OceanBase--淘宝结构化大数据解决之道.pptx
+oceanbase-破解数据库高可用难题.ppt
+OneSQL_OneProxy_Practise.pptx
+OpenFlow.ppt
+Openflow交换机初步安装教程@openflow世界.ppt
+OpenNebula系统架构.pptx
+OpenStack-101.pptx
+openstack-120813112936-phpapp01.pptx
+Openstack2天培训PPT.pdf
+openstackatlanta2014tucker-140512173450-phpapp01.pptx
+OpenStack-Atlanta-Ceph-talk-Final.-pptx2.pptx
+OpenStack at NSA.pptx
+Openstack@ebay.pptx
+openstack_HEAT部署Hadoop集群 HEAT-Hadoop-App-Demo.pptx
+OpenStack in Sina.pptx
+Open stack journey from folsom to grizzly.pptx
+OpenStack on NSA.pptx
+OpenStackOnVMwareDeepDive.pptx
+openstack-quantum-architecture.ppt
+OpenStack Quantum.pptx
+OpenStack Storage.ppt
+OpenstackSummitHK2013HighAvailv5-1.pptx
+openstackswiftarchitectureandmonitoring-120506193842-phpapp01.ppt
+OpenStack-TechTalk-PA24.pptx
+OpenStack vs CloudStack.pptx
+OpenStack vs VMware.pptx
+OpenStack在企业持续集成中的实战.pptx
+openstack安全机制解析.pptx
+Openvswtich.pptx
+Operationalizing MongoDB at AOL.pptx
+Oprofile_Linux.ppt
+optimizing-vm-images-for-openstack-with-kvm-qemu.pptx
+Optimizing VM images for OpenStack with KVM QEMU.pptx
+Option-期权.ppt
+orchestration-of-fibre-channel-technologies-for-private-cloud-deployments.pptx
+os1-2006.ppt
+os2-2006.ppt
+os3-2006.ppt
+os4-2006.ppt
+os5-2006.ppt
+os6-2006.ppt
+os7-2006.ppt
+os8-2006.ppt
+os9-2006.ppt
+oschina+技术架构介绍.ppt
+oscon2013jesseanderson.pptx
+oscon_scal_perf.ppt
+osdba PostgreSQL锁分析.pptx
+OSGi理论和实战.pptx
+OSSEC_Log_Mangement_with_Elasticsearch.pptx
+OS_Summit_Portland_Images.pptx - markups.pdf
+otter4使用介绍.pptx
+OWASP杭州2013年春季WEB应用安全沙龙.pptx
+OYE - AMD模块化开发部署实践.ppt
+PaaS Design and Architecture A Deep Dive intoApache Stratos.pptx
+pálya计数法的应用.ppt
+Panel_ How Solid-state Technologies are Transforming MySQL Server Performance and the Datacenter Architectures1.pptx
+Panel_ How Solid-state Technologies are Transforming MySQL Server Performance and the Datacenter Architectures 2.pptx
+Panel_ How Solid-state Technologies are Transforming MySQL Server Performance and the Datacenter Architectures 3.ppt
+Panel_ How Solid-state Technologies are Transforming MySQL Server Performance and the Datacenter Architectures4.ppt
+panel-writing-the-openstack-operations-guide-in-5-days.pptx
+paxos-分布式一致性协议.ppt
+Percona Server_ secret features.pptx
+Percona Server_ secret features Presentation.pptx
+Percona_XtraDB_Cluster_运维实践.pptx
+Performance Characteristics of Traditional VMs vs Docker Containers.pptx
+PHP在金山游戏运营中的应用.ppt
+PHP项目持续集成_-_Jenkins.ppt
+PNUTS Presentation 1.ppt
+PostgreSQL 2012 中国大会.ppt
+ppt
+PPTV LB日志实时分析平台.pptx
+PPTV Webcdn实践.pdf
+PPTV Zabbix实践.pdf
+PPTV分布式装机系统_public.pdf
+PPT.zip
+PPT演义-100%幻灯片设计密码.pdf
+PPT精髓.pptx
+Presentation_of_ListMLE_读书会第8期.ppt
+presto overview.pptx
+Prodution Architecture and Deploymentwith Fabric.ppt
+Project RedDwarf - Database Services in the Cloud.pptx
+prom实时计算.ppt
+PS_Helper.ppt
+Puppet at Spotify.pptx
+Puppet for Production in WebEx.pptx
+puppetrev6.ppt
+puppet在PPTV的应用.pptx
+Puppet 应用与架构.ppt
+Puppet的使用与管理.ppt
+qcon2012 Making things Work Together.pptx
+QCon Continuous Delivery Tutorial - Black.pptx
+qcon-jmagnusson-netflix-data-platform.pptx
+QCon-PayPal.pptx
+qcon_ppt-final-nocomment.pdf
+QCon.pptx
+QConSF-MicroServices-IPC-Netflix-Sudhir-2014.pptx
+QCon_SWIFT-2014-11-03.pptx
+QCon成都主题演讲【Modern Java programming with Spring】by Michael Isvy.ppt
+QCon成都主题演讲【弹性计算】by马介悦.pptx
+QCon成都分享捕鱼达人【游戏全平台利器】.ppt
+QCon成都分享【航班管家－从零到千万】史册伟.pptx
+QCon成都【地图WebApp跨平台开发实践】by李雪韬 .pptx
+QCon成都【如何构建安全的应用】by赵武.pptx
+QQGame后台架构及开发介绍.ppt
+quantum networks.ppt
+Quantum PTL Update - Grizzly Summit.pptx
+quantum-technical-archicture.ppt
+Quantum_ What It Is and Where It_s Going Presentation.ppt
+Qunar前端自动化解决方案_-_fekit.ppt
+R2D2_ Linkedin_s Request_Response Infrastructure Presentation.ppt
+rabbitmq_for_Asynchronous Messaging for Performance Optimization.pptx
+rails-bestpractices-com.ppt
+RDS最佳实践--用户版，玄惭.ppt
+Realtime_Analytics_at_Facebook.pptx
+Realtime Analytics using MongoDB, Python, Gevent, and ZeroMQ.ppt
+Real-time Big Data Analytics_ From Deployment to Production Presentation.pptx
+Real Time Network Analytics with Storm.ppt
+Real Time Network Analytics with Storm Presentation.ppt
+Real-time Streaming and Data Pipelines with Apache Kafka.pptx
+Real time web实时信息流推送.ppt
+Recommender System at Scale Using HBase and Hadoop.pptx
+RecSys China 2012-Recommendation anywhere, anytime in hulu.pptx
+RecSys China 2012-wangyi - user targetting ads.pptx
+RecSys China 2012-探索CoreEngine.pptx
+redis-memcached源码分析.ppt
+Redis介绍.pptx
+Redis 介绍 -田琪.ppt
+redis分享.ppt
+Redis深入浅出.ppt
+Rest.li and Deco.pptx
+Robust Containers.pptx
+ROPs are for the 99% - KCon.pptx
+RTB 优化算法.pptx
+Ruby 在京东云擎中的使用_朱琅.ppt
+Running Multiple MySQL Instances On a Single Server.ppt
+Running Yarn at Scale.pptx
+SAE Enterprise.pptx
+sae_technique_brief.ppt
+Salt@LinkedIn.pptx
+SAN基础培训文档.ppt
+Scala at Netflix.pptx
+Scalable game server framework on node.pptx
+scalable systems management with puppet.ppt
+scala-days-keynote.pptx
+scala_in_laiwang.ppt
+scalaLecture.pptx
+scala-the-simple-parts.pptx
+scala_type_system.pptx
+Scala中的函数与闭包.ppt
+Scala类型系统.pptx
+scaling-in-the-cloud-the-hype-and-happenings-of-software-defined-networking.pptx
+Scaling MySQL in the Cloud.ppt
+Scaling MySQL - Sharding Made Easy!.pptx
+Scaling MySQL Using Fabric.ppt
+scaling.ppt
+Scaling SQL and NoSQL Databases in the Cloud.pptx
+Scaling with MongoDB.pptx
+Scaling with MySQL using Materialized Views and a Shared Everything architecture.ppt
+SDN-And-OpenStack.ppt
+SDN-Performance-Evaluation-OS-Summit-v11-Final.pptx
+securing-openstack-with-freeipa.pptx
+Sensor Network Data Collection and Storage Presentation.ppt
+SharedMemory.ppt
+sheepdog2.ppt
+Sheepdog_ yet another all in-one storage for openstack.ppt
+sH：Having Fun with XML Hacking.pptx
+Shuffle规则引擎在银行交易系统中的应用.pptx
+Sid_Anand_QCon_SF_2014_WIP_6.pptx
+SIGNALS.ppt
+sinatra.ppt
+skynet_基于 Actor 模式的开源并发框架.ppt
+sns底层架构--淘宝技术嘉年华--SNS少昊.pptx
+SNS 攻击与防御_2010.pptx
+SNS 攻击与防御_2011.pptx
+SOA & EDA.pptx
+Software Defined Networking_ Adding Network Agility to the Cloud Presentation.pptx
+Software_Fault_Interactions.ppt
+Software Fault Tolerance .ppt
+Spanner技术分析.ppt
+Spanner组内技术交流.pptx
+Spark and Shark.pptx
+Sphinx全文检索实践指南2.ppt
+Sphinx 全文检索实践指南.ppt
+SplayTrees.ppt
+Spring MVC 3.0实战指南.ppt
+sqlautoreview.ppt
+Sql Server Performance Tuning.ppt
+ssd_in_taobao.ppt
+ssdintaobao大话SSD.ppt
+SSD 商品库MySQL优化实践.ppt
+SSD简单介绍.pptx
+Storage as a service and OpenStack Cinder.pptx
+Storage as a service OpenStack.pptx
+Storage with Ceph.ppt
+storm-ppt.pdf
+Strata 2013 - LinkedIn Endorsements  Reputation, Virality, and Social Tagging.pptx
+strata-endorsements-130304111839-phpapp02.pptx
+Stratus-Demo-Session-OpenStack-2014-140512.pptx
+structurepersonalizationscale-adeepdiveintolinkedinsearch.pptx
+Sun JDK 1.6 GC.pptx
+Superhei：去年跨过的浏览器.ppt
+Swift Architecture and Practice.ppt
+SwiftbenchmarkingAtlanta-Final.pptx
+SystemTap–Linux下的万能观测工具.ppt
+Systemtap.ppt
+SystemTap介绍.ppt
+tbschedule.pptx
+tcpcopy-阿里技术沙龙.ppt
+TCP-IP协议详解.ppt
+TCP协议.ppt
+TCP协议.pptx
+Teaching Machines to FishHow eBay Improves Itself.ppt
+techniques-for-managing-your-openstack-cloud.pptx
+tengine_2013adc.pptx
+Tengine 淘宝开源.pptx
+tengixao实时个性化系统和应用.pptx
+TFS_Nginx模块实现.pptx
+The Big Data Ecosystem at LinkedIn.pptx
+The Big Data Ecosystem at LinkedIn Presentation 1.ppt
+The eBay Architecture.ppt
+The Game of Operations and The Operation of Games.pptx
+The Importance of Culture Building and Sustaining Effective Engineering Organizations.pptx
+The Ins and Outs of Layer 4+ Switching.ppt
+There_s Money In The Metrics_ 3 Reasons Why You Need RUM Presentation.pptx
+Thinking Clearly about Performance (Cary Millsap PPT).pdf
+thomasjackson-linkedin-safetywithpowertools-saltconf.pptx
+Thrift+scribe实现分布式日志收集，并与log4j集成.pptx
+tohireortotrain.pptx
+Tomcat7核心架构PPT.pdf
+Tools_Taxonomy.ppt
+Trie图的构建、活用与改进.ppt
+Tsar介绍.pptx
+UcenterApp同步登录通信详细过程.jpg
+UC_InnoDB monitoring System_final1.ppt
+udev-Introduction to device management in Linux.ppt
+UGF4378_Shapira-Twitter with Hadoop for OOW.pptx
+UKOUG, Lies, Damn Lies and IO Statistics.pptx
+Uliweb比较与实践-2013-limodou .ppt
+Understanding MySQL Performance through Benchmarking.ppt
+Unit_test_in_action.pptx
+using-openstack-in-a-traditional-hosting-environment.pptx
+Using SaltStack in High Availability Environments.ppt
+vancl凡客技术发展历程分享.pptx
+VANCL的品牌营销策略.ppt
+velocity 介绍.ppt
+Video Analysis in Hadoop.pptx
+Virtuous Cycle(s) of Velocity What I Learned About Going Fast at eBay and Google.pptx
+VL14_Assembly_at_the_Edge.ppt
+VLDB_2012_论文学习_何登成.pptx
+VLDB_talk_Wei_Cao.ppt
+VMware-OpenStack-Atlanta-Summit.pptx
+vspherewithopenstack.ppt
+w3ctech2013上海PPT
+WAD(Web Application Detector).pptx
+Watching Pigs Fly with the Netflix Hadoop Toolkit.pptx
+Web2.0的运营监控及数据统计.pptx
+WebRTC-Web版微信的实现-周杰.pptx
+web-scale mysql at facebook.pptx
+Web并发模型粗浅探讨V3.pptx
+WEB应用安全防护技术探讨.pptx
+WEB应用开发中的安全算法使用策略.pptx
+Web应用的组件化开发（一）.ppt
+Web开发与运维安全浅见.pptx
+WEB流量监控防御系统.pptx
+What every data programmer needs to know about disks.pptx
+What's New in the Berkeley Data Analytics Stack.pptx
+Whitepages Practical Experience Converting from Ruby to Reactive.pptx
+whyrelationshipsarecoolbutjoinsucks-131207141843-phpapp01.ppt
+xen虚拟化技术交流.ppt
+XSS Virus探究_cosine.ppt
+XSS Virus 探究.ppt
+YoCo Smart：终端机的多样化安全问题与利用.ppt
+ＭySQL不同分支特性及现状.pptx
+Zdal-datasource连接池介绍.ppt
+Zdatasource连接池原理及优化.ppt
+zfs.ppt
+zfspresentation.ppt
+Zookeeper的应用.ppt
+ZoomEye+V2.ppt
+ZoomEye简介及架构设计.pptx
+ZTQ：基于Redis的任务队列实现.pptx
+一个安全工程师眼里的搜索引擎安全.pptx
+一个技术创业的故事.ppt
+一个资深乙方DBA的运维理念.pptx
+一淘数据沙龙《一淘数据实时流处理技术变迁》.pptx
+一淘数据沙龙《新一代实时数据处理系统Storm》.pptx
+一站式搜索服务平台-Tsearcher.pptx
+一类搜索的优化思想——数据有序化.ppt
+一类猜数问题的研究.ppt
+一类算法复合的方法.ppt
+七牛云存储详解.ppt
+七牛的运维实践.ppt
+世纪佳缘监控体系分析.ppt
+业务逻辑数据自动化迁移案例.pptx
+个性化搜索技术和应用.pptx
+个性化的双11-个性化推荐技术的应用.pptx
+个股期权培训材料.ppt
+个股期权培训课件.pptx
+中大型规模的网站架构运维_SAAC.pptx
+中小企业组网--大侠唐在飞.ppt
+为啥别读HotSpot VM的源码.pptx
+主会PPT
+主库自动切换“漂移”.pptx
+了解cpu.pptx
+了解IO协议栈.pptx
+了解IO设备.pptx
+了解内存.pptx
+了解网络 .pptx
+了解集群.pptx
+二分图的算法及应用.ppt
+二分法与统计问题.ppt
+二分策略在信息学竞赛中的应用.ppt
+云后端之文件服务架构分享-Bmob何少岳+.pptx
+云存储与网络.pptx
+“云存储系统”赏析系列三：sql nosql.pptx
+“云存储系统”赏析系列三：SQL与NOSQL.pptx
+云端系统设计原则.ppt
+云计算时代的安全格局变化.pptx
+云计算李明宇oschina分享slides.pptx
+互联网产品运营全面解析.ppt
+互联网公司通用XSS解决方案探讨.pptx
+互联网用户安全及淘宝应对.ppt
+互联网级别的监控分析和应急处理.pptx
+产品分会-Socializing mobile games - The Zynga experience.pptx
+产品分会-崔浩--做好产品生命周期0829.ppt
+产品分会-邹剑锋--技术报告 for cocochina 秋季.pptx
+产品安全之道.ppt
+产品进化论.pptx
+人人网服务化与架构变迁v3.pptx
+从PF看APP游戏设计--李靖.ppt
+从产品到运营.pptx
+从双十一看天猫订单数据对接及订单流程优化.pptx
+从小H的小屋的解法谈算法的优化.ppt
+从立体几何问题看降低编程复杂度.ppt
+从系统视角到数据视角的安全思维转换-YOCSEF.pptx
+任强-京东智能云服务平台-V3.0.pptx
+企业所得税常见避税、偷税手段.ppt
+企业提高粉丝活跃度.ppt
+企业的云计算旅程，孙素梅.pptx
+优化，再优化！——从《鹰蛋》一题浅析对动态规划算法的优化.ppt
+会员营销之路.ppt
+会员营销之路@淘宝商学院.ppt
+伽勒-Android自动化测试.pptx
+低成本和高性能MySQL云架构探索_v1.ppt
+何伟平 那些年我和postgresql的那些事.pptx
+何雄 龙芯3A上PostgreSQL初探.ppt
+你不知道的JavaScript.pptx
+你用的WebInspector是怎么实现的.pptx
+你的网站是怎么被黑的.pptx
+使用AngularJS开发下一代WEB应用.ppt
+使用Cocos2d-x的手机游戏开发.ppt
+使用Hudson持续集成.pptx
+使用MT快速搭建移动端webapp.ppt
+使用Rpm&yum进行基础软件管理.pptx
+使用RPM封装软件包.pptx
+信息学中守恒法的应用.ppt
+信息论在信息学竞赛中的简单应用.ppt
+债券价值分析.ppt
+停不下来的推荐实践 陈开江.pptx
+元耀-iOS测试实践.pptx
+六种有效的开发模型 携程 叶亚明.pptx
+关于Go语言的思考.ppt
+关于产品推广的那些事儿-Yven.pptx
+关于遗传算法应用的分析与研究.ppt
+关联规则挖掘.ppt
+内部分享——3堂课.pptx
+冯春培_数据库与主机结合趋势探讨.pptx
+减少冗余与算法优化.ppt
+分布式mysql的美丽说实现.pptx
+分布式 XMPP Server.ppt
+分布式数据库DDB introduce.pptx
+分布式文件系统FastDFS架构剖析.pptx
+分布式文件系统概况及FastDFS介绍_余 庆.ppt
+分布式系统日志处理调研.pptx
+分布式计算与Hadoop.pptx
+刘海锋-京东文件系统简介.pptx
+创业团队开发手机网游的故事.ppt
+利率机制.ppt
+利用OAuth劫持用户身份.ppt
+利用开源CDN构建防御DDoS.pptx
+利用新硬件提升数据库性能.pptx
+别告诉我你懂PPT.pdf
+别让我思考.ppt
+前端开发体系设计.ppt
+前端开发规范.ppt
+前端性能优化及开发工具.ppt
+匹配算法在搜索问题中的巧用.ppt
+十分钟构建高性能微信后台.pptx
+半平面交的算法及其应用.ppt
+华为战略部：山寨手机蓝海战略.ppt
+华科大 湖南大学面试 算法讲座综合.ppt
+协同搜索.pptx
+卢东明_SYBASE列式数据库+CEP.ppt
+去IOE主题交流.ppt
+去哪儿网可用__消息队列.pptx
+去年跨过的客户端.pptx
+去年跨过的浏览器.ppt
+参数搜索的应用.ppt
+双11-淘宝下一代架构的成人礼ArchSummit4-3.pptx
+双十一数据库核心技术.pptx
+叠合式文件系统——overlayfs.ppt
+古楠《平面嵌入》.ppt
+史上最强的PPT450页.ppt
+史上最强的PPT图表合集韩版773页.ppt
+后缀数组.ppt
+君山_Spring在淘宝业务系统中的应用.ppt
+吸引新用户—征途如何制造虚假繁荣--盛大分析版.ppt
+周冬《两极相通——浅析最大—最小定理在信息学竞赛中的应用》.ppt
+周卫国_MS SQL Server集群技术的探讨_格瑞趋势.ppt
+周淳_dm20100402.ppt
+周爱民 --《架构的核心指导原则》.ppt
+唐成 greenplum数据库经验谈.pptx
+商业地产基础培训.ppt
+园区网IP地址规划.ppt
+园区网IP连通模式分析.ppt
+园区网OSPF规划与部署.ppt
+园区网VLAN规划与部署.ppt
+园区网出口常见应用模型.ppt
+园区网设备接口互联.ppt
+国债逆回购投资机会.ppt
+国外投行的公司价值估值模型.ppt
+图论的基本思想及方法.ppt
+垂直抓取系统 - EtaoSpider.pptx
+基于 Google protobuf 的 webgame 网络协议设计.ppt
+基于Hadoop_HBase的一淘搜索离线系统.pptx
+基于Hadoop平台的亿贝用户邮件数据分析(苏立).pdf
+基于hbase的实时计算分享.ppt
+基于 Lua 开发网络游戏.ppt
+基于Node.js的数据库中间层_qcon2013.pptx
+基于Node.js的游戏服务器框架pomelo.pptx
+基于OpenVPN构建企业级VPN应用.ppt
+基于relaylog的failover.pptx
+基于分布式系统的粗粒度锁服务Chubby_paper.ppt
+基于连通性状态压缩的动态规划问题_Cdq.ppt
+基本数据结构在信息学竞赛中的应用.ppt
+增值税的常见避税、偷税手段.ppt
+多串匹配算法及其启示.ppt
+多浏览器兼容性测试平台xbrowser剖析--李海静2.ppt
+多项式乘法.ppt
+大众点评新架构.pptx
+大国空巢.ppt
+大型SNS网站数据库设计.pptx
+大型互联网自动化安全测试.pptx
+大型园区网络冗余部署.ppt
+大型应用软件架构的变迁.ppt
+《大掌门》开发经验分享.pptx
+大数据时代的个性化推荐系统.ppt
+大数据时代的个性化推荐系统_V.ppt
+大规模互联网用户密码泄露风险控制对策.ppt
+大规模团队的Android开发.pptx
+天猫推荐_20120828.ppt
+天猫服务系统的架构和经验.pptx
+天羽-Mysql基于SSD_flashcache实践.pptx
+《天龙八部》研究报告.ppt
+夸父通讯中间件.pptx
+如何优化JAVA应用.pptx
+如何将访问转化为交易.ppt
+如何成为优秀的运维架构师.ppt
+如何用python开发运维友好的程序-李雨来.ppt
+如何用百度统计监控和优化效果201007更新.pptx
+如何阅读研究报告2011.ppt
+孙鹏 无包依赖PostgreSQL RPM包制作初探.pptx
+宁海元_构建高可用数据库监控系统_更新.pptx
+安全峰会-腾讯云.ppt
+宋一平_Sybase 数据管理高可用性实践.pptx
+宗岱-Tair-分布式KV系统.pptx
+实时消息推送系统.ppt
+客户类型及应对技巧-阿里巴巴alibaba培训.ppt
+对MySQL的一些改进想法和实现.pptx
+对于一道题目的深入分析.ppt
+对块状链表的一点研究.ppt
+小米网秒杀系统设计经验与问题_ADC.ppt
+小雨：ZoomEye简介及架构设计.pptx
+就这么做产品.ppt
+左偏树的特点及其应用.ppt
+市场分会-AdMob_cocoachina_20120901(1).ppt
+市场分会-李植--国内android游戏如何突围V2.pptx
+师陀 -广告引擎的索引设计实现和性能优化 .ppt
+希羽刘辉-高并发热点更新性能优化.ppt
+常用开源NoSQL原理与应用.ppt
+平衡规划——浅析一类平衡思想的应用.ppt
+平面图在信息学中的应用.ppt
+并发编程实战.pptx
+幻悟ios客户端稳定性.pptx
+序的应用.ppt
+应用层分布式防御体系.pptx
+开发-运维-开发，一路走来的收获与感悟.pptx
+开放平台产品技术发展.ppt
+开放平台多样化服务及分布式即时分析集群介绍与交流PPT.pptx
+开源应用日志收集系统 .pptx
+异步化分享.pptx
+异步编程.ppt
+张乐奕_IT168_RAC_LoadBalancing_Failover.pptx
+张友东 TFS Erasure code应用实践.pptx
+张宴_Tokyo Cabinet Key-Value数据库及其扩展应用_可下载.ppt
+彭立勋-MySQL新技术探索与实践.ppt
+彭老师 2012 PG大会主题.pptx
+影响网站开发的效率与成本的“优雅降级”.pptx
+微博_Feed服务架构.pptx
+微博_分布式缓存与队列.pptx
+微博_分布式缓存和队列-2013版.ppt
+微博_大规模数据库存储方案.pptx
+微博_微博Redis技术演化.ppt
+微博新版中的BigPipe技术后端实现分享.ppt
+微博_突发事件中重点信息的筛选与分类.ppt
+微博营销与微博营销案例分享.pptx
+微博营销的路径分析和案例解析.ppt
+微社区培训资料.ppt
+德哥 PostgreSQL_经验谈.pptx
+快速部署IT基础设施--XEN虚拟化技术.pptx
+性能持续集成的探索和实践-ADC--许晓.pptx
+慧色-用户体验与交互设计_120301.pptx
+我为什么要选择RabbitMQ.pptx
+我对Go语言一点理解.pptx
+我对后端优化的一点想法 (2012).pptx
+手机Qzone挑战与解决方案 郑闫强&俞尚.pptx
+手机浏览器未来之门_智能应用和云服务.ppt
+手机淘宝客户端架构探索-宗心.pptx
+手机腾讯网js增量更新设计和实现.ppt
+打造高质量的云服务，刘颖.pptx
+找茬-数据分析中容易被忽视的问题.pptx
+技术分会-尹庆--构建Cocos2D-X 高性能联网游戏架构-萌果尹庆.pptx
+技术嘉年华-SNS少昊.pptx
+技术嘉年华-TBschedule.pptx
+技术嘉年华_寄生淘宝的反诚信软件防范.pptx
+技术嘉年华开放平台放翁.pptx
+技术嘉年华_打造支持上千万http长连接的应用.ppt
+技术嘉年华_推荐系统简介.pptx
+技术嘉年华_淘宝稳定性实践.pptx
+技术嘉年华_都是海量惹得祸_之_大家来聊Namenode瓶颈解决方案.pptx
+技术是神马.ppt
+投行公司价值估算.ppt
+投资条款清单（term sheet）讲义.ppt
+护照、签证.ppt
+拍拍运营--流量篇.ppt
+探寻深度优先搜索中的优化技巧——从正方形剖分问题谈起.ppt
+推荐技术在百度UGC产品中的应用.pptx
+提升应用内HTML5的开发和使用体验.pptx
+插Discuz! X件开发.ppt
+搜索引擎和淘宝搜索不得不说的故事.pptx
+搜索顺序的选择.ppt
+改进的事件机制 + mvc项目分享.pptx
+敏捷网游架构与性能的新玩法.pptx
+数与图的完美结合——浅析差分约束系统.ppt
+数学思想助你一臂之力.ppt
+数据关系的简化.ppt
+数据处理技术变迁.pptx
+数据库中间件MyShard.pptx
+数据库的优化与调优：从理论到实践.pptx
+数据库相关业务培训.pptx
+数据结构的提炼与压缩.ppt
+数据结构的联合.ppt
+数据结构的联合——块状链表.ppt
+数据质量中心的设计与实现.pptx
+文本挖掘在电子商务场景中的应用.pptx
+新浪微博redis优化历程.pptx
+新浪微博新版中的Bigpipe Server端的php实现.ppt
+新浪微博稳定性经验谈.pptx
+新浪微博营销全面讲解_微世界_大营销.ppt
+新浪数据库运维平台演进V1.3.pptx
+新浪-邹立巍-自动化运维：More Server、Less Operatio.ppt
+新股申购.ppt
+无线效果监控方案（百度统计代码部署）——0319.ppt
+无线效果监控方案（百度统计代码部署）——0319.pptx
+无线质量全过程保障实践.pptx
+普通股价值分析.ppt
+智能推荐系统.pptx
+曲山-OceanBase内部探秘.pptx
+更好更快的Android自动化测试.pptx
+更快、更安全和更易用的Hive（少杰）.pptx
+最小生成树问题的拓展.ppt
+最新大型网站技术架构探讨.ppt
+最短路算法及其应用.ppt
+朋春-淘宝海量数据产品技术架构.pptx
+服务器端性能优化.ppt
+服务器端性能优化 提升Qps、rt.pptx
+服务器端性能优化-提升QPS,RT.pptx
+期权1.ppt
+期权2.ppt
+期权交易策略.ppt
+期权和权证2.ppt
+期权和权证.ppt
+未来网络虚拟片层的安全——安全视角看虚拟网络和SDN等.pptx
+机器学习在搜索排序中的应用.pptx
+杂题大拼盘.ppt
+权证牛熊证 - 你不可不知的8个问.ppt
+李天伟_Oracle容灾备份实时备份 数据迁移应用实践.ppt
+李轶楠_数据库性能诊断的七种武器_可下载.ppt
+杨弋《Hash在信息学竞赛中的一类应用》.ppt
+极限法——解决几何最优化问题的捷径.ppt
+构建云视频平台的九种能力.pdf
+构建基于LAMP的中型网站架构.ppt
+构建高可用数据库监控系统.pptx
+构造法——解题的最短路径.ppt
+架构之美--开放环境下的网络架构.pptx
+架构的基本原则.ppt
+染色法和构造法在棋盘上的应用.ppt
+标签化数据分析-张文涛-2012年12月1日.pptx
+标签生成与推荐在淘宝导购中的应用.pptx
+树的乐园——一些与树有关的题目.ppt
+树的枚举.ppt
+树结构在程序设计中的运用.PPT
+案例 - apache的一些经验.pptx
+案例 - C++的一些经验.pptx
+案例 - C语言的疯狂经历.pptx
+案例 - fs（文件系统的原理研究）.pptx
+案例 - linux管理的一些经验.pptx
+案例 - memcached的经验.pptx
+案例 - Mysql主从同步机制优化.pptx
+案例 - nginx的一些经验.pptx
+案例 - SDD的应用以及问题.pptx
+案例 - SDD的新生.pptx
+案例 - SDD的由来和设计.pptx
+案例 - Sina录用经历.pptx
+案例 - Sina论坛访问量超过设计.pptx
+案例 - SQS的新生.pptx
+案例 - SQS的由来和复杂设计.pptx
+案例 - Tomcat引发的大问题.pptx
+案例 - 与移动合作的痛苦经历.pptx
+案例 - 与老外合作的困难.pptx
+案例 -云计算架构.pptx
+案例 - 分布式系统开发的一些经验.pptx
+案例 - 单点故障.pptx
+案例 - 大一熬夜为了学会做网页.pptx
+案例 - 如何压力测试.pptx
+案例 - 怎么让合适的人做合适的事.pptx
+案例 -我出的面试题.pptx
+案例 - 我和我的第一个学生（南宁经历）.pptx
+案例 - 所谓的架构.pptx
+案例 - 数据库优化的一些经验.pptx
+案例 - 新Sina论坛反垃圾.pptx
+案例 - 新Sina论坛数据库设计.pptx
+案例 -新家校圈的不眠之夜.pptx
+案例 - 最常用的linux命令.pptx
+案例 - 查询内存泄露.pptx
+案例 - 永不放弃的找到问题.pptx
+案例 - 短信和彩信开发中的困难.pptx
+案例 - 网站常见问题和解.pptx
+案例 - 自己做的操作系统.pptx
+案例 - 自己搭建CPU的不眠之夜.pptx
+案例 - 速度测试.pptx
+案例 - 非常稳定的一些开源软件.pptx
+《梦幻西游》案例分析.ppt
+棋盘中的棋盘——浅谈棋盘的分割思想.ppt
+楼方鑫_ITPUB之性能数据分析.ppt
+楼方鑫_MYSQL性能提升.pptx
+模板插件培训PPT.zip
+模线性方程的应用——用数论方法解决整数问题.ppt
+正则表达式.pptx
+正祥-开场致辞.pptx
+正难则反——浅谈逆向思维在解题中的应用.ppt
+毕玄-HBase简介与实践分享.pptx
+求最大重复子串.ppt
+江狼 - CVR预估.pptx
+江狼 - 淘客相关性优化.pptx
+泥鳅 CPGC2013 pgpool-II 简介.ppt
+泥鳅 CPGC2013 PostgreSQL的扩展编写之mysql_fdw扩展学习.ppt
+泥鳅 PG2012-Logic replication with Slony-I.pptx
+浅析二分图匹配在信息学竞赛中的应用.ppt
+浅析倍增思想在信息学竞赛中的应用.ppt
+浅析平面Voronoi图的构造及应用.ppt
+浅析“最小表示法”思想在字符串循环同构问题中的应用.ppt
+浅析树的划分问题.ppt
+浅析系统架构.ppt
+浅析解“对策问题”的两种思路.ppt
+浅析队列在一类单调性问题中的应用.ppt
+浅析非完美算法在信息学竞赛中的应用.ppt
+浅谈MySQL SQL语句优化方法v2.pptx
+浅谈信息学中状态的合理设计与应用.ppt
+浅谈信息学竞赛中的区间问题.ppt
+浅谈图论模型的建立与应用.ppt
+《浅谈数学工具在网络游戏中的应用》久游网制作人张乐CDGC演讲.ppt
+浅谈数形结合思想在信息学竞赛中的应用.ppt
+浅谈最短径路问题中的分层思想.ppt
+浅谈特殊穷举思想的应用.ppt
+浅谈用极大化思想解决最大子矩形问题.ppt
+浅谈网络流算法的应用.PPT
+浅谈补集转化思想在统计问题中的应用.ppt
+浅谈随机化思想在几何问题中的应用.ppt
+济城 - 商品详情页静态异步化.pptx
+浏览器魔术.pptx
+海底捞营销秘诀.ppt
+海量商品的聚合技术及其在搜索中的应用.pptx
+海量数据的高效存储 --- 淘宝云梯极限存储的原理和实践.pptx
+海量数据计算架构实现.pptx
+海量数据迁移方案.ppt
+海量日志分析系统实践.ppt
+海量日志分析系统实践,新浪DBA.ppt
+海量未知木马机器分析-黄正.pptx
+消息中间件在大型分布式系统的应用.pptx
+消费心理学.ppt
+淘宝DMP平台.pdf
+淘宝HSF&ConfigServer.pptx
+淘宝HSF介绍.pptx
+淘宝Java中间件之路.ppt
+淘宝Ocean base云存储实践 2011架构师大会.pptx
+淘宝云应用安全.pptx
+淘宝云梯极限存储的原理和实践.pptx
+淘宝分布式数据处理实践.ppt
+淘宝商城运营推广方案(全版).ppt
+淘宝在线交易数据演变.pptx
+淘宝大赛第一次宣讲课件.ppt
+淘宝开放平台交流（一期）.ppt
+淘宝彩票移动项目开发实践.pptx
+淘宝成功案例简析.ppt
+【淘宝技术沙龙·第一期】MySQL Relication技术深入.ppt
+【淘宝技术沙龙·第一期】主库自动切换“漂移”.pptx
+【淘宝技术沙龙·第一期】飞信核心库HA设计及实现.pptx
+【淘宝技术沙龙·第七期】Html5 on Mobile.pptx
+【淘宝技术沙龙·第七期】前端性能优化及开发工具.ppt
+【淘宝技术沙龙·第二期杭州站】19楼现有前段架构.pptx
+【淘宝技术沙龙·第二期杭州站】移动浏览器的兼容性探索.pptx
+【淘宝技术沙龙·第五期】cgroup与单机资源管理.pptx
+【淘宝技术沙龙·第五期】Flash存储设备在淘宝的应用实践.pptx
+【淘宝技术沙龙·第四期】HBase@Taobao.pptx
+【淘宝技术沙龙·第四期】新浪微博新版中的Bigpipe Server端的php实现.ppt
+【淘宝技术沙龙·第四期】消息中间件在大型分布式系统的应用.pptx
+【淘宝技术沙龙·第四期】淘宝数据应用开发平台.ppt
+【淘宝技术沙龙·第四期】网易大型应用架构与实践.pptx
+【淘宝技术沙龙·第四期】高性能队列Fqueue的设计和使用实践.pptx
+淘宝数据仓库核心架构设计的历史与发展.ppt
+淘宝数据库架构演进历程.ppt
+淘宝数据应用开发平台iData.ppt
+淘宝数据应用开发平台.ppt
+淘宝数据魔方的系统架构.pptx
+淘宝旅行计划前端架构及解决方案-地极.pptx
+淘宝无线平台规划.ppt
+淘宝电子商务云应用安全.pptx
+淘宝系统架构概述.pptx
+淘宝网产品优缺点分析报告.ppt
+淘宝网应用性能管理的原理和实践--田鸠.pptx
+淘宝网架构变迁和挑战.ppt
+淘宝网用户行为管理规则（商城）.ppt
+淘宝网的架构演进.pptx
+淘宝网设计规范及设计禁忌.pptx
+淘宝运营--流量篇@淘宝商学院.ppt
+深入理解otter.pptx
+深度优先搜索问题的优化技巧.ppt
+渐飞 - 淘宝网商品详情页静态异步化.ppt
+游戏产品运营、事故、案例介绍.ppt
+漆兴_海量日志分析系统实践.ppt
+演讲大会ppt（陈昊芝发言稿）.pdf
+漫谈elasticsearch.pptx
+漫谈云上架构和运维的艺术 - 副本.ppt
+漫谈移动应用架构设计.pptx
+牛吉闽-打造适合客户需要的广告平台.ppt [兼容模式].pdf
+牛新庄_DB2性能调优.ppt
+独立开发制作人-孤独的游侠.pptx
+猜想及其应用.ppt
+猜数问题的研究——《聪明的学生》一题的推广.ppt
+玄觉androidapp性能优化.ppt
+王丹敬_（实战）EM Plugin For MySQL 监控.ppt
+王磊-网易分布式数据库平台.ppt
+瑞丽女人网络公关传播推广方桉.ppt
+用RPM&YUM进行基础软件管理.pptx
+用户隐私分析和保护.pptx
+用改进算法的思想解决规模维数增大的问题.ppt
+用高斯消元法解线性方程组.ppt
+由图论算法浅析算法优化.ppt
+由对称性解2-SAT问题.ppt
+电子商务交易安全威胁分析和对策.pptx
+病毒的DNA———剖析一道字符匹配问题解析过程1.ppt
+百度云推送介绍和架构分享.pptx
+百度基于CloudFoundry的私有云平台.pptx
+百度-怎样写好MRD.ppt
+百度统计产品介绍 - 20130128.pptx
+百度统计监控在线沟通工具 v2.pptx
+百度统计趋势分析报告升级-20130326.pptx
+监控.ppt
+监控沟通工具PPT.rar
+盖国强_深入解析Oracle_可下载.pptx
+硬件体系架构浅析(何登成).pptx
+磁盘Raid简介及性能分析.pptx
+社会网络自然真实传播的数据之美.pptx
+神仙道战斗DEMO演示.pptx
+神仙道框架分析.ppt
+科普_你的网站是怎么被黑的.pptx
+科普_黑客就在你身边_TEDxBUCT.ppt
+移动互联网对DDOS攻防带来的新挑战.pptx
+移动互联网系统架构概览.pptx
+移动系统中的Java虚拟机.pptx
+移动设备客户端安全.ppt
+竞争对手研究方法.ppt
+第03章_Samba服务的配置与应用.ppt
+第05章_DHCP服务的配置与应用.ppt
+第06章_DNS服务的配置与应用.ppt
+第11期淘宝技术沙龙(天猫@推荐).ppt
+第13章__DHCP服务.ppt
+第13章_LDAP服务的配置与应用.ppt
+第14章_DNS服务器架设与应用.ppt
+第15章_Ldap服务器.ppt
+第15章_VPN服务的配置与应用.ppt
+第15章__Web服务器架设和管理.ppt
+第16章_网络时间服务的配置与应用.ppt
+第17章__Postfix邮件服务器架设.ppt
+第19章__Squid代理服务器架设.ppt
+第20章__LDAP服务的配置与.ppt
+第21章__网络时间服务器的配置.ppt
+第22章__架设VPN服务器.ppt
+第5章_用户和组的管理.ppt
+第三方开发前端实践.pptx
+第六届腾讯安全技术峰会ppt
+答案只有一个——浅谈问答式交互问题.ppt
+简单-权威_上交所个股期权模拟交易业务细则介绍.ppt
+精益创业讨论.pptx
+系统工程师的非专业课-计费与流量管理.ppt
+系统性能调整与优化.ppt
+系统架构去哪了 余昭辉.pptx
+纵览loadrunner核心功能.pptx
+线段树的应用.ppt
+细节——不可忽视的要素.ppt
+终搜.ppt
+终端机的多样化安全问题与利用.ppt
+经典分布式文件系统大阅兵.ppt
+给聚划算后端开发的前端培训.pptx
+统一用户体验的设计-腾讯.pptx
+维护森林连通性——动态树.ppt
+绿岸自动化运维发展及展望——绿岸网络 叶俊强.ppt
+网易MySQL_at_NetEase.ppt
+网易大型应用架构与实践.pptx
+网易微博自动化部署之路.ppt
+网易有道_系统监控与日志分析.ppt
+网游服务器端寻路.ppt
+网游的监控体系构建.ppt
+网站架构演变.ppt
+网络114架构升级之路.ppt
+网络安全攻与防 v2-天融信.pptx
+网络搜索-填补信息断层.ppt
+网络连接模型.ppt
+网购安全现状与防护.ppt
+网购用户的行为分析_李明远(派代年会).ppt
+网页首屏展现加速.pptx
+罗立刚-高性能模糊查询内存数据库EMS.pptx
+置换群快速幂运算研究与探讨.ppt
+美丽说数据库架构变迁.ppt
+美图秀秀手机版_产品经验分享.ppt
+耐力兄：菜鸟学会看财报.pptx
+聊聊几个NoSQL开源产品_redis_memcached_handsocket.pptx
+胡喜 --《支付宝高可用系统架构》.pptx
+腾讯大讲堂15期：云视频平台的七种武器.pdf
+腾讯大讲堂_朱会灿_搜索引擎技术和功效演变史.ppt
+腾讯安全运维实践.ppt
+腾讯赵伟-PG应用分享.pptx
+自动化运维.ppt
+自动化运维平台.ppt
+萧少聪_合理利用“二级缓存”技术提高数据库整体性能.ppt
+虚明_基于spring构建的淘宝虚拟业务系统.ppt
+规避Appstore的风险_new.ppt
+解决动态统计问题的两把利刃.ppt
+计算几何中的二分思想.ppt
+认股权证的种类.ppt
+认股权证讲座.ppt
+让服务器和浏览器牵起手来.pptx.pptx
+让算法的效率“跳起来”！——浅谈“跳跃表”的相关操作及其应用.ppt
+记saltstack和zabbix的一次联姻--绿肥.ppt
+许超前_数据访问层开发实践.ppt
+论坛运营&社区运营.ppt
+设计驱动与品牌化用户体验_许士彦_Weico&eicodesign.ppt
+调出来的麻烦 架构调整及数据迁移一例.ppt
+“调整”思想在信息学中的应用.ppt
+谈PCIe SSD在数据库性能优化中的作用-闵春榕.ppt
+谭峰 Oracle Vs PostgreSQL.pptx
+负载均衡.ppt
+财务报表粉饰与分析（黄世忠教授）.ppt
+财务管理学.ppt
+财管10期权.ppt
+财管11资本成本.ppt
+财管12营运资金.ppt
+财管1绪论.ppt
+财管2价值评估基础.ppt
+财管3投资决策方法.ppt
+财管4风险.ppt
+财管5特殊投资.ppt
+财管6资产组合.ppt
+财管7资本资产定价模型与效率市场CAPM.ppt
+财管8风险决策.ppt
+财管9长期筹资.ppt
+货币市场.ppt
+资本市场.ppt
+资源管理cgroup及其子系统.ppt
+赢在围脖：新浪微博营销案例分享.pptx
+跨境电商网站性能挑战和实践.pptx
+路由设计.ppt
+转化目标在解题中的应用.ppt
+软件工程&架构.ppt
+运维体系&运维规范介绍.pptx
+运维平台渗透&PPTV安全架构分享.pdf
+运维自动化-Puppet应用与架构.ppt
+这些年做LAMP的几点感悟——张东进.pptx
+通用数据库概述.ppt
+逛-导购商品推荐的探索.ppt
+道具类游戏运营中的数据分析.ppt
+遗传算法的特点及其应用.ppt
+邓楠乔 - 独角兽系统功能简介.pptx
+邢飞(Dell G12服务器介绍及选型).pptx
+邪恶的SNS攻击与防御2011.pptx
+邪恶的SNS攻击与防御.pptx
+部分贪心在信息学竞赛中的应用.ppt
+金色前程企业讲堂-可扩展web架构探讨.pptx
+金色前程企业讲堂-如何建设高性能网站.pptx
+金色前程企业讲堂-数据库查询优化浅析.pptx
+金色前程企业讲堂-运维工具让你的开发运营更轻松.pptx
+金融远期、期货和互换.ppt
+针对特定应用领域的大数据存储与处理.pptx
+长方体体积并.ppt
+阿里云弹性计算平台.pptx
+阿里分布式数据库实践.pptx
+阿里存在的问题和面临的挑战.ppt
+阿里巴巴价值观考核.ppt
+阿里巴巴公司价值观实施细则.ppt
+阿里巴巴绩效管理-员工版.ppt
+阿里巴巴-绩效管理基础.ppt
+阿里巴巴绩效管理(机密).ppt
+阿里技术沙龙_孙毅.ppt
+陈华军 HA故障转移时的应用切换方案实践.pptx
+陈吉平_高可用数据库分布式应用实践.pptx
+雪球论坛议题NO1.方三文_投资互联网的逻辑.pptx
+雪球论坛议题NO2.朱晓云：如何在跨市场投资中坚持价值投资.pptx
+静柏 - 不一样的装修.pptx
+非常靠谱 Html5.pptx
+面向Web应用的分布式数据库—阿里巴巴的解决方案和思考.ppt
+面向交易的服务平台.pptx
+面向对象和面向过程思想切换.ppt
+韩顺平.2011版.spring视频教程.PPT.zip
+飞信核心库HA设计及实现.pptx
+飞长 - 让店铺飞起来.ppt
+香港地产百年.ppt
+香港证券市场简介.ppt
+马佳佳中欧分享_一个90后美女情趣店老板湿淋淋的互联网思维.pptx
+高可用数据库平台架构及日常管理经验介绍.ppt
+高品质2D游戏解决方案.ppt
+高德地图演讲PPT-无线地图的数据压缩和性能优化.pdf
+高性能并发Web服务器实现核心内幕.ppt
+高性能并发网络服务器 设计与实现.ppt
+高性能并发网络服务器设计与实现.ppt
+高性能的Java代码编写及常见问题排查.pptx
+高性能系统实践——sdcc.pptx
+高性能队列Fqueue的设计和使用实践.pptx
+高性能集群服务器Erlang解决方案.pptx
+高玮-超越PC--从视频谈一云多屏的产品设计.ppt [兼容模式].pdf
+高逸涵《与圆有关的离散化方法》.ppt
+魅族数据分享项目_猎户分享.pptx
+鹰眼下的淘宝.pptx
+麥濤--世界OL的成功要素(1).ppt
+黄卫_基于SQL Server 2008构建SOA大型管理软件技术实践.ppt
+```

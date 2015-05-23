@@ -1,0 +1,123 @@
+
+<span id="foreword" ></span>
+前言[¶](#foreword)
+
+请在使用 Flask 前阅读。希望本文能回答你一些关于 Flask 的用途和目标以及
+Flask 适用情境的问题。
+
+
+<span id="id2" ></span>
+“微” 是什么意思？[¶](#id2)
+
+“微”(micro) 并不表示你需要把整个 Web 应用塞进单个 Python 文件（虽然确实可以
+），也不意味着 Flask 在功能上有所欠缺。微框架中的“微”意味着 Flask 旨在保持核心
+简单而易于扩展。Flask 不会替你做出太多决策——比如使用何种数据库。而那些
+Flask 所选择的——比如使用何种模板引擎——则很容易替换。除此之外的一切都由可
+由你掌握。如此，Flask 可以与您珠联璧合。
+
+
+默认情况下，Flask 不包含数据库抽象层、表单验证，或是其它任何已有多种库可以
+胜任的功能。然而，Flask 支持用扩展来给应用添加这些功能，如同是 Flask 本身实
+现的一样。众多的扩展提供了数据库集成、表单验证、上传处理、各种各样的开放认证
+技术等功能。Flask 也许是“微小”的，但它已准备好在需求繁杂的生产环境中投入使用。
+
+
+
+
+
+<span id="id3" ></span>
+配置与惯例[¶](#id3)
+
+Flask 繁多的配置选项在初始状况下都有一个明智的默认值，并会遵循一些惯例。
+例如，按照惯例，模板和静态文件分别存储在应用 Python 源代码树下的
+子目录 templates 和 static 里。虽然这个配置可以修改，但你通常不必这么做，
+尤其是在刚开始的时候。
+
+
+
+
+
+<span id="flask" ></span>
+与 Flask 共成长[¶](#flask)
+
+当你配置好并运行 Flask，你会发现社区中有许多可以集成到生产环境项目的扩
+展。Flask 核心团队会审阅这些扩展，确保经过检验的扩展在未来版本中仍能适用。
+
+
+随着你的代码库逐渐壮大，你仍可自由把握项目的设计决策。Flask 会继续尽可
+能提供的一个非常简单的胶水层，这也是 Python 应该提供的东西。你可以在
+SQLAlchemy 或其它数据库工具中实现更高级的模式，酌情引入非关系型数据持久化，
+也可以从框架无关的 WSGI——Python 的 Web 接口——工具中获益。
+
+
+Flask 里有许多钩子用于定制行为。若是需要深层次的定制，可以直接继承 Flask 类。
+如果你对此有兴趣，请阅读 [聚沙成塔](http://docs.pythontab.com/flask/flask0.10/becomingbig.html#becomingbig) 章节。如果你好奇 Flask 的设计原
+则，请查阅 [Flask 中的设计决策](http://docs.pythontab.com/flask/flask0.10/design.html#design) 章节。
+
+
+继续阅读 [安装](http://docs.pythontab.com/flask/flask0.10/installation.html#installation) 、 [快速入门](http://docs.pythontab.com/flask/flask0.10/quickstart.html#quickstart) 、或
+[给有经验程序员的前言](http://docs.pythontab.com/flask/flask0.10/advanced_foreword.html#advanced-foreword).
+
+
+
+
+
+
+
+
+<span id="id2" ></span>
+“微” 是什么意思？[¶](#id2)
+
+“微”(micro) 并不表示你需要把整个 Web 应用塞进单个 Python 文件（虽然确实可以
+），也不意味着 Flask 在功能上有所欠缺。微框架中的“微”意味着 Flask 旨在保持核心
+简单而易于扩展。Flask 不会替你做出太多决策——比如使用何种数据库。而那些
+Flask 所选择的——比如使用何种模板引擎——则很容易替换。除此之外的一切都由可
+由你掌握。如此，Flask 可以与您珠联璧合。
+
+
+默认情况下，Flask 不包含数据库抽象层、表单验证，或是其它任何已有多种库可以
+胜任的功能。然而，Flask 支持用扩展来给应用添加这些功能，如同是 Flask 本身实
+现的一样。众多的扩展提供了数据库集成、表单验证、上传处理、各种各样的开放认证
+技术等功能。Flask 也许是“微小”的，但它已准备好在需求繁杂的生产环境中投入使用。
+
+
+
+
+
+<span id="id3" ></span>
+配置与惯例[¶](#id3)
+
+Flask 繁多的配置选项在初始状况下都有一个明智的默认值，并会遵循一些惯例。
+例如，按照惯例，模板和静态文件分别存储在应用 Python 源代码树下的
+子目录 templates 和 static 里。虽然这个配置可以修改，但你通常不必这么做，
+尤其是在刚开始的时候。
+
+
+
+
+
+<span id="flask" ></span>
+与 Flask 共成长[¶](#flask)
+
+当你配置好并运行 Flask，你会发现社区中有许多可以集成到生产环境项目的扩
+展。Flask 核心团队会审阅这些扩展，确保经过检验的扩展在未来版本中仍能适用。
+
+
+随着你的代码库逐渐壮大，你仍可自由把握项目的设计决策。Flask 会继续尽可
+能提供的一个非常简单的胶水层，这也是 Python 应该提供的东西。你可以在
+SQLAlchemy 或其它数据库工具中实现更高级的模式，酌情引入非关系型数据持久化，
+也可以从框架无关的 WSGI——Python 的 Web 接口——工具中获益。
+
+
+Flask 里有许多钩子用于定制行为。若是需要深层次的定制，可以直接继承 Flask 类。
+如果你对此有兴趣，请阅读 [聚沙成塔](http://docs.pythontab.com/flask/flask0.10/becomingbig.html#becomingbig) 章节。如果你好奇 Flask 的设计原
+则，请查阅 [Flask 中的设计决策](http://docs.pythontab.com/flask/flask0.10/design.html#design) 章节。
+
+
+继续阅读 [安装](http://docs.pythontab.com/flask/flask0.10/installation.html#installation) 、 [快速入门](http://docs.pythontab.com/flask/flask0.10/quickstart.html#quickstart) 、或
+[给有经验程序员的前言](http://docs.pythontab.com/flask/flask0.10/advanced_foreword.html#advanced-foreword).
+
+
+
+
+
