@@ -4,21 +4,32 @@
 + `logging`
 + `pymysql`
 + `DBUtils`
++ `apscheduler`
 
 ###1.2 how to install
 ```
-pip install pymysql
-pip install DBUtils
-pip install --upgrade PyCodeigniter
+
+
+sh install.sh
+
+or
+
+git clone https://github.com/sjqzhang/PyCodeigniter.git
+
+pip install -r requirements.txt
+
+python setup.py install
 
 
 ```
 
 
-##2. How to use?
+##2. How to use? 
 
 
-####2.1 simple example
+####2.1 simple example (integrate with fastpy http server)
+
+
 ```python
 
 #!/usr/bin/env python
@@ -29,7 +40,7 @@ from codeigniter.system.core.CI_Application import CI_Application
 def main():
     app=CI_Application(r'./')
 
-    app.start_server()
+    app.server.start()
 
 if __name__ == '__main__':
     main()
@@ -81,37 +92,47 @@ if __name__ == "__main__":
 ```
 
 
-####2.3 how to integrate with `web.py` and `gevent`
+####2.3 how to integrate with `gevent`
 
 ```python
+
 #!/usr/bin/python
 """A web.py application powered by gevent"""
 
 from gevent import monkey; monkey.patch_all()
 from gevent.pywsgi import WSGIServer
 import time
-import web
-
+import json
 
 from codeigniter.system.core.CI_Application import CI_Application
 
-
 ci=CI_Application(application_path=r'./')
+port=ci.config['server']['port']
+host=ci.config['server']['host']
 
-urls = (
-    '/.*', ci.router.webpy_route
-)
+def application(env, start_response):
+    html=''
+
+    code,obj=ci.router.wsgi_route(env)
+    if not isinstance(obj,str) and not isinstance(obj,unicode):
+        html=json.dumps(obj)
+        start_response(str(code), [('Content-Type', 'application/json')])
+    else:
+        start_response(str(code), [('Content-Type', 'text/html')])
+        html=obj
+    return [str(html)]
 
 
 
 if __name__ == "__main__":
-    application = web.application(urls, globals()).wsgifunc()
-    print 'Serving on 8088...'
-    WSGIServer(('', 8088), application).serve_forever()
+    print 'Serving on %s...' % port
+    WSGIServer((host, port), application).serve_forever()
+
 
 
 
 ```
+
 
 
 
@@ -164,9 +185,16 @@ app.loader.model('classname')
 ```
 #you can use active record.
 
+app.db.ar().select('*').table('test').limit(10).get()
+
 app.db.query('select * from test')
 
 app.db.insert('test',{'name':'test'})
+
+app.db.delete('test',{'id':'5'})
+
+app.db.update('test',{'name':'test'},{'id':'5'})
+
 
 ```
 
@@ -190,6 +218,34 @@ app.mail.send('to','subject','message',true)
 
 #send text
 app.mail.send('to','subject','message',false)
+
+
+```
+
+
++ how to set timer?
+
+```
+app.cron.add_cron('*/1 * * * * *','class.method')
+for exmaple
+app.cron.add_cron('*/1 * * * * *','Index.acc')
+
+```
+
+
++ how to cache result?
+
+```
+	description:
+    
+    
+    ttl:expire (second)
+    prefix:group
+    key:key
+
+    @CI_Cache.Cache(prefix='abc',ttl=3,key='#p[0]')
+    def abc(self,id="0"):
+        return "test cache"
 
 
 ```
