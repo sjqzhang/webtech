@@ -1,6 +1,5 @@
 ```python
 
-
 #!/usr/bin/env python
 # -*- coding:utf8 -*-
 __author__ = 'xiaozhang'
@@ -9,7 +8,7 @@ __author__ = 'xiaozhang'
 import os
 import urlparse
 from artifactory import ArtifactoryPath
-path = ArtifactoryPath('http://maven.xxx.com/artifactory/libs-release-local')
+path = ArtifactoryPath('http://maven.xx.com/artifactory/libs-release-local')
 
 def build_url(path,pat):
     data={}
@@ -31,13 +30,20 @@ def build_url(path,pat):
     return  data
 
 
-data= build_url(path,"**/*sources.jar")
+def save_url(path,pat,filename='urls'):
+    data=build_url(path,pat)
+    urls=[]
+    for k,v in data:
+        url=k+'/'+v['lastversion']+'/'+v['lastfile']
+        urls.append(url)
+    with open(filename,"w+") as file:
+        file.write("\n".join(urls))
 
 
-for k,v in data:
-    url=k+'/'+v['lastversion']+'/'+v['lastfile']
-    print(url)
-    
+
+save_url(path,"**/*sources.jar",'sourcesurl')
+
+
     
 
 ```
