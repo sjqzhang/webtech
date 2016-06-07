@@ -1,4 +1,7 @@
 ```python
+
+
+
 #!/usr/bin/env python
 # -*- coding:utf8 -*-
 __author__ = 'xiaozhang'
@@ -7,7 +10,7 @@ __author__ = 'xiaozhang'
 import os
 import urlparse
 from artifactory import ArtifactoryPath
-path = ArtifactoryPath('http://maven.xx.com/artifactory/libs-release-local/com/meizu/')
+path = ArtifactoryPath('http://maven.xxx.com/artifactory/libs-release-local/com/meizu/')
 
 def build_url(path,pat):
     data={}
@@ -21,8 +24,8 @@ def build_url(path,pat):
             data[key]['files'].append(value)
             data[key]['version'].append(version)
         else:
-            data[key]['lastversion']=[max(version,data[key]['version'])]
-            data[key]['lastfile']=[max(value,data[key]['files'])]
+            data[key]['lastversion']=max(version,data[key]['version'])
+            data[key]['lastfile']=max(value,data[key]['files'])
             data[key]['files'].append(value)
             data[key]['version'].append(version)
     return  data
@@ -35,15 +38,12 @@ def save_url(path,pat,filename='urls'):
         vs=data[v]
         url=vs['uri']+ v+'/'+vs['lastversion']+'/'+vs['lastfile']
         urls.append(url)
-    # print(urls)
     with open(filename,"w+") as file:
         file.write("\n".join(urls))
 
 
 
 save_url(path,"**/*sources.jar",'sourcesurl')
-
-
 
 
     
