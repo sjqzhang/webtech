@@ -24,8 +24,8 @@ def build_url(path,pat):
             data[key]['files'].append(value)
             data[key]['version'].append(version)
         else:
-            data[key]['lastversion']=max(version,data[key]['version'])
-            data[key]['lastfile']=max(value,data[key]['files'])
+            data[key]['lastversion']=max(version,max(data[key]['version']))
+            data[key]['lastfile']=max(value,max(data[key]['files']))
             data[key]['files'].append(value)
             data[key]['version'].append(version)
     return  data
