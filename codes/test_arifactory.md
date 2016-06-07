@@ -1,6 +1,11 @@
 ```python
 
 
+#!/usr/bin/env python
+# -*- coding:utf8 -*-
+__author__ = 'xiaozhang'
+
+
 import os
 import urlparse
 from artifactory import ArtifactoryPath
@@ -22,8 +27,16 @@ def build_url(path,pat):
             data[key]['lastfile']=[max(value,data[key]['files'])]
             data[key]['files'].append(value)
             data[key]['version'].append(version)
+        print(data)
     return  data
-    
+
+
+data= build_url(path,"**/*sources.jar")
+
+
+for k,v in data:
+    url=k+'/'+v['lastversion']+'/'+v['lastfile']
+    print(url)
     
     
 
