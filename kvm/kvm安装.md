@@ -98,6 +98,7 @@ TYPE= Ethernet
 ONBOOT=yes
 BOOTPROTO=none
 HOTPLUG=no
+BRIDGE=br0
 
 #重启网络
 /etc/init.d/network restart
