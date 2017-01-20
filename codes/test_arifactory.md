@@ -46,8 +46,8 @@ def save_url(path,pat,filename='urls'):
             pass
     with open(filename,"w+") as file:
         file.write("\n".join(urls))
-for i in ['push-sip','push','pushrpc','reader']:
-    path = ArtifactoryPath('http://maven.web.com:8081/artifactory/libs-release-local/com/web/%s'%i)
+for i in ['abc']:
+    path = ArtifactoryPath('http://maven.web.com/artifactory/libs-release-local/com/web/%s'%i)
     save_url(path,"**/*sources.jar",'sourcesurl')
     save_url(path,"**/*.war",'sourcesurl')
 
